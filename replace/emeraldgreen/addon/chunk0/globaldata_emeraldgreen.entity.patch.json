@@ -1,0 +1,163 @@
+{
+    "tempHash": "00097AA87B144150",
+    "tbluHash": "00E738E7CF7A35E1",
+    "patch": [
+        {
+            "AddEntity": [
+                "feeda0f6cb88ccce",
+                {
+                    "parent": "ba8ea9278df2079",
+                    "name": "CHAR_Global_Hero_Adidastracksuit_EmeraldGreen_M",
+                    "factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+                    "blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+                    "properties": {
+                        "m_eActorType": {
+                            "type": "EActorType",
+                            "value": "eAT_Hitman"
+                        },
+                        "m_eSoundFootwearType": {
+                            "type": "EHM5SoundFootwearType",
+                            "value": "EFWT_SNEAKERS"
+                        },
+                        "m_aCharSets": {
+                            "type": "TArray<SEntityTemplateReference>",
+                            "value": [
+                                "feedd66a09757f58"
+                            ]
+                        },
+                        "m_sId": {
+                            "type": "ZGuid",
+                            "value": "ccd8ec4c-bacd-41e7-acd2-cff5bb72f9f2"
+                        },
+                        "m_bCanCallForHelp": {
+                            "type": "bool",
+                            "value": true
+                        },
+                        "m_sCommonName": {
+                            "type": "ZString",
+                            "value": "CHAR_Global_Hero_Adidastracksuit_EmeraldGreen_M"
+                        },
+                        "m_sTitle": {
+                            "type": "ZString",
+                            "value": "Adidas Tracksuit Emerald Green"
+                        },
+                        "m_eOutfitAICategory": {
+                            "type": "EOutfitAICategory",
+                            "value": "OAC_47STARTOUTFIT"
+                        },
+                        "m_rNameTextResource": {
+                            "type": "ZRuntimeResourceID",
+                            "value": {
+                                "resource": "00CD170917E993C2",
+                                "flag": "5F"
+                            }
+                        },
+                        "m_rDescriptionTextResource": {
+                            "type": "ZRuntimeResourceID",
+                            "value": {
+                                "resource": "00B8EC2C31BE041F",
+                                "flag": "5F"
+                            }
+                        },
+                        "m_bHeroDisguiseAvailable": {
+                            "type": "bool",
+                            "value": true
+                        },
+                        "m_bIsHitmanSuit": {
+                            "type": "bool",
+                            "value": true
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "feed087971127b62",
+                {
+                    "parent": "feeda0f6cb88ccce",
+                    "name": "Keyword_Prof_Class_Default",
+                    "factory": "007A51A2AFEC0D1A",
+                    "blueprint": "00B0282A41C1CF2E",
+                    "properties": {
+                        "m_aHolders": {
+                            "type": "TArray<SEntityTemplateReference>",
+                            "value": [
+                                "feeda0f6cb88ccce"
+                            ],
+                            "postInit": true
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "feedeb3c99f9d27c",
+                {
+                    "parent": "feeda0f6cb88ccce",
+                    "name": "KeywordEntity_FOLEY_SUIT47",
+                    "factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entitytype",
+                    "blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entityblueprint",
+                    "properties": {
+                        "m_rHolder": {
+                            "type": "SEntityTemplateReference",
+                            "value": "feeda0f6cb88ccce",
+                            "postInit": true
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "feedd66a09757f58",
+                {
+                    "parent": "feeda0f6cb88ccce",
+                    "name": "CHARSET_Adidastracksuit_EmeraldGreen",
+                    "factory": "009E76C15CFB2BF7",
+                    "blueprint": "0093C3ADA68E34B9"
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "feedbbe594cc97d6",
+                {
+                    "parent": "feeda0f6cb88ccce",
+                    "name": "Prof_Agent47",
+                    "factory": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entitytype",
+                    "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entityblueprint",
+                    "properties": {
+                        "m_aHolders": {
+                            "type": "TArray<SEntityTemplateReference>",
+                            "value": [
+                                "feeda0f6cb88ccce"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "feedb0a862692007",
+                {
+                    "parent": "feeda0f6cb88ccce",
+                    "name": "Prof_Hero_Adidastracksuit_EmeraldGreen",
+                    "factory": "[assembly:/_pro/design/actor/profession.template?/prof_hero_signaturesuit.entitytemplate].pc_entitytype",
+                    "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hero_signaturesuit.entitytemplate].pc_entityblueprint",
+                    "properties": {
+                        "m_aHolders": {
+                            "type": "TArray<SEntityTemplateReference>",
+                            "value": [
+                                "feeda0f6cb88ccce"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "patchVersion": 6
+}

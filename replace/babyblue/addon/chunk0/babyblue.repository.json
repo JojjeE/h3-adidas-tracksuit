@@ -1,0 +1,14 @@
+{
+	"a6548f9f-4dfe-405d-b022-5c6695ba9f90": {
+		"ID_": "a6548f9f-4dfe-405d-b022-5c6695ba9f90",
+		"CommonName": "CHAR_Global_Hero_Adidastracksuit_Babyblue_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_Outfits_adidas_tracksuit_babyblue.jpg",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME",
+		"Category": "",
+		"ImageTransparent": "",
+		"TokenID": "TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE"
+	}
+}

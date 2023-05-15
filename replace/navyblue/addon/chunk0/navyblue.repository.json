@@ -1,0 +1,14 @@
+{
+	"dd939f33-9867-42ee-89cc-3ff238940dbc": {
+		"ID_": "dd939f33-9867-42ee-89cc-3ff238940dbc",
+		"CommonName": "CHAR_Global_Hero_Adidastracksuit_Navyblue_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_Outfits_adidas_tracksuit_navyblue.jpg",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME",
+		"Category": "",
+		"ImageTransparent": "",
+		"TokenID": "TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE"
+	}
+}

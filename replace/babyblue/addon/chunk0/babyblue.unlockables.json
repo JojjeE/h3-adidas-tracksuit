@@ -1,0 +1,25 @@
+{
+	"TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE": {
+		"Id": "TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE",
+		"Guid": "cb943641-3ce4-48d3-8e29-659391f89d5b",
+		"Type": "disguise",
+		"Subtype": "casual",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 4,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "a6548f9f-4dfe-405d-b022-5c6695ba9f90",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}

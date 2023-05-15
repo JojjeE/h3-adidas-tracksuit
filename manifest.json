@@ -1,9 +1,3420 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.1.0",
-	"id": "YourPreferredAlias.AnIDForTheMod",
-	"name": "Incredible Mod",
-	"description": "A truly amazing mod",
-	"authors": ["Your Preferred Alias"],
-	"frameworkVersion": "2.25.1"
+	"id": "Jojje.AdidasTracksuit",
+	"name": "adidas Tracksuit",
+	"description": "Configurable adidas tracksuit. Comes in 6 colors. Install them for Peacock or replace a casual suit of your choice.",
+	"authors": ["Jojje"],
+	"frameworkVersion": "2.25.0",
+	"version": "1.2.1",
+	"updateCheck": "https://github.dioden.nu/updateChecks/adidastracksuit.json",
+	"contentFolders": ["base"],
+	"localisedLines": {
+		"00B8EC2C31BE041F": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC"
+	},
+	"localisation": {
+		"english": {
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+		},
+		"french": {
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+		},
+		"italian": {
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+		},
+		"german": {
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+		},
+		"spanish": {
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+		},
+		"russian": {
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+		}
+	},
+	"options": [
+		{
+			"group": "Baby Blue",
+			"name": "Do not install",
+			"type": "select",
+			"enabledByDefault": true,
+			"tooltip": "Do not install the baby blue tracksuit with white stripes.",
+			"image": "babyblue.jpg"
+		},
+		{
+			"group": "Baby Blue",
+			"name": "Peacock Addon",
+			"type": "select",
+			"tooltip": "Install the baby blue tracksuit with white stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+			"contentFolders": [
+				"mats/babyblue",
+				"replace/babyblue/addon"
+			],
+			"blobsFolders": [
+				"blobs/babyblue/addon"
+			],
+			"localisedLines": {
+				"00D0342A6985A72D": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME": "adidas Tracksuit (Baby Blue)"
+				},
+				"french": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME": "Survêtement adidas (Bleu Clair)"
+				},
+				"italian": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME": "Tuta adidas (Blu Chiaro)"
+				},
+				"german": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME": "adidas Trainingsanzug (Babyblau)"
+				},
+				"spanish": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME": "Chándal adidas (Azul Bebé)"
+				},
+				"russian": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME": "Спортивный костюм adidas (светло-голубой)"
+				}
+			}
+		},
+		{
+			"group": "Baby Blue",
+			"name": "Casual Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/babyblue",
+				"replace/babyblue/bangkok"
+			],
+			"blobsFolders": [
+				"blobs/babyblue/bangkok"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"2741280242": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"4086875141": "adidas Tracksuit (Baby Blue)"
+					},
+					"french": {
+						"2741280242": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"4086875141": "Survêtement adidas (Bleu Clair)"
+					},
+					"italian": {
+						"2741280242": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"4086875141": "Tuta adidas (Blu Chiaro)"
+					},
+					"german": {
+						"2741280242": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"4086875141": "adidas Trainingsanzug (Babyblau)"
+					},
+					"spanish": {
+						"2741280242": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"4086875141": "Chándal adidas (Azul Bebé)"
+					},
+					"russian": {
+						"2741280242": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"4086875141": "Спортивный костюм adidas (светло-голубой)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Baby Blue",
+			"name": "Italian Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/babyblue",
+				"replace/babyblue/sapienza"
+			],
+			"blobsFolders": [
+				"blobs/babyblue/sapienza"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"3346035357": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"3648979387": "adidas Tracksuit (Baby Blue)"
+					},
+					"french": {
+						"3346035357": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"3648979387": "Survêtement adidas (Bleu Clair)"
+					},
+					"italian": {
+						"3346035357": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"3648979387": "Tuta adidas (Blu Chiaro)"
+					},
+					"german": {
+						"3346035357": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"3648979387": "adidas Trainingsanzug (Babyblau)"
+					},
+					"spanish": {
+						"3346035357": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"3648979387": "Chándal adidas (Azul Bebé)"
+					},
+					"russian": {
+						"3346035357": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"3648979387": "Спортивный костюм adidas (светло-голубой)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Baby Blue",
+			"name": "Florida Fit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/babyblue",
+				"replace/babyblue/miami"
+			],
+			"blobsFolders": [
+				"blobs/babyblue/miami"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"1774659088": "adidas Tracksuit (Baby Blue)",
+						"3175901226": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"1774659088": "Survêtement adidas (Bleu Clair)",
+						"3175901226": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"1774659088": "Tuta adidas (Blu Chiaro)",
+						"3175901226": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"1774659088": "adidas Trainingsanzug (Babyblau)",
+						"3175901226": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"1774659088": "Chándal adidas (Azul Bebé)",
+						"3175901226": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"1774659088": "Спортивный костюм adidas (светло-голубой)",
+						"3175901226": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Baby Blue",
+			"name": "Casual Tourist with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/babyblue",
+				"replace/babyblue/sanfortuna"
+			],
+			"blobsFolders": [
+				"blobs/babyblue/sanfortuna"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2978719530": "adidas Tracksuit (Baby Blue)",
+						"3533044117": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"2978719530": "Survêtement adidas (Bleu Clair)",
+						"3533044117": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"2978719530": "Tuta adidas (Blu Chiaro)",
+						"3533044117": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"2978719530": "adidas Trainingsanzug (Babyblau)",
+						"3533044117": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"2978719530": "Chándal adidas (Azul Bebé)",
+						"3533044117": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"2978719530": "Спортивный костюм adidas (светло-голубой)",
+						"3533044117": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Baby Blue",
+			"name": "Summer Suave Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/babyblue",
+				"replace/babyblue/summersuave"
+			],
+			"blobsFolders": [
+				"blobs/babyblue/summersuave"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"134957393": "adidas Tracksuit (Baby Blue)",
+						"2101382595": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"134957393": "Survêtement adidas (Bleu Clair)",
+						"2101382595": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"134957393": "Tuta adidas (Blu Chiaro)",
+						"2101382595": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"134957393": "adidas Trainingsanzug (Babyblau)",
+						"2101382595": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"134957393": "Chándal adidas (Azul Bebé)",
+						"2101382595": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"134957393": "Спортивный костюм adidas (светло-голубой)",
+						"2101382595": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Baby Blue",
+			"name": "Summer Sightseeing Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/babyblue",
+				"replace/babyblue/summersightseeing"
+			],
+			"blobsFolders": [
+				"blobs/babyblue/summersightseeing"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2627471231": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"2814457931": "adidas Tracksuit (Baby Blue)"
+					},
+					"french": {
+						"2627471231": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"2814457931": "Survêtement adidas (Bleu Clair)"
+					},
+					"italian": {
+						"2627471231": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"2814457931": "Tuta adidas (Blu Chiaro)"
+					},
+					"german": {
+						"2627471231": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"2814457931": "adidas Trainingsanzug (Babyblau)"
+					},
+					"spanish": {
+						"2627471231": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"2814457931": "Chándal adidas (Azul Bebé)"
+					},
+					"russian": {
+						"2627471231": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"2814457931": "Спортивный костюм adidas (светло-голубой)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Baby Blue",
+			"name": "Casual Undercover",
+			"type": "select",
+			"contentFolders": [
+				"mats/babyblue",
+				"replace/babyblue/casualundercover"
+			],
+			"blobsFolders": [
+				"blobs/babyblue/casualundercover"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2052724919": "adidas Tracksuit (Baby Blue)",
+						"3635577953": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"2052724919": "Survêtement adidas (Bleu Clair)",
+						"3635577953": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"2052724919": "Tuta adidas (Blu Chiaro)",
+						"3635577953": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"2052724919": "adidas Trainingsanzug (Babyblau)",
+						"3635577953": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"2052724919": "Chándal adidas (Azul Bebé)",
+						"3635577953": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"2052724919": "Спортивный костюм adidas (светло-голубой)",
+						"3635577953": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Baby Blue",
+			"name": "Midnight Black Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/babyblue",
+				"replace/babyblue/midnightblack"
+			],
+			"blobsFolders": [
+				"blobs/babyblue/midnightblack"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"972885031": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"2762453674": "adidas Tracksuit (Baby Blue)"
+					},
+					"french": {
+						"972885031": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"2762453674": "Survêtement adidas (Bleu Clair)"
+					},
+					"italian": {
+						"972885031": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"2762453674": "Tuta adidas (Blu Chiaro)"
+					},
+					"german": {
+						"972885031": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"2762453674": "adidas Trainingsanzug (Babyblau)"
+					},
+					"spanish": {
+						"972885031": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"2762453674": "Chándal adidas (Azul Bebé)"
+					},
+					"russian": {
+						"972885031": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"2762453674": "Спортивный костюм adidas (светло-голубой)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Baby Blue",
+			"name": "Summer Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/babyblue",
+				"replace/babyblue/marrakesh"
+			],
+			"blobsFolders": [
+				"blobs/babyblue/marrakesh"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"1490534793": "adidas Tracksuit (Baby Blue)",
+						"4241939803": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"1490534793": "Survêtement adidas (Bleu Clair)",
+						"4241939803": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"1490534793": "Tuta adidas (Blu Chiaro)",
+						"4241939803": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"1490534793": "adidas Trainingsanzug (Babyblau)",
+						"4241939803": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"1490534793": "Chándal adidas (Azul Bebé)",
+						"4241939803": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"1490534793": "Спортивный костюм adidas (светло-голубой)",
+						"4241939803": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Baby Blue",
+			"name": "Tropical Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/babyblue",
+				"replace/babyblue/tropicalsuit"
+			],
+			"blobsFolders": [
+				"blobs/babyblue/tropicalsuit"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2053833950": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"2347383834": "adidas Tracksuit (Baby Blue)"
+					},
+					"french": {
+						"2053833950": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"2347383834": "Survêtement adidas (Bleu Clair)"
+					},
+					"italian": {
+						"2053833950": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"2347383834": "Tuta adidas (Blu Chiaro)"
+					},
+					"german": {
+						"2053833950": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"2347383834": "adidas Trainingsanzug (Babyblau)"
+					},
+					"spanish": {
+						"2053833950": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"2347383834": "Chándal adidas (Azul Bebé)"
+					},
+					"russian": {
+						"2053833950": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"2347383834": "Спортивный костюм adidas (светло-голубой)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Baby Blue",
+			"name": "Smart Casual Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/babyblue",
+				"replace/babyblue/smartcasual"
+			],
+			"blobsFolders": [
+				"blobs/babyblue/smartcasual"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"252086724": "adidas Tracksuit (Baby Blue)",
+						"678625422": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"252086724": "Survêtement adidas (Bleu Clair)",
+						"678625422": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"252086724": "Tuta adidas (Blu Chiaro)",
+						"678625422": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"252086724": "adidas Trainingsanzug (Babyblau)",
+						"678625422": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"252086724": "Chándal adidas (Azul Bebé)",
+						"678625422": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"252086724": "Спортивный костюм adidas (светло-голубой)",
+						"678625422": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Baby Blue",
+			"name": "The Raver",
+			"type": "select",
+			"contentFolders": [
+				"mats/babyblue",
+				"replace/babyblue/raver"
+			],
+			"blobsFolders": [
+				"blobs/babyblue/raver"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"3362995256": "adidas Tracksuit (Baby Blue)",
+						"4079878924": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"3362995256": "Survêtement adidas (Bleu Clair)",
+						"4079878924": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"3362995256": "Tuta adidas (Blu Chiaro)",
+						"4079878924": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"3362995256": "adidas Trainingsanzug (Babyblau)",
+						"4079878924": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"3362995256": "Chándal adidas (Azul Bebé)",
+						"4079878924": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"3362995256": "Спортивный костюм adidas (светло-голубой)",
+						"4079878924": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Baby Blue",
+			"name": "Lucky Ducky",
+			"type": "select",
+			"contentFolders": [
+				"mats/babyblue",
+				"replace/babyblue/luckyducky"
+			],
+			"blobsFolders": [
+				"blobs/babyblue/luckyducky"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2760943898": "adidas Tracksuit (Baby Blue)",
+						"2681050670": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"2760943898": "Survêtement adidas (Bleu Clair)",
+						"2681050670": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"2760943898": "Tuta adidas (Blu Chiaro)",
+						"2681050670": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"2760943898": "adidas Trainingsanzug (Babyblau)",
+						"2681050670": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"2760943898": "Chándal adidas (Azul Bebé)",
+						"2681050670": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"2760943898": "Спортивный костюм adidas (светло-голубой)",
+						"2681050670": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Black",
+			"name": "Do not install",
+			"type": "select",
+			"enabledByDefault": true,
+			"tooltip": "Do not install the black tracksuit with white stripes.",
+			"image": "black.jpg"
+		},
+		{
+			"group": "Black",
+			"name": "Peacock Addon",
+			"type": "select",
+			"tooltip": "Install the black tracksuit with white stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+			"contentFolders": [
+				"mats/black",
+				"replace/black/addon"
+			],
+			"blobsFolders": [
+				"blobs/black/addon"
+			],
+			"localisedLines": {
+				"0044709B9C2BB9A7": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME": "adidas Tracksuit (Black)"
+				},
+				"french": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME": "Survêtement adidas (Noir)"
+				},
+				"italian": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME": "Tuta adidas (Nero)"
+				},
+				"german": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME": "adidas Trainingsanzug (Schwarz)"
+				},
+				"spanish": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME": "Chándal adidas (Negro)"
+				},
+				"russian": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME": "Спортивный костюм adidas (черный)"
+				}
+			}
+		},
+		{
+			"group": "Black",
+			"name": "Casual Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/black",
+				"replace/black/bangkok"
+			],
+			"blobsFolders": [
+				"blobs/black/bangkok"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"2741280242": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"4086875141": "adidas Tracksuit (Black)"
+					},
+					"french": {
+						"2741280242": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"4086875141": "Survêtement adidas (Noir)"
+					},
+					"italian": {
+						"2741280242": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"4086875141": "Tuta adidas (Nero)"
+					},
+					"german": {
+						"2741280242": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"4086875141": "adidas Trainingsanzug (Schwarz)"
+					},
+					"spanish": {
+						"2741280242": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"4086875141": "Chándal adidas (Negro)"
+					},
+					"russian": {
+						"2741280242": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"4086875141": "Спортивный костюм adidas (черный)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Black",
+			"name": "Italian Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/black",
+				"replace/black/sapienza"
+			],
+			"blobsFolders": [
+				"blobs/black/sapienza"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"3346035357": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"3648979387": "adidas Tracksuit (Black)"
+					},
+					"french": {
+						"3346035357": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"3648979387": "Survêtement adidas (Noir)"
+					},
+					"italian": {
+						"3346035357": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"3648979387": "Tuta adidas (Nero)"
+					},
+					"german": {
+						"3346035357": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"3648979387": "adidas Trainingsanzug (Schwarz)"
+					},
+					"spanish": {
+						"3346035357": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"3648979387": "Chándal adidas (Negro)"
+					},
+					"russian": {
+						"3346035357": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"3648979387": "Спортивный костюм adidas (черный)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Black",
+			"name": "Florida Fit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/black",
+				"replace/black/miami"
+			],
+			"blobsFolders": [
+				"blobs/black/miami"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"1774659088": "adidas Tracksuit (Black)",
+						"3175901226": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"1774659088": "Survêtement adidas (Noir)",
+						"3175901226": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"1774659088": "Tuta adidas (Nero)",
+						"3175901226": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"1774659088": "adidas Trainingsanzug (Schwarz)",
+						"3175901226": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"1774659088": "Chándal adidas (Negro)",
+						"3175901226": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"1774659088": "Спортивный костюм adidas (черный)",
+						"3175901226": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Black",
+			"name": "Casual Tourist with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/black",
+				"replace/black/sanfortuna"
+			],
+			"blobsFolders": [
+				"blobs/black/sanfortuna"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2978719530": "adidas Tracksuit (Black)",
+						"3533044117": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"2978719530": "Survêtement adidas (Noir)",
+						"3533044117": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"2978719530": "Tuta adidas (Nero)",
+						"3533044117": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"2978719530": "adidas Trainingsanzug (Schwarz)",
+						"3533044117": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"2978719530": "Chándal adidas (Negro)",
+						"3533044117": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"2978719530": "Спортивный костюм adidas (черный)",
+						"3533044117": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Black",
+			"name": "Summer Suave Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/black",
+				"replace/black/summersuave"
+			],
+			"blobsFolders": [
+				"blobs/black/summersuave"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"134957393": "adidas Tracksuit (Black)",
+						"2101382595": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"134957393": "Survêtement adidas (Noir)",
+						"2101382595": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"134957393": "Tuta adidas (Nero)",
+						"2101382595": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"134957393": "adidas Trainingsanzug (Schwarz)",
+						"2101382595": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"134957393": "Chándal adidas (Negro)",
+						"2101382595": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"134957393": "Спортивный костюм adidas (черный)",
+						"2101382595": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Black",
+			"name": "Summer Sightseeing Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/black",
+				"replace/black/summersightseeing"
+			],
+			"blobsFolders": [
+				"blobs/black/summersightseeing"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2627471231": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"2814457931": "adidas Tracksuit (Black)"
+					},
+					"french": {
+						"2627471231": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"2814457931": "Survêtement adidas (Noir)"
+					},
+					"italian": {
+						"2627471231": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"2814457931": "Tuta adidas (Nero)"
+					},
+					"german": {
+						"2627471231": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"2814457931": "adidas Trainingsanzug (Schwarz)"
+					},
+					"spanish": {
+						"2627471231": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"2814457931": "Chándal adidas (Negro)"
+					},
+					"russian": {
+						"2627471231": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"2814457931": "Спортивный костюм adidas (черный)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Black",
+			"name": "Casual Undercover",
+			"type": "select",
+			"contentFolders": [
+				"mats/black",
+				"replace/black/casualundercover"
+			],
+			"blobsFolders": [
+				"blobs/black/casualundercover"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2052724919": "adidas Tracksuit (Black)",
+						"3635577953": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"2052724919": "Survêtement adidas (Noir)",
+						"3635577953": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"2052724919": "Tuta adidas (Nero)",
+						"3635577953": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"2052724919": "adidas Trainingsanzug (Schwarz)",
+						"3635577953": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"2052724919": "Chándal adidas (Negro)",
+						"3635577953": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"2052724919": "Спортивный костюм adidas (черный)",
+						"3635577953": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Black",
+			"name": "Midnight Black Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/black",
+				"replace/black/midnightblack"
+			],
+			"blobsFolders": [
+				"blobs/black/midnightblack"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"972885031": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"2762453674": "adidas Tracksuit (Black)"
+					},
+					"french": {
+						"972885031": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"2762453674": "Survêtement adidas (Noir)"
+					},
+					"italian": {
+						"972885031": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"2762453674": "Tuta adidas (Nero)"
+					},
+					"german": {
+						"972885031": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"2762453674": "adidas Trainingsanzug (Schwarz)"
+					},
+					"spanish": {
+						"972885031": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"2762453674": "Chándal adidas (Negro)"
+					},
+					"russian": {
+						"972885031": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"2762453674": "Спортивный костюм adidas (черный)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Black",
+			"name": "Summer Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/black",
+				"replace/black/marrakesh"
+			],
+			"blobsFolders": [
+				"blobs/black/marrakesh"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"1490534793": "adidas Tracksuit (Black)",
+						"4241939803": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"1490534793": "Survêtement adidas (Noir)",
+						"4241939803": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"1490534793": "Tuta adidas (Nero)",
+						"4241939803": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"1490534793": "adidas Trainingsanzug (Schwarz)",
+						"4241939803": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"1490534793": "Chándal adidas (Negro)",
+						"4241939803": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"1490534793": "Спортивный костюм adidas (черный)",
+						"4241939803": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Black",
+			"name": "Tropical Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/black",
+				"replace/black/tropicalsuit"
+			],
+			"blobsFolders": [
+				"blobs/black/tropicalsuit"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2053833950": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"2347383834": "adidas Tracksuit (Black)"
+					},
+					"french": {
+						"2053833950": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"2347383834": "Survêtement adidas (Noir)"
+					},
+					"italian": {
+						"2053833950": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"2347383834": "Tuta adidas (Nero)"
+					},
+					"german": {
+						"2053833950": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"2347383834": "adidas Trainingsanzug (Schwarz)"
+					},
+					"spanish": {
+						"2053833950": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"2347383834": "Chándal adidas (Negro)"
+					},
+					"russian": {
+						"2053833950": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"2347383834": "Спортивный костюм adidas (черный)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Black",
+			"name": "Smart Casual Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/black",
+				"replace/black/smartcasual"
+			],
+			"blobsFolders": [
+				"blobs/black/smartcasual"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"252086724": "adidas Tracksuit (Black)",
+						"678625422": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"252086724": "Survêtement adidas (Noir)",
+						"678625422": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"252086724": "Tuta adidas (Nero)",
+						"678625422": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"252086724": "adidas Trainingsanzug (Schwarz)",
+						"678625422": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"252086724": "Chándal adidas (Negro)",
+						"678625422": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"252086724": "Спортивный костюм adidas (черный)",
+						"678625422": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Black",
+			"name": "The Raver",
+			"type": "select",
+			"contentFolders": [
+				"mats/black",
+				"replace/black/raver"
+			],
+			"blobsFolders": [
+				"blobs/black/raver"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"3362995256": "adidas Tracksuit (Black)",
+						"4079878924": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"3362995256": "Survêtement adidas (Noir)",
+						"4079878924": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"3362995256": "Tuta adidas (Nero)",
+						"4079878924": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"3362995256": "adidas Trainingsanzug (Schwarz)",
+						"4079878924": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"3362995256": "Chándal adidas (Negro)",
+						"4079878924": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"3362995256": "Спортивный костюм adidas (черный)",
+						"4079878924": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Black",
+			"name": "Lucky Ducky",
+			"type": "select",
+			"contentFolders": [
+				"mats/black",
+				"replace/black/luckyducky"
+			],
+			"blobsFolders": [
+				"blobs/black/luckyducky"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2760943898": "adidas Tracksuit (Black)",
+						"2681050670": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"2760943898": "Survêtement adidas (Noir)",
+						"2681050670": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"2760943898": "Tuta adidas (Nero)",
+						"2681050670": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"2760943898": "adidas Trainingsanzug (Schwarz)",
+						"2681050670": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"2760943898": "Chándal adidas (Negro)",
+						"2681050670": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"2760943898": "Спортивный костюм adidas (черный)",
+						"2681050670": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Emerald Green",
+			"name": "Do not install",
+			"type": "select",
+			"enabledByDefault": true,
+			"tooltip": "Do not install the emerald green tracksuit with white stripes.",
+			"image": "emeraldgreen.jpg"
+		},
+		{
+			"group": "Emerald Green",
+			"name": "Peacock Addon",
+			"type": "select",
+			"tooltip": "Install the emerald green tracksuit with white stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+			"contentFolders": [
+				"mats/emeraldgreen",
+				"replace/emeraldgreen/addon"
+			],
+			"blobsFolders": [
+				"blobs/emeraldgreen/addon"
+			],
+			"localisedLines": {
+				"00CD170917E993C2": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "adidas Tracksuit (Emerald Green)"
+				},
+				"french": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "Survêtement adidas (Vert Emeraude)"
+				},
+				"italian": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "Tuta adidas (Verde Smeraldo)"
+				},
+				"german": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "adidas Trainingsanzug (Smaragdgrün)"
+				},
+				"spanish": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "Chándal adidas (Verde Esmeralda)"
+				},
+				"russian": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "Спортивный костюм adidas (светло-зеленый)"
+				}
+			}
+		},
+		{
+			"group": "Emerald Green",
+			"name": "Casual Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/emeraldgreen",
+				"replace/emeraldgreen/bangkok"
+			],
+			"blobsFolders": [
+				"blobs/emeraldgreen/bangkok"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"2741280242": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"4086875141": "adidas Tracksuit (Emerald Green)"
+					},
+					"french": {
+						"2741280242": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"4086875141": "Survêtement adidas (Vert Emeraude)"
+					},
+					"italian": {
+						"2741280242": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"4086875141": "Tuta adidas (Verde Smeraldo)"
+					},
+					"german": {
+						"2741280242": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"4086875141": "adidas Trainingsanzug (Smaragdgrün)"
+					},
+					"spanish": {
+						"2741280242": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"4086875141": "Chándal adidas (Verde Esmeralda)"
+					},
+					"russian": {
+						"2741280242": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"4086875141": "Спортивный костюм adidas (светло-зеленый)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Emerald Green",
+			"name": "Italian Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/emeraldgreen",
+				"replace/emeraldgreen/sapienza"
+			],
+			"blobsFolders": [
+				"blobs/emeraldgreen/sapienza"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"3346035357": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"3648979387": "adidas Tracksuit (Emerald Green)"
+					},
+					"french": {
+						"3346035357": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"3648979387": "Survêtement adidas (Vert Emeraude)"
+					},
+					"italian": {
+						"3346035357": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"3648979387": "Tuta adidas (Verde Smeraldo)"
+					},
+					"german": {
+						"3346035357": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"3648979387": "adidas Trainingsanzug (Smaragdgrün)"
+					},
+					"spanish": {
+						"3346035357": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"3648979387": "Chándal adidas (Verde Esmeralda)"
+					},
+					"russian": {
+						"3346035357": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"3648979387": "Спортивный костюм adidas (светло-зеленый)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Emerald Green",
+			"name": "Florida Fit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/emeraldgreen",
+				"replace/emeraldgreen/miami"
+			],
+			"blobsFolders": [
+				"blobs/emeraldgreen/miami"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"1774659088": "adidas Tracksuit (Emerald Green)",
+						"3175901226": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"1774659088": "Survêtement adidas (Vert Emeraude)",
+						"3175901226": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"1774659088": "Tuta adidas (Verde Smeraldo)",
+						"3175901226": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"1774659088": "adidas Trainingsanzug (Smaragdgrün)",
+						"3175901226": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"1774659088": "Chándal adidas (Verde Esmeralda)",
+						"3175901226": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"1774659088": "Спортивный костюм adidas (светло-зеленый)",
+						"3175901226": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Emerald Green",
+			"name": "Casual Tourist with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/emeraldgreen",
+				"replace/emeraldgreen/sanfortuna"
+			],
+			"blobsFolders": [
+				"blobs/emeraldgreen/sanfortuna"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2978719530": "adidas Tracksuit (Emerald Green)",
+						"3533044117": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"2978719530": "Survêtement adidas (Vert Emeraude)",
+						"3533044117": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"2978719530": "Tuta adidas (Verde Smeraldo)",
+						"3533044117": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"2978719530": "adidas Trainingsanzug (Smaragdgrün)",
+						"3533044117": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"2978719530": "Chándal adidas (Verde Esmeralda)",
+						"3533044117": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"2978719530": "Спортивный костюм adidas (светло-зеленый)",
+						"3533044117": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Emerald Green",
+			"name": "Summer Suave Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/emeraldgreen",
+				"replace/emeraldgreen/summersuave"
+			],
+			"blobsFolders": [
+				"blobs/emeraldgreen/summersuave"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"134957393": "adidas Tracksuit (Emerald Green)",
+						"2101382595": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"134957393": "Survêtement adidas (Vert Emeraude)",
+						"2101382595": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"134957393": "Tuta adidas (Verde Smeraldo)",
+						"2101382595": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"134957393": "adidas Trainingsanzug (Smaragdgrün)",
+						"2101382595": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"134957393": "Chándal adidas (Verde Esmeralda)",
+						"2101382595": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"134957393": "Спортивный костюм adidas (светло-зеленый)",
+						"2101382595": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Emerald Green",
+			"name": "Summer Sightseeing Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/emeraldgreen",
+				"replace/emeraldgreen/summersightseeing"
+			],
+			"blobsFolders": [
+				"blobs/emeraldgreen/summersightseeing"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2627471231": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"2814457931": "adidas Tracksuit (Emerald Green)"
+					},
+					"french": {
+						"2627471231": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"2814457931": "Survêtement adidas (Vert Emeraude)"
+					},
+					"italian": {
+						"2627471231": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"2814457931": "Tuta adidas (Verde Smeraldo)"
+					},
+					"german": {
+						"2627471231": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"2814457931": "adidas Trainingsanzug (Smaragdgrün)"
+					},
+					"spanish": {
+						"2627471231": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"2814457931": "Chándal adidas (Verde Esmeralda)"
+					},
+					"russian": {
+						"2627471231": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"2814457931": "Спортивный костюм adidas (светло-зеленый)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Emerald Green",
+			"name": "Casual Undercover",
+			"type": "select",
+			"contentFolders": [
+				"mats/emeraldgreen",
+				"replace/emeraldgreen/casualundercover"
+			],
+			"blobsFolders": [
+				"blobs/emeraldgreen/casualundercover"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2052724919": "adidas Tracksuit (Emerald Green)",
+						"3635577953": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"2052724919": "Survêtement adidas (Vert Emeraude)",
+						"3635577953": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"2052724919": "Tuta adidas (Verde Smeraldo)",
+						"3635577953": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"2052724919": "adidas Trainingsanzug (Smaragdgrün)",
+						"3635577953": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"2052724919": "Chándal adidas (Verde Esmeralda)",
+						"3635577953": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"2052724919": "Спортивный костюм adidas (светло-зеленый)",
+						"3635577953": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Emerald Green",
+			"name": "Midnight Black Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/emeraldgreen",
+				"replace/emeraldgreen/midnightblack"
+			],
+			"blobsFolders": [
+				"blobs/emeraldgreen/midnightblack"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"972885031": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"2762453674": "adidas Tracksuit (Emerald Green)"
+					},
+					"french": {
+						"972885031": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"2762453674": "Survêtement adidas (Vert Emeraude)"
+					},
+					"italian": {
+						"972885031": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"2762453674": "Tuta adidas (Verde Smeraldo)"
+					},
+					"german": {
+						"972885031": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"2762453674": "adidas Trainingsanzug (Smaragdgrün)"
+					},
+					"spanish": {
+						"972885031": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"2762453674": "Chándal adidas (Verde Esmeralda)"
+					},
+					"russian": {
+						"972885031": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"2762453674": "Спортивный костюм adidas (светло-зеленый)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Emerald Green",
+			"name": "Summer Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/emeraldgreen",
+				"replace/emeraldgreen/marrakesh"
+			],
+			"blobsFolders": [
+				"blobs/emeraldgreen/marrakesh"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"1490534793": "adidas Tracksuit (Emerald Green)",
+						"4241939803": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"1490534793": "Survêtement adidas (Vert Emeraude)",
+						"4241939803": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"1490534793": "Tuta adidas (Verde Smeraldo)",
+						"4241939803": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"1490534793": "adidas Trainingsanzug (Smaragdgrün)",
+						"4241939803": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"1490534793": "Chándal adidas (Verde Esmeralda)",
+						"4241939803": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"1490534793": "Спортивный костюм adidas (светло-зеленый)",
+						"4241939803": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Emerald Green",
+			"name": "Tropical Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/emeraldgreen",
+				"replace/emeraldgreen/tropicalsuit"
+			],
+			"blobsFolders": [
+				"blobs/emeraldgreen/tropicalsuit"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2053833950": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"2347383834": "adidas Tracksuit (Emerald Green)"
+					},
+					"french": {
+						"2053833950": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"2347383834": "Survêtement adidas (Vert Emeraude)"
+					},
+					"italian": {
+						"2053833950": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"2347383834": "Tuta adidas (Verde Smeraldo)"
+					},
+					"german": {
+						"2053833950": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"2347383834": "adidas Trainingsanzug (Smaragdgrün)"
+					},
+					"spanish": {
+						"2053833950": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"2347383834": "Chándal adidas (Verde Esmeralda)"
+					},
+					"russian": {
+						"2053833950": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"2347383834": "Спортивный костюм adidas (светло-зеленый)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Emerald Green",
+			"name": "Smart Casual Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/emeraldgreen",
+				"replace/emeraldgreen/smartcasual"
+			],
+			"blobsFolders": [
+				"blobs/emeraldgreen/smartcasual"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"252086724": "adidas Tracksuit (Emerald Green)",
+						"678625422": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"252086724": "Survêtement adidas (Vert Emeraude)",
+						"678625422": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"252086724": "Tuta adidas (Verde Smeraldo)",
+						"678625422": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"252086724": "adidas Trainingsanzug (Smaragdgrün)",
+						"678625422": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"252086724": "Chándal adidas (Verde Esmeralda)",
+						"678625422": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"252086724": "Спортивный костюм adidas (светло-зеленый)",
+						"678625422": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Emerald Green",
+			"name": "The Raver",
+			"type": "select",
+			"contentFolders": [
+				"mats/emeraldgreen",
+				"replace/emeraldgreen/raver"
+			],
+			"blobsFolders": [
+				"blobs/emeraldgreen/raver"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"3362995256": "adidas Tracksuit (Emerald Green)",
+						"4079878924": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"3362995256": "Survêtement adidas (Vert Emeraude)",
+						"4079878924": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"3362995256": "Tuta adidas (Verde Smeraldo)",
+						"4079878924": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"3362995256": "adidas Trainingsanzug (Smaragdgrün)",
+						"4079878924": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"3362995256": "Chándal adidas (Verde Esmeralda)",
+						"4079878924": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"3362995256": "Спортивный костюм adidas (светло-зеленый)",
+						"4079878924": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Emerald Green",
+			"name": "Lucky Ducky",
+			"type": "select",
+			"contentFolders": [
+				"mats/emeraldgreen",
+				"replace/emeraldgreen/luckyducky"
+			],
+			"blobsFolders": [
+				"blobs/emeraldgreen/luckyducky"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2760943898": "adidas Tracksuit (Emerald Green)",
+						"2681050670": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"2760943898": "Survêtement adidas (Vert Emeraude)",
+						"2681050670": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"2760943898": "Tuta adidas (Verde Smeraldo)",
+						"2681050670": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"2760943898": "adidas Trainingsanzug (Smaragdgrün)",
+						"2681050670": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"2760943898": "Chándal adidas (Verde Esmeralda)",
+						"2681050670": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"2760943898": "Спортивный костюм adidas (светло-зеленый)",
+						"2681050670": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Heather Grey",
+			"name": "Do not install",
+			"type": "select",
+			"enabledByDefault": true,
+			"tooltip": "Do not install the heather grey tracksuit with black stripes.",
+			"image": "heathergrey.jpg"
+		},
+		{
+			"group": "Heather Grey",
+			"name": "Peacock Addon",
+			"type": "select",
+			"tooltip": "Install the heather grey tracksuit with black stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+			"contentFolders": [
+				"mats/heathergrey",
+				"replace/heathergrey/addon"
+			],
+			"blobsFolders": [
+				"blobs/heathergrey/addon"
+			],
+			"localisedLines": {
+				"00AB40BFAB4A8AEC": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "adidas Tracksuit (Heather Grey)"
+				},
+				"french": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "Survêtement adidas (Gris Chiné)"
+				},
+				"italian": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "Tuta adidas (Grigio)"
+				},
+				"german": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "adidas Trainingsanzug (Grau)"
+				},
+				"spanish": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "Chándal adidas (Gris Jaspeado)"
+				},
+				"russian": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "Спортивный костюм adidas (серый вереск)"
+				}
+			}
+		},
+		{
+			"group": "Heather Grey",
+			"name": "Casual Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/heathergrey",
+				"replace/heathergrey/bangkok"
+			],
+			"blobsFolders": [
+				"blobs/heathergrey/bangkok"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"2741280242": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"4086875141": "adidas Tracksuit (Heather Grey)"
+					},
+					"french": {
+						"2741280242": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"4086875141": "Survêtement adidas (Gris Chiné)"
+					},
+					"italian": {
+						"2741280242": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"4086875141": "Tuta adidas (Grigio)"
+					},
+					"german": {
+						"2741280242": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"4086875141": "adidas Trainingsanzug (Grau)"
+					},
+					"spanish": {
+						"2741280242": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"4086875141": "Chándal adidas (Gris Jaspeado)"
+					},
+					"russian": {
+						"2741280242": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"4086875141": "Спортивный костюм adidas (серый вереск)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Heather Grey",
+			"name": "Italian Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/heathergrey",
+				"replace/heathergrey/sapienza"
+			],
+			"blobsFolders": [
+				"blobs/heathergrey/sapienza"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"3346035357": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"3648979387": "adidas Tracksuit (Heather Grey)"
+					},
+					"french": {
+						"3346035357": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"3648979387": "Survêtement adidas (Gris Chiné)"
+					},
+					"italian": {
+						"3346035357": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"3648979387": "Tuta adidas (Grigio)"
+					},
+					"german": {
+						"3346035357": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"3648979387": "adidas Trainingsanzug (Grau)"
+					},
+					"spanish": {
+						"3346035357": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"3648979387": "Chándal adidas (Gris Jaspeado)"
+					},
+					"russian": {
+						"3346035357": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"3648979387": "Спортивный костюм adidas (серый вереск)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Heather Grey",
+			"name": "Florida Fit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/heathergrey",
+				"replace/heathergrey/miami"
+			],
+			"blobsFolders": [
+				"blobs/heathergrey/miami"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"1774659088": "adidas Tracksuit (Heather Grey)",
+						"3175901226": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"1774659088": "Survêtement adidas (Gris Chiné)",
+						"3175901226": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"1774659088": "Tuta adidas (Grigio)",
+						"3175901226": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"1774659088": "adidas Trainingsanzug (Grau)",
+						"3175901226": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"1774659088": "Chándal adidas (Gris Jaspeado)",
+						"3175901226": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"1774659088": "Спортивный костюм adidas (серый вереск)",
+						"3175901226": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Heather Grey",
+			"name": "Casual Tourist with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/heathergrey",
+				"replace/heathergrey/sanfortuna"
+			],
+			"blobsFolders": [
+				"blobs/heathergrey/sanfortuna"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2978719530": "adidas Tracksuit (Heather Grey)",
+						"3533044117": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"2978719530": "Survêtement adidas (Gris Chiné)",
+						"3533044117": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"2978719530": "Tuta adidas (Grigio)",
+						"3533044117": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"2978719530": "adidas Trainingsanzug (Grau)",
+						"3533044117": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"2978719530": "Chándal adidas (Gris Jaspeado)",
+						"3533044117": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"2978719530": "Спортивный костюм adidas (серый вереск)",
+						"3533044117": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Heather Grey",
+			"name": "Summer Suave Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/heathergrey",
+				"replace/heathergrey/summersuave"
+			],
+			"blobsFolders": [
+				"blobs/heathergrey/summersuave"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"134957393": "adidas Tracksuit (Heather Grey)",
+						"2101382595": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"134957393": "Survêtement adidas (Gris Chiné)",
+						"2101382595": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"134957393": "Tuta adidas (Grigio)",
+						"2101382595": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"134957393": "adidas Trainingsanzug (Grau)",
+						"2101382595": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"134957393": "Chándal adidas (Gris Jaspeado)",
+						"2101382595": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"134957393": "Спортивный костюм adidas (серый вереск)",
+						"2101382595": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Heather Grey",
+			"name": "Summer Sightseeing Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/heathergrey",
+				"replace/heathergrey/summersightseeing"
+			],
+			"blobsFolders": [
+				"blobs/heathergrey/summersightseeing"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2627471231": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"2814457931": "adidas Tracksuit (Heather Grey)"
+					},
+					"french": {
+						"2627471231": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"2814457931": "Survêtement adidas (Gris Chiné)"
+					},
+					"italian": {
+						"2627471231": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"2814457931": "Tuta adidas (Grigio)"
+					},
+					"german": {
+						"2627471231": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"2814457931": "adidas Trainingsanzug (Grau)"
+					},
+					"spanish": {
+						"2627471231": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"2814457931": "Chándal adidas (Gris Jaspeado)"
+					},
+					"russian": {
+						"2627471231": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"2814457931": "Спортивный костюм adidas (серый вереск)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Heather Grey",
+			"name": "Casual Undercover",
+			"type": "select",
+			"contentFolders": [
+				"mats/heathergrey",
+				"replace/heathergrey/casualundercover"
+			],
+			"blobsFolders": [
+				"blobs/heathergrey/casualundercover"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2052724919": "adidas Tracksuit (Heather Grey)",
+						"3635577953": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"2052724919": "Survêtement adidas (Gris Chiné)",
+						"3635577953": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"2052724919": "Tuta adidas (Grigio)",
+						"3635577953": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"2052724919": "adidas Trainingsanzug (Grau)",
+						"3635577953": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"2052724919": "Chándal adidas (Gris Jaspeado)",
+						"3635577953": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"2052724919": "Спортивный костюм adidas (серый вереск)",
+						"3635577953": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Heather Grey",
+			"name": "Midnight Black Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/heathergrey",
+				"replace/heathergrey/midnightblack"
+			],
+			"blobsFolders": [
+				"blobs/heathergrey/midnightblack"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"972885031": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"2762453674": "adidas Tracksuit (Heather Grey)"
+					},
+					"french": {
+						"972885031": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"2762453674": "Survêtement adidas (Gris Chiné)"
+					},
+					"italian": {
+						"972885031": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"2762453674": "Tuta adidas (Grigio)"
+					},
+					"german": {
+						"972885031": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"2762453674": "adidas Trainingsanzug (Grau)"
+					},
+					"spanish": {
+						"972885031": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"2762453674": "Chándal adidas (Gris Jaspeado)"
+					},
+					"russian": {
+						"972885031": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"2762453674": "Спортивный костюм adidas (серый вереск)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Heather Grey",
+			"name": "Summer Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/heathergrey",
+				"replace/heathergrey/marrakesh"
+			],
+			"blobsFolders": [
+				"blobs/heathergrey/marrakesh"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"1490534793": "adidas Tracksuit (Heather Grey)",
+						"4241939803": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"1490534793": "Survêtement adidas (Gris Chiné)",
+						"4241939803": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"1490534793": "Tuta adidas (Grigio)",
+						"4241939803": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"1490534793": "adidas Trainingsanzug (Grau)",
+						"4241939803": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"1490534793": "Chándal adidas (Gris Jaspeado)",
+						"4241939803": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"1490534793": "Спортивный костюм adidas (серый вереск)",
+						"4241939803": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Heather Grey",
+			"name": "Tropical Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/heathergrey",
+				"replace/heathergrey/tropicalsuit"
+			],
+			"blobsFolders": [
+				"blobs/heathergrey/tropicalsuit"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2053833950": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"2347383834": "adidas Tracksuit (Heather Grey)"
+					},
+					"french": {
+						"2053833950": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"2347383834": "Survêtement adidas (Gris Chiné)"
+					},
+					"italian": {
+						"2053833950": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"2347383834": "Tuta adidas (Grigio)"
+					},
+					"german": {
+						"2053833950": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"2347383834": "adidas Trainingsanzug (Grau)"
+					},
+					"spanish": {
+						"2053833950": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"2347383834": "Chándal adidas (Gris Jaspeado)"
+					},
+					"russian": {
+						"2053833950": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"2347383834": "Спортивный костюм adidas (серый вереск)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Heather Grey",
+			"name": "Smart Casual Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/heathergrey",
+				"replace/heathergrey/smartcasual"
+			],
+			"blobsFolders": [
+				"blobs/heathergrey/smartcasual"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"252086724": "adidas Tracksuit (Heather Grey)",
+						"678625422": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"252086724": "Survêtement adidas (Gris Chiné)",
+						"678625422": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"252086724": "Tuta adidas (Grigio)",
+						"678625422": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"252086724": "adidas Trainingsanzug (Grau)",
+						"678625422": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"252086724": "Chándal adidas (Gris Jaspeado)",
+						"678625422": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"252086724": "Спортивный костюм adidas (серый вереск)",
+						"678625422": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Heather Grey",
+			"name": "The Raver",
+			"type": "select",
+			"contentFolders": [
+				"mats/heathergrey",
+				"replace/heathergrey/raver"
+			],
+			"blobsFolders": [
+				"blobs/heathergrey/raver"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"3362995256": "adidas Tracksuit (Heather Grey)",
+						"4079878924": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"3362995256": "Survêtement adidas (Gris Chiné)",
+						"4079878924": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"3362995256": "Tuta adidas (Grigio)",
+						"4079878924": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"3362995256": "adidas Trainingsanzug (Grau)",
+						"4079878924": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"3362995256": "Chándal adidas (Gris Jaspeado)",
+						"4079878924": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"3362995256": "Спортивный костюм adidas (серый вереск)",
+						"4079878924": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Heather Grey",
+			"name": "Lucky Ducky",
+			"type": "select",
+			"contentFolders": [
+				"mats/heathergrey",
+				"replace/heathergrey/luckyducky"
+			],
+			"blobsFolders": [
+				"blobs/heathergrey/luckyducky"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2760943898": "adidas Tracksuit (Heather Grey)",
+						"2681050670": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"2760943898": "Survêtement adidas (Gris Chiné)",
+						"2681050670": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"2760943898": "Tuta adidas (Grigio)",
+						"2681050670": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"2760943898": "adidas Trainingsanzug (Grau)",
+						"2681050670": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"2760943898": "Chándal adidas (Gris Jaspeado)",
+						"2681050670": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"2760943898": "Спортивный костюм adidas (серый вереск)",
+						"2681050670": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Navy Blue",
+			"name": "Do not install",
+			"type": "select",
+			"enabledByDefault": true,
+			"tooltip": "Do not install the navy blue tracksuit with white stripes.",
+			"image": "navyblue.jpg"
+		},
+		{
+			"group": "Navy Blue",
+			"name": "Peacock Addon",
+			"type": "select",
+			"tooltip": "Install the navy blue tracksuit with white stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+			"contentFolders": [
+				"mats/navyblue",
+				"replace/navyblue/addon"
+			],
+			"blobsFolders": [
+				"blobs/navyblue/addon"
+			],
+			"localisedLines": {
+				"00260D7EF7B82790": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "adidas Tracksuit (Navy Blue)"
+				},
+				"french": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "Survêtement adidas (Bleu Marine)"
+				},
+				"italian": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "Tuta adidas (Blu Navy)"
+				},
+				"german": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "adidas Trainingsanzug (Marineblau)"
+				},
+				"spanish": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "Chándal adidas (Azul Marino)"
+				},
+				"russian": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "Спортивный костюм adidas (темно-синий)"
+				}
+			}
+		},
+		{
+			"group": "Navy Blue",
+			"name": "Casual Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/navyblue",
+				"replace/navyblue/bangkok"
+			],
+			"blobsFolders": [
+				"blobs/navyblue/bangkok"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"2741280242": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"4086875141": "adidas Tracksuit (Navy Blue)"
+					},
+					"french": {
+						"2741280242": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"4086875141": "Survêtement adidas (Bleu Marine)"
+					},
+					"italian": {
+						"2741280242": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"4086875141": "Tuta adidas (Blu Navy)"
+					},
+					"german": {
+						"2741280242": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"4086875141": "adidas Trainingsanzug (Marineblau)"
+					},
+					"spanish": {
+						"2741280242": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"4086875141": "Chándal adidas (Azul Marino)"
+					},
+					"russian": {
+						"2741280242": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"4086875141": "Спортивный костюм adidas (темно-синий)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Navy Blue",
+			"name": "Italian Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/navyblue",
+				"replace/navyblue/sapienza"
+			],
+			"blobsFolders": [
+				"blobs/navyblue/sapienza"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"3346035357": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"3648979387": "adidas Tracksuit (Navy Blue)"
+					},
+					"french": {
+						"3346035357": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"3648979387": "Survêtement adidas (Bleu Marine)"
+					},
+					"italian": {
+						"3346035357": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"3648979387": "Tuta adidas (Blu Navy)"
+					},
+					"german": {
+						"3346035357": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"3648979387": "adidas Trainingsanzug (Marineblau)"
+					},
+					"spanish": {
+						"3346035357": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"3648979387": "Chándal adidas (Azul Marino)"
+					},
+					"russian": {
+						"3346035357": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"3648979387": "Спортивный костюм adidas (темно-синий)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Navy Blue",
+			"name": "Florida Fit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/navyblue",
+				"replace/navyblue/miami"
+			],
+			"blobsFolders": [
+				"blobs/navyblue/miami"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"1774659088": "adidas Tracksuit (Navy Blue)",
+						"3175901226": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"1774659088": "Survêtement adidas (Bleu Marine)",
+						"3175901226": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"1774659088": "Tuta adidas (Blu Navy)",
+						"3175901226": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"1774659088": "adidas Trainingsanzug (Marineblau)",
+						"3175901226": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"1774659088": "Chándal adidas (Azul Marino)",
+						"3175901226": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"1774659088": "Спортивный костюм adidas (темно-синий)",
+						"3175901226": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Navy Blue",
+			"name": "Casual Tourist with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/navyblue",
+				"replace/navyblue/sanfortuna"
+			],
+			"blobsFolders": [
+				"blobs/navyblue/sanfortuna"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2978719530": "adidas Tracksuit (Navy Blue)",
+						"3533044117": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"2978719530": "Survêtement adidas (Bleu Marine)",
+						"3533044117": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"2978719530": "Tuta adidas (Blu Navy)",
+						"3533044117": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"2978719530": "adidas Trainingsanzug (Marineblau)",
+						"3533044117": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"2978719530": "Chándal adidas (Azul Marino)",
+						"3533044117": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"2978719530": "Спортивный костюм adidas (темно-синий)",
+						"3533044117": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Navy Blue",
+			"name": "Summer Suave Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/navyblue",
+				"replace/navyblue/summersuave"
+			],
+			"blobsFolders": [
+				"blobs/navyblue/summersuave"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"134957393": "adidas Tracksuit (Navy Blue)",
+						"2101382595": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"134957393": "Survêtement adidas (Bleu Marine)",
+						"2101382595": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"134957393": "Tuta adidas (Blu Navy)",
+						"2101382595": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"134957393": "adidas Trainingsanzug (Marineblau)",
+						"2101382595": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"134957393": "Chándal adidas (Azul Marino)",
+						"2101382595": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"134957393": "Спортивный костюм adidas (темно-синий)",
+						"2101382595": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Navy Blue",
+			"name": "Summer Sightseeing Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/navyblue",
+				"replace/navyblue/summersightseeing"
+			],
+			"blobsFolders": [
+				"blobs/navyblue/summersightseeing"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2627471231": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"2814457931": "adidas Tracksuit (Navy Blue)"
+					},
+					"french": {
+						"2627471231": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"2814457931": "Survêtement adidas (Bleu Marine)"
+					},
+					"italian": {
+						"2627471231": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"2814457931": "Tuta adidas (Blu Navy)"
+					},
+					"german": {
+						"2627471231": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"2814457931": "adidas Trainingsanzug (Marineblau)"
+					},
+					"spanish": {
+						"2627471231": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"2814457931": "Chándal adidas (Azul Marino)"
+					},
+					"russian": {
+						"2627471231": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"2814457931": "Спортивный костюм adidas (темно-синий)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Navy Blue",
+			"name": "Casual Undercover",
+			"type": "select",
+			"contentFolders": [
+				"mats/navyblue",
+				"replace/navyblue/casualundercover"
+			],
+			"blobsFolders": [
+				"blobs/navyblue/casualundercover"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2052724919": "adidas Tracksuit (Navy Blue)",
+						"3635577953": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"2052724919": "Survêtement adidas (Bleu Marine)",
+						"3635577953": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"2052724919": "Tuta adidas (Blu Navy)",
+						"3635577953": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"2052724919": "adidas Trainingsanzug (Marineblau)",
+						"3635577953": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"2052724919": "Chándal adidas (Azul Marino)",
+						"3635577953": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"2052724919": "Спортивный костюм adidas (темно-синий)",
+						"3635577953": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Navy Blue",
+			"name": "Midnight Black Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/navyblue",
+				"replace/navyblue/midnightblack"
+			],
+			"blobsFolders": [
+				"blobs/navyblue/midnightblack"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"972885031": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"2762453674": "adidas Tracksuit (Navy Blue)"
+					},
+					"french": {
+						"972885031": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"2762453674": "Survêtement adidas (Bleu Marine)"
+					},
+					"italian": {
+						"972885031": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"2762453674": "Tuta adidas (Blu Navy)"
+					},
+					"german": {
+						"972885031": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"2762453674": "adidas Trainingsanzug (Marineblau)"
+					},
+					"spanish": {
+						"972885031": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"2762453674": "Chándal adidas (Azul Marino)"
+					},
+					"russian": {
+						"972885031": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"2762453674": "Спортивный костюм adidas (темно-синий)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Navy Blue",
+			"name": "Summer Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/navyblue",
+				"replace/navyblue/marrakesh"
+			],
+			"blobsFolders": [
+				"blobs/navyblue/marrakesh"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"1490534793": "adidas Tracksuit (Navy Blue)",
+						"4241939803": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"1490534793": "Survêtement adidas (Bleu Marine)",
+						"4241939803": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"1490534793": "Tuta adidas (Blu Navy)",
+						"4241939803": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"1490534793": "adidas Trainingsanzug (Marineblau)",
+						"4241939803": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"1490534793": "Chándal adidas (Azul Marino)",
+						"4241939803": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"1490534793": "Спортивный костюм adidas (темно-синий)",
+						"4241939803": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Navy Blue",
+			"name": "Tropical Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/navyblue",
+				"replace/navyblue/tropicalsuit"
+			],
+			"blobsFolders": [
+				"blobs/navyblue/tropicalsuit"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2053833950": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"2347383834": "adidas Tracksuit (Navy Blue)"
+					},
+					"french": {
+						"2053833950": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"2347383834": "Survêtement adidas (Bleu Marine)"
+					},
+					"italian": {
+						"2053833950": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"2347383834": "Tuta adidas (Blu Navy)"
+					},
+					"german": {
+						"2053833950": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"2347383834": "adidas Trainingsanzug (Marineblau)"
+					},
+					"spanish": {
+						"2053833950": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"2347383834": "Chándal adidas (Azul Marino)"
+					},
+					"russian": {
+						"2053833950": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"2347383834": "Спортивный костюм adidas (темно-синий)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Navy Blue",
+			"name": "Smart Casual Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/navyblue",
+				"replace/navyblue/smartcasual"
+			],
+			"blobsFolders": [
+				"blobs/navyblue/smartcasual"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"252086724": "adidas Tracksuit (Navy Blue)",
+						"678625422": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"252086724": "Survêtement adidas (Bleu Marine)",
+						"678625422": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"252086724": "Tuta adidas (Blu Navy)",
+						"678625422": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"252086724": "adidas Trainingsanzug (Marineblau)",
+						"678625422": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"252086724": "Chándal adidas (Azul Marino)",
+						"678625422": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"252086724": "Спортивный костюм adidas (темно-синий)",
+						"678625422": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Navy Blue",
+			"name": "The Raver",
+			"type": "select",
+			"contentFolders": [
+				"mats/navyblue",
+				"replace/navyblue/raver"
+			],
+			"blobsFolders": [
+				"blobs/navyblue/raver"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"3362995256": "adidas Tracksuit (Navy Blue)",
+						"4079878924": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"3362995256": "Survêtement adidas (Bleu Marine)",
+						"4079878924": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"3362995256": "Tuta adidas (Blu Navy)",
+						"4079878924": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"3362995256": "adidas Trainingsanzug (Marineblau)",
+						"4079878924": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"3362995256": "Chándal adidas (Azul Marino)",
+						"4079878924": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"3362995256": "Спортивный костюм adidas (темно-синий)",
+						"4079878924": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Navy Blue",
+			"name": "Lucky Ducky",
+			"type": "select",
+			"contentFolders": [
+				"mats/navyblue",
+				"replace/navyblue/luckyducky"
+			],
+			"blobsFolders": [
+				"blobs/navyblue/luckyducky"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2760943898": "adidas Tracksuit (Navy Blue)",
+						"2681050670": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"2760943898": "Survêtement adidas (Bleu Marine)",
+						"2681050670": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"2760943898": "Tuta adidas (Blu Navy)",
+						"2681050670": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"2760943898": "adidas Trainingsanzug (Marineblau)",
+						"2681050670": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"2760943898": "Chándal adidas (Azul Marino)",
+						"2681050670": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"2760943898": "Спортивный костюм adidas (темно-синий)",
+						"2681050670": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Red",
+			"name": "Do not install",
+			"type": "select",
+			"enabledByDefault": true,
+			"tooltip": "Do not install the red tracksuit with white stripes.",
+			"image": "red.jpg"
+		},
+		{
+			"group": "Red",
+			"name": "Peacock Addon",
+			"type": "select",
+			"tooltip": "Install the red tracksuit with white stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+			"contentFolders": [
+				"mats/red",
+				"replace/red/addon"
+			],
+			"blobsFolders": [
+				"blobs/red/addon"
+			],
+			"localisedLines": {
+				"008A7E4AC305E392": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "adidas Tracksuit (Red)"
+				},
+				"french": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "Survêtement adidas (Rouge)"
+				},
+				"italian": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "Tuta adidas (Rosso)"
+				},
+				"german": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "adidas Trainingsanzug (Rot)"
+				},
+				"spanish": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "Chándal adidas (Rojo)"
+				},
+				"russian": {
+					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "Спортивный костюм adidas (красный)"
+				}
+			}
+		},
+		{
+			"group": "Red",
+			"name": "Casual Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/red",
+				"replace/red/bangkok"
+			],
+			"blobsFolders": [
+				"blobs/red/bangkok"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"2741280242": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"4086875141": "adidas Tracksuit (Red)"
+					},
+					"french": {
+						"2741280242": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"4086875141": "Survêtement adidas (Rouge)"
+					},
+					"italian": {
+						"2741280242": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"4086875141": "Tuta adidas (Rosso)"
+					},
+					"german": {
+						"2741280242": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"4086875141": "adidas Trainingsanzug (Rot)"
+					},
+					"spanish": {
+						"2741280242": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"4086875141": "Chándal adidas (Rojo)"
+					},
+					"russian": {
+						"2741280242": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"4086875141": "Спортивный костюм adidas (красный)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Red",
+			"name": "Italian Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/red",
+				"replace/red/sapienza"
+			],
+			"blobsFolders": [
+				"blobs/red/sapienza"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"3346035357": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"3648979387": "adidas Tracksuit (Red)"
+					},
+					"french": {
+						"3346035357": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"3648979387": "Survêtement adidas (Rouge)"
+					},
+					"italian": {
+						"3346035357": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"3648979387": "Tuta adidas (Rosso)"
+					},
+					"german": {
+						"3346035357": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"3648979387": "adidas Trainingsanzug (Rot)"
+					},
+					"spanish": {
+						"3346035357": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"3648979387": "Chándal adidas (Rojo)"
+					},
+					"russian": {
+						"3346035357": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"3648979387": "Спортивный костюм adidas (красный)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Red",
+			"name": "Florida Fit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/red",
+				"replace/red/miami"
+			],
+			"blobsFolders": [
+				"blobs/red/miami"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"1774659088": "adidas Tracksuit (Red)",
+						"3175901226": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"1774659088": "Survêtement adidas (Rouge)",
+						"3175901226": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"1774659088": "Tuta adidas (Rosso)",
+						"3175901226": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"1774659088": "adidas Trainingsanzug (Rot)",
+						"3175901226": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"1774659088": "Chándal adidas (Rojo)",
+						"3175901226": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"1774659088": "Спортивный костюм adidas (красный)",
+						"3175901226": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Red",
+			"name": "Casual Tourist with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/red",
+				"replace/red/sanfortuna"
+			],
+			"blobsFolders": [
+				"blobs/red/sanfortuna"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2978719530": "adidas Tracksuit (Red)",
+						"3533044117": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"2978719530": "Survêtement adidas (Rouge)",
+						"3533044117": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"2978719530": "Tuta adidas (Rosso)",
+						"3533044117": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"2978719530": "adidas Trainingsanzug (Rot)",
+						"3533044117": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"2978719530": "Chándal adidas (Rojo)",
+						"3533044117": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"2978719530": "Спортивный костюм adidas (красный)",
+						"3533044117": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Red",
+			"name": "Summer Suave Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/red",
+				"replace/red/summersuave"
+			],
+			"blobsFolders": [
+				"blobs/red/summersuave"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"134957393": "adidas Tracksuit (Red)",
+						"2101382595": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"134957393": "Survêtement adidas (Rouge)",
+						"2101382595": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"134957393": "Tuta adidas (Rosso)",
+						"2101382595": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"134957393": "adidas Trainingsanzug (Rot)",
+						"2101382595": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"134957393": "Chándal adidas (Rojo)",
+						"2101382595": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"134957393": "Спортивный костюм adidas (красный)",
+						"2101382595": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Red",
+			"name": "Summer Sightseeing Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/red",
+				"replace/red/summersightseeing"
+			],
+			"blobsFolders": [
+				"blobs/red/summersightseeing"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2627471231": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"2814457931": "adidas Tracksuit (Red)"
+					},
+					"french": {
+						"2627471231": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"2814457931": "Survêtement adidas (Rouge)"
+					},
+					"italian": {
+						"2627471231": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"2814457931": "Tuta adidas (Rosso)"
+					},
+					"german": {
+						"2627471231": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"2814457931": "adidas Trainingsanzug (Rot)"
+					},
+					"spanish": {
+						"2627471231": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"2814457931": "Chándal adidas (Rojo)"
+					},
+					"russian": {
+						"2627471231": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"2814457931": "Спортивный костюм adidas (красный)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Red",
+			"name": "Casual Undercover",
+			"type": "select",
+			"contentFolders": [
+				"mats/red",
+				"replace/red/casualundercover"
+			],
+			"blobsFolders": [
+				"blobs/red/casualundercover"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2052724919": "adidas Tracksuit (Red)",
+						"3635577953": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"2052724919": "Survêtement adidas (Rouge)",
+						"3635577953": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"2052724919": "Tuta adidas (Rosso)",
+						"3635577953": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"2052724919": "adidas Trainingsanzug (Rot)",
+						"3635577953": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"2052724919": "Chándal adidas (Rojo)",
+						"3635577953": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"2052724919": "Спортивный костюм adidas (красный)",
+						"3635577953": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Red",
+			"name": "Midnight Black Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/red",
+				"replace/red/midnightblack"
+			],
+			"blobsFolders": [
+				"blobs/red/midnightblack"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"972885031": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"2762453674": "adidas Tracksuit (Red)"
+					},
+					"french": {
+						"972885031": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"2762453674": "Survêtement adidas (Rouge)"
+					},
+					"italian": {
+						"972885031": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"2762453674": "Tuta adidas (Rosso)"
+					},
+					"german": {
+						"972885031": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"2762453674": "adidas Trainingsanzug (Rot)"
+					},
+					"spanish": {
+						"972885031": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"2762453674": "Chándal adidas (Rojo)"
+					},
+					"russian": {
+						"972885031": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"2762453674": "Спортивный костюм adidas (красный)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Red",
+			"name": "Summer Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"mats/red",
+				"replace/red/marrakesh"
+			],
+			"blobsFolders": [
+				"blobs/red/marrakesh"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"1490534793": "adidas Tracksuit (Red)",
+						"4241939803": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"1490534793": "Survêtement adidas (Rouge)",
+						"4241939803": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"1490534793": "Tuta adidas (Rosso)",
+						"4241939803": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"1490534793": "adidas Trainingsanzug (Rot)",
+						"4241939803": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"1490534793": "Chándal adidas (Rojo)",
+						"4241939803": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"1490534793": "Спортивный костюм adidas (красный)",
+						"4241939803": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Red",
+			"name": "Tropical Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/red",
+				"replace/red/tropicalsuit"
+			],
+			"blobsFolders": [
+				"blobs/red/tropicalsuit"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2053833950": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"2347383834": "adidas Tracksuit (Red)"
+					},
+					"french": {
+						"2053833950": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"2347383834": "Survêtement adidas (Rouge)"
+					},
+					"italian": {
+						"2053833950": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"2347383834": "Tuta adidas (Rosso)"
+					},
+					"german": {
+						"2053833950": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"2347383834": "adidas Trainingsanzug (Rot)"
+					},
+					"spanish": {
+						"2053833950": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"2347383834": "Chándal adidas (Rojo)"
+					},
+					"russian": {
+						"2053833950": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"2347383834": "Спортивный костюм adidas (красный)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Red",
+			"name": "Smart Casual Suit",
+			"type": "select",
+			"contentFolders": [
+				"mats/red",
+				"replace/red/smartcasual"
+			],
+			"blobsFolders": [
+				"blobs/red/smartcasual"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"252086724": "adidas Tracksuit (Red)",
+						"678625422": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"252086724": "Survêtement adidas (Rouge)",
+						"678625422": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"252086724": "Tuta adidas (Rosso)",
+						"678625422": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"252086724": "adidas Trainingsanzug (Rot)",
+						"678625422": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"252086724": "Chándal adidas (Rojo)",
+						"678625422": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"252086724": "Спортивный костюм adidas (красный)",
+						"678625422": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Red",
+			"name": "The Raver",
+			"type": "select",
+			"contentFolders": [
+				"mats/red",
+				"replace/red/raver"
+			],
+			"blobsFolders": [
+				"blobs/red/raver"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"3362995256": "adidas Tracksuit (Red)",
+						"4079878924": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"3362995256": "Survêtement adidas (Rouge)",
+						"4079878924": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"3362995256": "Tuta adidas (Rosso)",
+						"4079878924": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"3362995256": "adidas Trainingsanzug (Rot)",
+						"4079878924": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"3362995256": "Chándal adidas (Rojo)",
+						"4079878924": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"3362995256": "Спортивный костюм adidas (красный)",
+						"4079878924": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Red",
+			"name": "Lucky Ducky",
+			"type": "select",
+			"contentFolders": [
+				"mats/red",
+				"replace/red/luckyducky"
+			],
+			"blobsFolders": [
+				"blobs/red/luckyducky"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2760943898": "adidas Tracksuit (Red)",
+						"2681050670": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"2760943898": "Survêtement adidas (Rouge)",
+						"2681050670": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"2760943898": "Tuta adidas (Rosso)",
+						"2681050670": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"2760943898": "adidas Trainingsanzug (Rot)",
+						"2681050670": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"2760943898": "Chándal adidas (Rojo)",
+						"2681050670": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"2760943898": "Спортивный костюм adidas (красный)",
+						"2681050670": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		}
+	]
 }

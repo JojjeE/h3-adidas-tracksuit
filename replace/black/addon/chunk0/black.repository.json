@@ -1,0 +1,14 @@
+{
+	"3785cd07-36a0-4c35-a258-454d6f974ebb": {
+		"ID_": "3785cd07-36a0-4c35-a258-454d6f974ebb",
+		"CommonName": "CHAR_Global_Hero_Adidastracksuit_Black_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_Outfits_adidas_tracksuit_black.jpg",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME",
+		"Category": "",
+		"ImageTransparent": "",
+		"TokenID": "TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK"
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED": {
+		"Id": "TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED",
+		"Guid": "60a8faf7-45d8-4757-98a1-08699ed5c7a1",
+		"Type": "disguise",
+		"Subtype": "casual",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 4,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "9a8986c2-66e9-4d0f-b377-4a34d257e110",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}

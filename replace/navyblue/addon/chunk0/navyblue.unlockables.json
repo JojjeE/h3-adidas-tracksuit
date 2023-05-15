@@ -1,0 +1,25 @@
+{
+	"TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE": {
+		"Id": "TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE",
+		"Guid": "3ac66844-7e27-4244-b2ee-f067906ed257",
+		"Type": "disguise",
+		"Subtype": "casual",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 4,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "dd939f33-9867-42ee-89cc-3ff238940dbc",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}

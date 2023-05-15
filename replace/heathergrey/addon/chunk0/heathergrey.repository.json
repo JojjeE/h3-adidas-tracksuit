@@ -1,0 +1,14 @@
+{
+	"b5e5db26-4161-4ffa-a71c-4b126d766784": {
+		"ID_": "b5e5db26-4161-4ffa-a71c-4b126d766784",
+		"CommonName": "CHAR_Global_Hero_Adidastracksuit_Heathergrey_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_Outfits_adidas_tracksuit_heathergrey.jpg",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME",
+		"Category": "",
+		"ImageTransparent": "",
+		"TokenID": "TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY"
+	}
+}

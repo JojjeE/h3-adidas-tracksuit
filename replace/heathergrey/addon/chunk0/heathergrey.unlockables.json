@@ -1,0 +1,25 @@
+{
+	"TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY": {
+		"Id": "TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY",
+		"Guid": "1dfe08b1-a53e-4928-ab13-4b67a6a7c2ec",
+		"Type": "disguise",
+		"Subtype": "casual",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 4,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "b5e5db26-4161-4ffa-a71c-4b126d766784",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}

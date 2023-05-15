@@ -1,0 +1,25 @@
+{
+	"TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN": {
+		"Id": "TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN",
+		"Guid": "949e621b-8d25-4142-828f-d2b02d27c48b",
+		"Type": "disguise",
+		"Subtype": "casual",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 4,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "ccd8ec4c-bacd-41e7-acd2-cff5bb72f9f2",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}
