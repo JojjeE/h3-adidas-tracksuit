@@ -7,7 +7,7 @@
 	"frameworkVersion": "2.25.0",
 	"version": "1.2.1",
 	"updateCheck": "https://github.dioden.nu/updateChecks/adidastracksuit.json",
-	"contentFolders": ["base"],
+	"contentFolders": ["1_content/base"],
 	"localisedLines": {
 		"00B8EC2C31BE041F": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC"
 	},
@@ -46,8 +46,8 @@
 			"type": "select",
 			"tooltip": "Install the baby blue tracksuit with white stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
 			"contentFolders": [
-				"mats/babyblue",
-				"replace/babyblue/addon"
+				"1_content/mats/babyblue",
+				"2_patches/replace/babyblue/addon"
 			],
 			"blobsFolders": [
 				"blobs/babyblue/addon"
@@ -81,8 +81,8 @@
 			"name": "Casual Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/babyblue",
-				"replace/babyblue/bangkok"
+				"1_content/mats/babyblue",
+				"2_patches/replace/babyblue/bangkok"
 			],
 			"blobsFolders": [
 				"blobs/babyblue/bangkok"
@@ -121,8 +121,8 @@
 			"name": "Italian Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/babyblue",
-				"replace/babyblue/sapienza"
+				"1_content/mats/babyblue",
+				"2_patches/replace/babyblue/sapienza"
 			],
 			"blobsFolders": [
 				"blobs/babyblue/sapienza"
@@ -161,8 +161,8 @@
 			"name": "Florida Fit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/babyblue",
-				"replace/babyblue/miami"
+				"1_content/mats/babyblue",
+				"2_patches/replace/babyblue/miami"
 			],
 			"blobsFolders": [
 				"blobs/babyblue/miami"
@@ -201,8 +201,8 @@
 			"name": "Casual Tourist with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/babyblue",
-				"replace/babyblue/sanfortuna"
+				"1_content/mats/babyblue",
+				"2_patches/replace/babyblue/sanfortuna"
 			],
 			"blobsFolders": [
 				"blobs/babyblue/sanfortuna"
@@ -241,8 +241,8 @@
 			"name": "Summer Suave Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/babyblue",
-				"replace/babyblue/summersuave"
+				"1_content/mats/babyblue",
+				"2_patches/replace/babyblue/summersuave"
 			],
 			"blobsFolders": [
 				"blobs/babyblue/summersuave"
@@ -281,8 +281,8 @@
 			"name": "Summer Sightseeing Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/babyblue",
-				"replace/babyblue/summersightseeing"
+				"1_content/mats/babyblue",
+				"2_patches/replace/babyblue/summersightseeing"
 			],
 			"blobsFolders": [
 				"blobs/babyblue/summersightseeing"
@@ -321,8 +321,8 @@
 			"name": "Casual Undercover",
 			"type": "select",
 			"contentFolders": [
-				"mats/babyblue",
-				"replace/babyblue/casualundercover"
+				"1_content/mats/babyblue",
+				"2_patches/replace/babyblue/casualundercover"
 			],
 			"blobsFolders": [
 				"blobs/babyblue/casualundercover"
@@ -361,8 +361,8 @@
 			"name": "Midnight Black Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/babyblue",
-				"replace/babyblue/midnightblack"
+				"1_content/mats/babyblue",
+				"2_patches/replace/babyblue/midnightblack"
 			],
 			"blobsFolders": [
 				"blobs/babyblue/midnightblack"
@@ -401,8 +401,8 @@
 			"name": "Summer Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/babyblue",
-				"replace/babyblue/marrakesh"
+				"1_content/mats/babyblue",
+				"2_patches/replace/babyblue/marrakesh"
 			],
 			"blobsFolders": [
 				"blobs/babyblue/marrakesh"
@@ -441,8 +441,8 @@
 			"name": "Tropical Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/babyblue",
-				"replace/babyblue/tropicalsuit"
+				"1_content/mats/babyblue",
+				"2_patches/replace/babyblue/tropicalsuit"
 			],
 			"blobsFolders": [
 				"blobs/babyblue/tropicalsuit"
@@ -481,8 +481,8 @@
 			"name": "Smart Casual Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/babyblue",
-				"replace/babyblue/smartcasual"
+				"1_content/mats/babyblue",
+				"2_patches/replace/babyblue/smartcasual"
 			],
 			"blobsFolders": [
 				"blobs/babyblue/smartcasual"
@@ -521,8 +521,8 @@
 			"name": "The Raver",
 			"type": "select",
 			"contentFolders": [
-				"mats/babyblue",
-				"replace/babyblue/raver"
+				"1_content/mats/babyblue",
+				"2_patches/replace/babyblue/raver"
 			],
 			"blobsFolders": [
 				"blobs/babyblue/raver"
@@ -561,8 +561,8 @@
 			"name": "Lucky Ducky",
 			"type": "select",
 			"contentFolders": [
-				"mats/babyblue",
-				"replace/babyblue/luckyducky"
+				"1_content/mats/babyblue",
+				"2_patches/replace/babyblue/luckyducky"
 			],
 			"blobsFolders": [
 				"blobs/babyblue/luckyducky"
@@ -610,8 +610,8 @@
 			"type": "select",
 			"tooltip": "Install the black tracksuit with white stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
 			"contentFolders": [
-				"mats/black",
-				"replace/black/addon"
+				"1_content/mats/black",
+				"2_patches/replace/black/addon"
 			],
 			"blobsFolders": [
 				"blobs/black/addon"
@@ -645,8 +645,8 @@
 			"name": "Casual Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/black",
-				"replace/black/bangkok"
+				"1_content/mats/black",
+				"2_patches/replace/black/bangkok"
 			],
 			"blobsFolders": [
 				"blobs/black/bangkok"
@@ -685,8 +685,8 @@
 			"name": "Italian Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/black",
-				"replace/black/sapienza"
+				"1_content/mats/black",
+				"2_patches/replace/black/sapienza"
 			],
 			"blobsFolders": [
 				"blobs/black/sapienza"
@@ -725,8 +725,8 @@
 			"name": "Florida Fit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/black",
-				"replace/black/miami"
+				"1_content/mats/black",
+				"2_patches/replace/black/miami"
 			],
 			"blobsFolders": [
 				"blobs/black/miami"
@@ -765,8 +765,8 @@
 			"name": "Casual Tourist with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/black",
-				"replace/black/sanfortuna"
+				"1_content/mats/black",
+				"2_patches/replace/black/sanfortuna"
 			],
 			"blobsFolders": [
 				"blobs/black/sanfortuna"
@@ -805,8 +805,8 @@
 			"name": "Summer Suave Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/black",
-				"replace/black/summersuave"
+				"1_content/mats/black",
+				"2_patches/replace/black/summersuave"
 			],
 			"blobsFolders": [
 				"blobs/black/summersuave"
@@ -845,8 +845,8 @@
 			"name": "Summer Sightseeing Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/black",
-				"replace/black/summersightseeing"
+				"1_content/mats/black",
+				"2_patches/replace/black/summersightseeing"
 			],
 			"blobsFolders": [
 				"blobs/black/summersightseeing"
@@ -885,8 +885,8 @@
 			"name": "Casual Undercover",
 			"type": "select",
 			"contentFolders": [
-				"mats/black",
-				"replace/black/casualundercover"
+				"1_content/mats/black",
+				"2_patches/replace/black/casualundercover"
 			],
 			"blobsFolders": [
 				"blobs/black/casualundercover"
@@ -925,8 +925,8 @@
 			"name": "Midnight Black Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/black",
-				"replace/black/midnightblack"
+				"1_content/mats/black",
+				"2_patches/replace/black/midnightblack"
 			],
 			"blobsFolders": [
 				"blobs/black/midnightblack"
@@ -965,8 +965,8 @@
 			"name": "Summer Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/black",
-				"replace/black/marrakesh"
+				"1_content/mats/black",
+				"2_patches/replace/black/marrakesh"
 			],
 			"blobsFolders": [
 				"blobs/black/marrakesh"
@@ -1005,8 +1005,8 @@
 			"name": "Tropical Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/black",
-				"replace/black/tropicalsuit"
+				"1_content/mats/black",
+				"2_patches/replace/black/tropicalsuit"
 			],
 			"blobsFolders": [
 				"blobs/black/tropicalsuit"
@@ -1045,8 +1045,8 @@
 			"name": "Smart Casual Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/black",
-				"replace/black/smartcasual"
+				"1_content/mats/black",
+				"2_patches/replace/black/smartcasual"
 			],
 			"blobsFolders": [
 				"blobs/black/smartcasual"
@@ -1085,8 +1085,8 @@
 			"name": "The Raver",
 			"type": "select",
 			"contentFolders": [
-				"mats/black",
-				"replace/black/raver"
+				"1_content/mats/black",
+				"2_patches/replace/black/raver"
 			],
 			"blobsFolders": [
 				"blobs/black/raver"
@@ -1125,8 +1125,8 @@
 			"name": "Lucky Ducky",
 			"type": "select",
 			"contentFolders": [
-				"mats/black",
-				"replace/black/luckyducky"
+				"1_content/mats/black",
+				"2_patches/replace/black/luckyducky"
 			],
 			"blobsFolders": [
 				"blobs/black/luckyducky"
@@ -1174,8 +1174,8 @@
 			"type": "select",
 			"tooltip": "Install the emerald green tracksuit with white stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
 			"contentFolders": [
-				"mats/emeraldgreen",
-				"replace/emeraldgreen/addon"
+				"1_content/mats/emeraldgreen",
+				"2_patches/replace/emeraldgreen/addon"
 			],
 			"blobsFolders": [
 				"blobs/emeraldgreen/addon"
@@ -1209,8 +1209,8 @@
 			"name": "Casual Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/emeraldgreen",
-				"replace/emeraldgreen/bangkok"
+				"1_content/mats/emeraldgreen",
+				"2_patches/replace/emeraldgreen/bangkok"
 			],
 			"blobsFolders": [
 				"blobs/emeraldgreen/bangkok"
@@ -1249,8 +1249,8 @@
 			"name": "Italian Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/emeraldgreen",
-				"replace/emeraldgreen/sapienza"
+				"1_content/mats/emeraldgreen",
+				"2_patches/replace/emeraldgreen/sapienza"
 			],
 			"blobsFolders": [
 				"blobs/emeraldgreen/sapienza"
@@ -1289,8 +1289,8 @@
 			"name": "Florida Fit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/emeraldgreen",
-				"replace/emeraldgreen/miami"
+				"1_content/mats/emeraldgreen",
+				"2_patches/replace/emeraldgreen/miami"
 			],
 			"blobsFolders": [
 				"blobs/emeraldgreen/miami"
@@ -1329,8 +1329,8 @@
 			"name": "Casual Tourist with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/emeraldgreen",
-				"replace/emeraldgreen/sanfortuna"
+				"1_content/mats/emeraldgreen",
+				"2_patches/replace/emeraldgreen/sanfortuna"
 			],
 			"blobsFolders": [
 				"blobs/emeraldgreen/sanfortuna"
@@ -1369,8 +1369,8 @@
 			"name": "Summer Suave Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/emeraldgreen",
-				"replace/emeraldgreen/summersuave"
+				"1_content/mats/emeraldgreen",
+				"2_patches/replace/emeraldgreen/summersuave"
 			],
 			"blobsFolders": [
 				"blobs/emeraldgreen/summersuave"
@@ -1409,8 +1409,8 @@
 			"name": "Summer Sightseeing Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/emeraldgreen",
-				"replace/emeraldgreen/summersightseeing"
+				"1_content/mats/emeraldgreen",
+				"2_patches/replace/emeraldgreen/summersightseeing"
 			],
 			"blobsFolders": [
 				"blobs/emeraldgreen/summersightseeing"
@@ -1449,8 +1449,8 @@
 			"name": "Casual Undercover",
 			"type": "select",
 			"contentFolders": [
-				"mats/emeraldgreen",
-				"replace/emeraldgreen/casualundercover"
+				"1_content/mats/emeraldgreen",
+				"2_patches/replace/emeraldgreen/casualundercover"
 			],
 			"blobsFolders": [
 				"blobs/emeraldgreen/casualundercover"
@@ -1489,8 +1489,8 @@
 			"name": "Midnight Black Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/emeraldgreen",
-				"replace/emeraldgreen/midnightblack"
+				"1_content/mats/emeraldgreen",
+				"2_patches/replace/emeraldgreen/midnightblack"
 			],
 			"blobsFolders": [
 				"blobs/emeraldgreen/midnightblack"
@@ -1529,8 +1529,8 @@
 			"name": "Summer Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/emeraldgreen",
-				"replace/emeraldgreen/marrakesh"
+				"1_content/mats/emeraldgreen",
+				"2_patches/replace/emeraldgreen/marrakesh"
 			],
 			"blobsFolders": [
 				"blobs/emeraldgreen/marrakesh"
@@ -1569,8 +1569,8 @@
 			"name": "Tropical Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/emeraldgreen",
-				"replace/emeraldgreen/tropicalsuit"
+				"1_content/mats/emeraldgreen",
+				"2_patches/replace/emeraldgreen/tropicalsuit"
 			],
 			"blobsFolders": [
 				"blobs/emeraldgreen/tropicalsuit"
@@ -1609,8 +1609,8 @@
 			"name": "Smart Casual Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/emeraldgreen",
-				"replace/emeraldgreen/smartcasual"
+				"1_content/mats/emeraldgreen",
+				"2_patches/replace/emeraldgreen/smartcasual"
 			],
 			"blobsFolders": [
 				"blobs/emeraldgreen/smartcasual"
@@ -1649,8 +1649,8 @@
 			"name": "The Raver",
 			"type": "select",
 			"contentFolders": [
-				"mats/emeraldgreen",
-				"replace/emeraldgreen/raver"
+				"1_content/mats/emeraldgreen",
+				"2_patches/replace/emeraldgreen/raver"
 			],
 			"blobsFolders": [
 				"blobs/emeraldgreen/raver"
@@ -1689,8 +1689,8 @@
 			"name": "Lucky Ducky",
 			"type": "select",
 			"contentFolders": [
-				"mats/emeraldgreen",
-				"replace/emeraldgreen/luckyducky"
+				"1_content/mats/emeraldgreen",
+				"2_patches/replace/emeraldgreen/luckyducky"
 			],
 			"blobsFolders": [
 				"blobs/emeraldgreen/luckyducky"
@@ -1738,8 +1738,8 @@
 			"type": "select",
 			"tooltip": "Install the heather grey tracksuit with black stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
 			"contentFolders": [
-				"mats/heathergrey",
-				"replace/heathergrey/addon"
+				"1_content/mats/heathergrey",
+				"2_patches/replace/heathergrey/addon"
 			],
 			"blobsFolders": [
 				"blobs/heathergrey/addon"
@@ -1773,8 +1773,8 @@
 			"name": "Casual Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/heathergrey",
-				"replace/heathergrey/bangkok"
+				"1_content/mats/heathergrey",
+				"2_patches/replace/heathergrey/bangkok"
 			],
 			"blobsFolders": [
 				"blobs/heathergrey/bangkok"
@@ -1813,8 +1813,8 @@
 			"name": "Italian Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/heathergrey",
-				"replace/heathergrey/sapienza"
+				"1_content/mats/heathergrey",
+				"2_patches/replace/heathergrey/sapienza"
 			],
 			"blobsFolders": [
 				"blobs/heathergrey/sapienza"
@@ -1853,8 +1853,8 @@
 			"name": "Florida Fit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/heathergrey",
-				"replace/heathergrey/miami"
+				"1_content/mats/heathergrey",
+				"2_patches/replace/heathergrey/miami"
 			],
 			"blobsFolders": [
 				"blobs/heathergrey/miami"
@@ -1893,8 +1893,8 @@
 			"name": "Casual Tourist with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/heathergrey",
-				"replace/heathergrey/sanfortuna"
+				"1_content/mats/heathergrey",
+				"2_patches/replace/heathergrey/sanfortuna"
 			],
 			"blobsFolders": [
 				"blobs/heathergrey/sanfortuna"
@@ -1933,8 +1933,8 @@
 			"name": "Summer Suave Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/heathergrey",
-				"replace/heathergrey/summersuave"
+				"1_content/mats/heathergrey",
+				"2_patches/replace/heathergrey/summersuave"
 			],
 			"blobsFolders": [
 				"blobs/heathergrey/summersuave"
@@ -1973,8 +1973,8 @@
 			"name": "Summer Sightseeing Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/heathergrey",
-				"replace/heathergrey/summersightseeing"
+				"1_content/mats/heathergrey",
+				"2_patches/replace/heathergrey/summersightseeing"
 			],
 			"blobsFolders": [
 				"blobs/heathergrey/summersightseeing"
@@ -2013,8 +2013,8 @@
 			"name": "Casual Undercover",
 			"type": "select",
 			"contentFolders": [
-				"mats/heathergrey",
-				"replace/heathergrey/casualundercover"
+				"1_content/mats/heathergrey",
+				"2_patches/replace/heathergrey/casualundercover"
 			],
 			"blobsFolders": [
 				"blobs/heathergrey/casualundercover"
@@ -2053,8 +2053,8 @@
 			"name": "Midnight Black Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/heathergrey",
-				"replace/heathergrey/midnightblack"
+				"1_content/mats/heathergrey",
+				"2_patches/replace/heathergrey/midnightblack"
 			],
 			"blobsFolders": [
 				"blobs/heathergrey/midnightblack"
@@ -2093,8 +2093,8 @@
 			"name": "Summer Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/heathergrey",
-				"replace/heathergrey/marrakesh"
+				"1_content/mats/heathergrey",
+				"2_patches/replace/heathergrey/marrakesh"
 			],
 			"blobsFolders": [
 				"blobs/heathergrey/marrakesh"
@@ -2133,8 +2133,8 @@
 			"name": "Tropical Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/heathergrey",
-				"replace/heathergrey/tropicalsuit"
+				"1_content/mats/heathergrey",
+				"2_patches/replace/heathergrey/tropicalsuit"
 			],
 			"blobsFolders": [
 				"blobs/heathergrey/tropicalsuit"
@@ -2173,8 +2173,8 @@
 			"name": "Smart Casual Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/heathergrey",
-				"replace/heathergrey/smartcasual"
+				"1_content/mats/heathergrey",
+				"2_patches/replace/heathergrey/smartcasual"
 			],
 			"blobsFolders": [
 				"blobs/heathergrey/smartcasual"
@@ -2213,8 +2213,8 @@
 			"name": "The Raver",
 			"type": "select",
 			"contentFolders": [
-				"mats/heathergrey",
-				"replace/heathergrey/raver"
+				"1_content/mats/heathergrey",
+				"2_patches/replace/heathergrey/raver"
 			],
 			"blobsFolders": [
 				"blobs/heathergrey/raver"
@@ -2253,8 +2253,8 @@
 			"name": "Lucky Ducky",
 			"type": "select",
 			"contentFolders": [
-				"mats/heathergrey",
-				"replace/heathergrey/luckyducky"
+				"1_content/mats/heathergrey",
+				"2_patches/replace/heathergrey/luckyducky"
 			],
 			"blobsFolders": [
 				"blobs/heathergrey/luckyducky"
@@ -2302,8 +2302,8 @@
 			"type": "select",
 			"tooltip": "Install the navy blue tracksuit with white stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
 			"contentFolders": [
-				"mats/navyblue",
-				"replace/navyblue/addon"
+				"1_content/mats/navyblue",
+				"2_patches/replace/navyblue/addon"
 			],
 			"blobsFolders": [
 				"blobs/navyblue/addon"
@@ -2337,8 +2337,8 @@
 			"name": "Casual Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/navyblue",
-				"replace/navyblue/bangkok"
+				"1_content/mats/navyblue",
+				"2_patches/replace/navyblue/bangkok"
 			],
 			"blobsFolders": [
 				"blobs/navyblue/bangkok"
@@ -2377,8 +2377,8 @@
 			"name": "Italian Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/navyblue",
-				"replace/navyblue/sapienza"
+				"1_content/mats/navyblue",
+				"2_patches/replace/navyblue/sapienza"
 			],
 			"blobsFolders": [
 				"blobs/navyblue/sapienza"
@@ -2417,8 +2417,8 @@
 			"name": "Florida Fit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/navyblue",
-				"replace/navyblue/miami"
+				"1_content/mats/navyblue",
+				"2_patches/replace/navyblue/miami"
 			],
 			"blobsFolders": [
 				"blobs/navyblue/miami"
@@ -2457,8 +2457,8 @@
 			"name": "Casual Tourist with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/navyblue",
-				"replace/navyblue/sanfortuna"
+				"1_content/mats/navyblue",
+				"2_patches/replace/navyblue/sanfortuna"
 			],
 			"blobsFolders": [
 				"blobs/navyblue/sanfortuna"
@@ -2497,8 +2497,8 @@
 			"name": "Summer Suave Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/navyblue",
-				"replace/navyblue/summersuave"
+				"1_content/mats/navyblue",
+				"2_patches/replace/navyblue/summersuave"
 			],
 			"blobsFolders": [
 				"blobs/navyblue/summersuave"
@@ -2537,8 +2537,8 @@
 			"name": "Summer Sightseeing Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/navyblue",
-				"replace/navyblue/summersightseeing"
+				"1_content/mats/navyblue",
+				"2_patches/replace/navyblue/summersightseeing"
 			],
 			"blobsFolders": [
 				"blobs/navyblue/summersightseeing"
@@ -2577,8 +2577,8 @@
 			"name": "Casual Undercover",
 			"type": "select",
 			"contentFolders": [
-				"mats/navyblue",
-				"replace/navyblue/casualundercover"
+				"1_content/mats/navyblue",
+				"2_patches/replace/navyblue/casualundercover"
 			],
 			"blobsFolders": [
 				"blobs/navyblue/casualundercover"
@@ -2617,8 +2617,8 @@
 			"name": "Midnight Black Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/navyblue",
-				"replace/navyblue/midnightblack"
+				"1_content/mats/navyblue",
+				"2_patches/replace/navyblue/midnightblack"
 			],
 			"blobsFolders": [
 				"blobs/navyblue/midnightblack"
@@ -2657,8 +2657,8 @@
 			"name": "Summer Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/navyblue",
-				"replace/navyblue/marrakesh"
+				"1_content/mats/navyblue",
+				"2_patches/replace/navyblue/marrakesh"
 			],
 			"blobsFolders": [
 				"blobs/navyblue/marrakesh"
@@ -2697,8 +2697,8 @@
 			"name": "Tropical Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/navyblue",
-				"replace/navyblue/tropicalsuit"
+				"1_content/mats/navyblue",
+				"2_patches/replace/navyblue/tropicalsuit"
 			],
 			"blobsFolders": [
 				"blobs/navyblue/tropicalsuit"
@@ -2737,8 +2737,8 @@
 			"name": "Smart Casual Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/navyblue",
-				"replace/navyblue/smartcasual"
+				"1_content/mats/navyblue",
+				"2_patches/replace/navyblue/smartcasual"
 			],
 			"blobsFolders": [
 				"blobs/navyblue/smartcasual"
@@ -2777,8 +2777,8 @@
 			"name": "The Raver",
 			"type": "select",
 			"contentFolders": [
-				"mats/navyblue",
-				"replace/navyblue/raver"
+				"1_content/mats/navyblue",
+				"2_patches/replace/navyblue/raver"
 			],
 			"blobsFolders": [
 				"blobs/navyblue/raver"
@@ -2817,8 +2817,8 @@
 			"name": "Lucky Ducky",
 			"type": "select",
 			"contentFolders": [
-				"mats/navyblue",
-				"replace/navyblue/luckyducky"
+				"1_content/mats/navyblue",
+				"2_patches/replace/navyblue/luckyducky"
 			],
 			"blobsFolders": [
 				"blobs/navyblue/luckyducky"
@@ -2866,8 +2866,8 @@
 			"type": "select",
 			"tooltip": "Install the red tracksuit with white stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
 			"contentFolders": [
-				"mats/red",
-				"replace/red/addon"
+				"1_content/mats/red",
+				"2_patches/replace/red/addon"
 			],
 			"blobsFolders": [
 				"blobs/red/addon"
@@ -2901,8 +2901,8 @@
 			"name": "Casual Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/red",
-				"replace/red/bangkok"
+				"1_content/mats/red",
+				"2_patches/replace/red/bangkok"
 			],
 			"blobsFolders": [
 				"blobs/red/bangkok"
@@ -2941,8 +2941,8 @@
 			"name": "Italian Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/red",
-				"replace/red/sapienza"
+				"1_content/mats/red",
+				"2_patches/replace/red/sapienza"
 			],
 			"blobsFolders": [
 				"blobs/red/sapienza"
@@ -2981,8 +2981,8 @@
 			"name": "Florida Fit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/red",
-				"replace/red/miami"
+				"1_content/mats/red",
+				"2_patches/replace/red/miami"
 			],
 			"blobsFolders": [
 				"blobs/red/miami"
@@ -3021,8 +3021,8 @@
 			"name": "Casual Tourist with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/red",
-				"replace/red/sanfortuna"
+				"1_content/mats/red",
+				"2_patches/replace/red/sanfortuna"
 			],
 			"blobsFolders": [
 				"blobs/red/sanfortuna"
@@ -3061,8 +3061,8 @@
 			"name": "Summer Suave Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/red",
-				"replace/red/summersuave"
+				"1_content/mats/red",
+				"2_patches/replace/red/summersuave"
 			],
 			"blobsFolders": [
 				"blobs/red/summersuave"
@@ -3101,8 +3101,8 @@
 			"name": "Summer Sightseeing Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/red",
-				"replace/red/summersightseeing"
+				"1_content/mats/red",
+				"2_patches/replace/red/summersightseeing"
 			],
 			"blobsFolders": [
 				"blobs/red/summersightseeing"
@@ -3141,8 +3141,8 @@
 			"name": "Casual Undercover",
 			"type": "select",
 			"contentFolders": [
-				"mats/red",
-				"replace/red/casualundercover"
+				"1_content/mats/red",
+				"2_patches/replace/red/casualundercover"
 			],
 			"blobsFolders": [
 				"blobs/red/casualundercover"
@@ -3181,8 +3181,8 @@
 			"name": "Midnight Black Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/red",
-				"replace/red/midnightblack"
+				"1_content/mats/red",
+				"2_patches/replace/red/midnightblack"
 			],
 			"blobsFolders": [
 				"blobs/red/midnightblack"
@@ -3221,8 +3221,8 @@
 			"name": "Summer Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/red",
-				"replace/red/marrakesh"
+				"1_content/mats/red",
+				"2_patches/replace/red/marrakesh"
 			],
 			"blobsFolders": [
 				"blobs/red/marrakesh"
@@ -3261,8 +3261,8 @@
 			"name": "Tropical Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/red",
-				"replace/red/tropicalsuit"
+				"1_content/mats/red",
+				"2_patches/replace/red/tropicalsuit"
 			],
 			"blobsFolders": [
 				"blobs/red/tropicalsuit"
@@ -3301,8 +3301,8 @@
 			"name": "Smart Casual Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/red",
-				"replace/red/smartcasual"
+				"1_content/mats/red",
+				"2_patches/replace/red/smartcasual"
 			],
 			"blobsFolders": [
 				"blobs/red/smartcasual"
@@ -3341,8 +3341,8 @@
 			"name": "The Raver",
 			"type": "select",
 			"contentFolders": [
-				"mats/red",
-				"replace/red/raver"
+				"1_content/mats/red",
+				"2_patches/replace/red/raver"
 			],
 			"blobsFolders": [
 				"blobs/red/raver"
@@ -3381,8 +3381,8 @@
 			"name": "Lucky Ducky",
 			"type": "select",
 			"contentFolders": [
-				"mats/red",
-				"replace/red/luckyducky"
+				"1_content/mats/red",
+				"2_patches/replace/red/luckyducky"
 			],
 			"blobsFolders": [
 				"blobs/red/luckyducky"
