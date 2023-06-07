@@ -6,29 +6,71 @@
 	"authors": ["Jojje"],
 	"frameworkVersion": "2.25.0",
 	"version": "1.2.1",
-	"updateCheck": "https://github.dioden.nu/updateChecks/adidastracksuit.json",
-	"contentFolders": ["base"],
+	"updateCheck": "https://github.com/JojjeE/h3-adidas-tracksuit/releases/latest/download/updates.json",
+	"contentFolders": ["1_content/base"],
 	"localisedLines": {
-		"00B8EC2C31BE041F": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC"
+		"00B8EC2C31BE041F": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC",
+		"00D0342A6985A72D": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME",
+		"0044709B9C2BB9A7": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME",
+		"00CD170917E993C2": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME",
+		"00AB40BFAB4A8AEC": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME",
+		"00260D7EF7B82790": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME",
+		"008A7E4AC305E392": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME"
 	},
 	"localisation": {
 		"english": {
-			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME": "adidas Tracksuit (Baby Blue)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME": "adidas Tracksuit (Black)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "adidas Tracksuit (Emerald Green)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "adidas Tracksuit (Heather Grey)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "adidas Tracksuit (Navy Blue)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "adidas Tracksuit (Red)"
 		},
 		"french": {
-			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME": "Survêtement adidas (Bleu Clair)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME": "Survêtement adidas (Noir)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "Survêtement adidas (Vert Emeraude)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "Survêtement adidas (Gris Chiné)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "Survêtement adidas (Bleu Marine)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "Survêtement adidas (Rouge)"
 		},
 		"italian": {
-			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME": "Tuta adidas (Blu Chiaro)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME": "Tuta adidas (Nero)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "Tuta adidas (Verde Smeraldo)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "Tuta adidas (Grigio)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "Tuta adidas (Blu Navy)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "Tuta adidas (Rosso)"
 		},
 		"german": {
-			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME": "adidas Trainingsanzug (Babyblau)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME": "adidas Trainingsanzug (Schwarz)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "adidas Trainingsanzug (Smaragdgrün)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "adidas Trainingsanzug (Grau)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "adidas Trainingsanzug (Marineblau)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "adidas Trainingsanzug (Rot)"
 		},
 		"spanish": {
-			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME": "Chándal adidas (Azul Bebé)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME": "Chándal adidas (Negro)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "Chándal adidas (Verde Esmeralda)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "Chándal adidas (Gris Jaspeado)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "Chándal adidas (Azul Marino)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "Chándal adidas (Rojo)"
 		},
 		"russian": {
-			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME": "Спортивный костюм adidas (светло-голубой)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME": "Спортивный костюм adidas (черный)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "Спортивный костюм adidas (светло-зеленый)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "Спортивный костюм adidas (серый вереск)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "Спортивный костюм adidas (темно-синий)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "Спортивный костюм adidas (красный)"
 		}
 	},
 	"options": [
@@ -46,43 +88,20 @@
 			"type": "select",
 			"tooltip": "Install the baby blue tracksuit with white stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
 			"contentFolders": [
-				"mats/babyblue",
-				"replace/babyblue/addon"
+				"1_content/mats/babyblue",
+				"2_patches/replace/babyblue/addon"
 			],
 			"blobsFolders": [
 				"blobs/babyblue/addon"
-			],
-			"localisedLines": {
-				"00D0342A6985A72D": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME"
-			},
-			"localisation": {
-				"english": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME": "adidas Tracksuit (Baby Blue)"
-				},
-				"french": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME": "Survêtement adidas (Bleu Clair)"
-				},
-				"italian": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME": "Tuta adidas (Blu Chiaro)"
-				},
-				"german": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME": "adidas Trainingsanzug (Babyblau)"
-				},
-				"spanish": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME": "Chándal adidas (Azul Bebé)"
-				},
-				"russian": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME": "Спортивный костюм adidas (светло-голубой)"
-				}
-			}
+			]
 		},
 		{
 			"group": "Baby Blue",
 			"name": "Casual Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/babyblue",
-				"replace/babyblue/bangkok"
+				"1_content/mats/babyblue",
+				"2_patches/replace/babyblue/bangkok"
 			],
 			"blobsFolders": [
 				"blobs/babyblue/bangkok"
@@ -121,8 +140,8 @@
 			"name": "Italian Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/babyblue",
-				"replace/babyblue/sapienza"
+				"1_content/mats/babyblue",
+				"2_patches/replace/babyblue/sapienza"
 			],
 			"blobsFolders": [
 				"blobs/babyblue/sapienza"
@@ -161,8 +180,8 @@
 			"name": "Florida Fit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/babyblue",
-				"replace/babyblue/miami"
+				"1_content/mats/babyblue",
+				"2_patches/replace/babyblue/miami"
 			],
 			"blobsFolders": [
 				"blobs/babyblue/miami"
@@ -201,8 +220,8 @@
 			"name": "Casual Tourist with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/babyblue",
-				"replace/babyblue/sanfortuna"
+				"1_content/mats/babyblue",
+				"2_patches/replace/babyblue/sanfortuna"
 			],
 			"blobsFolders": [
 				"blobs/babyblue/sanfortuna"
@@ -241,8 +260,8 @@
 			"name": "Summer Suave Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/babyblue",
-				"replace/babyblue/summersuave"
+				"1_content/mats/babyblue",
+				"2_patches/replace/babyblue/summersuave"
 			],
 			"blobsFolders": [
 				"blobs/babyblue/summersuave"
@@ -281,8 +300,8 @@
 			"name": "Summer Sightseeing Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/babyblue",
-				"replace/babyblue/summersightseeing"
+				"1_content/mats/babyblue",
+				"2_patches/replace/babyblue/summersightseeing"
 			],
 			"blobsFolders": [
 				"blobs/babyblue/summersightseeing"
@@ -321,8 +340,8 @@
 			"name": "Casual Undercover",
 			"type": "select",
 			"contentFolders": [
-				"mats/babyblue",
-				"replace/babyblue/casualundercover"
+				"1_content/mats/babyblue",
+				"2_patches/replace/babyblue/casualundercover"
 			],
 			"blobsFolders": [
 				"blobs/babyblue/casualundercover"
@@ -361,8 +380,8 @@
 			"name": "Midnight Black Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/babyblue",
-				"replace/babyblue/midnightblack"
+				"1_content/mats/babyblue",
+				"2_patches/replace/babyblue/midnightblack"
 			],
 			"blobsFolders": [
 				"blobs/babyblue/midnightblack"
@@ -401,8 +420,8 @@
 			"name": "Summer Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/babyblue",
-				"replace/babyblue/marrakesh"
+				"1_content/mats/babyblue",
+				"2_patches/replace/babyblue/marrakesh"
 			],
 			"blobsFolders": [
 				"blobs/babyblue/marrakesh"
@@ -441,8 +460,8 @@
 			"name": "Tropical Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/babyblue",
-				"replace/babyblue/tropicalsuit"
+				"1_content/mats/babyblue",
+				"2_patches/replace/babyblue/tropicalsuit"
 			],
 			"blobsFolders": [
 				"blobs/babyblue/tropicalsuit"
@@ -481,8 +500,8 @@
 			"name": "Smart Casual Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/babyblue",
-				"replace/babyblue/smartcasual"
+				"1_content/mats/babyblue",
+				"2_patches/replace/babyblue/smartcasual"
 			],
 			"blobsFolders": [
 				"blobs/babyblue/smartcasual"
@@ -521,8 +540,8 @@
 			"name": "The Raver",
 			"type": "select",
 			"contentFolders": [
-				"mats/babyblue",
-				"replace/babyblue/raver"
+				"1_content/mats/babyblue",
+				"2_patches/replace/babyblue/raver"
 			],
 			"blobsFolders": [
 				"blobs/babyblue/raver"
@@ -561,8 +580,8 @@
 			"name": "Lucky Ducky",
 			"type": "select",
 			"contentFolders": [
-				"mats/babyblue",
-				"replace/babyblue/luckyducky"
+				"1_content/mats/babyblue",
+				"2_patches/replace/babyblue/luckyducky"
 			],
 			"blobsFolders": [
 				"blobs/babyblue/luckyducky"
@@ -610,43 +629,20 @@
 			"type": "select",
 			"tooltip": "Install the black tracksuit with white stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
 			"contentFolders": [
-				"mats/black",
-				"replace/black/addon"
+				"1_content/mats/black",
+				"2_patches/replace/black/addon"
 			],
 			"blobsFolders": [
 				"blobs/black/addon"
-			],
-			"localisedLines": {
-				"0044709B9C2BB9A7": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME"
-			},
-			"localisation": {
-				"english": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME": "adidas Tracksuit (Black)"
-				},
-				"french": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME": "Survêtement adidas (Noir)"
-				},
-				"italian": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME": "Tuta adidas (Nero)"
-				},
-				"german": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME": "adidas Trainingsanzug (Schwarz)"
-				},
-				"spanish": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME": "Chándal adidas (Negro)"
-				},
-				"russian": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME": "Спортивный костюм adidas (черный)"
-				}
-			}
+			]
 		},
 		{
 			"group": "Black",
 			"name": "Casual Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/black",
-				"replace/black/bangkok"
+				"1_content/mats/black",
+				"2_patches/replace/black/bangkok"
 			],
 			"blobsFolders": [
 				"blobs/black/bangkok"
@@ -685,8 +681,8 @@
 			"name": "Italian Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/black",
-				"replace/black/sapienza"
+				"1_content/mats/black",
+				"2_patches/replace/black/sapienza"
 			],
 			"blobsFolders": [
 				"blobs/black/sapienza"
@@ -725,8 +721,8 @@
 			"name": "Florida Fit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/black",
-				"replace/black/miami"
+				"1_content/mats/black",
+				"2_patches/replace/black/miami"
 			],
 			"blobsFolders": [
 				"blobs/black/miami"
@@ -765,8 +761,8 @@
 			"name": "Casual Tourist with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/black",
-				"replace/black/sanfortuna"
+				"1_content/mats/black",
+				"2_patches/replace/black/sanfortuna"
 			],
 			"blobsFolders": [
 				"blobs/black/sanfortuna"
@@ -805,8 +801,8 @@
 			"name": "Summer Suave Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/black",
-				"replace/black/summersuave"
+				"1_content/mats/black",
+				"2_patches/replace/black/summersuave"
 			],
 			"blobsFolders": [
 				"blobs/black/summersuave"
@@ -845,8 +841,8 @@
 			"name": "Summer Sightseeing Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/black",
-				"replace/black/summersightseeing"
+				"1_content/mats/black",
+				"2_patches/replace/black/summersightseeing"
 			],
 			"blobsFolders": [
 				"blobs/black/summersightseeing"
@@ -885,8 +881,8 @@
 			"name": "Casual Undercover",
 			"type": "select",
 			"contentFolders": [
-				"mats/black",
-				"replace/black/casualundercover"
+				"1_content/mats/black",
+				"2_patches/replace/black/casualundercover"
 			],
 			"blobsFolders": [
 				"blobs/black/casualundercover"
@@ -925,8 +921,8 @@
 			"name": "Midnight Black Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/black",
-				"replace/black/midnightblack"
+				"1_content/mats/black",
+				"2_patches/replace/black/midnightblack"
 			],
 			"blobsFolders": [
 				"blobs/black/midnightblack"
@@ -965,8 +961,8 @@
 			"name": "Summer Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/black",
-				"replace/black/marrakesh"
+				"1_content/mats/black",
+				"2_patches/replace/black/marrakesh"
 			],
 			"blobsFolders": [
 				"blobs/black/marrakesh"
@@ -1005,8 +1001,8 @@
 			"name": "Tropical Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/black",
-				"replace/black/tropicalsuit"
+				"1_content/mats/black",
+				"2_patches/replace/black/tropicalsuit"
 			],
 			"blobsFolders": [
 				"blobs/black/tropicalsuit"
@@ -1045,8 +1041,8 @@
 			"name": "Smart Casual Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/black",
-				"replace/black/smartcasual"
+				"1_content/mats/black",
+				"2_patches/replace/black/smartcasual"
 			],
 			"blobsFolders": [
 				"blobs/black/smartcasual"
@@ -1085,8 +1081,8 @@
 			"name": "The Raver",
 			"type": "select",
 			"contentFolders": [
-				"mats/black",
-				"replace/black/raver"
+				"1_content/mats/black",
+				"2_patches/replace/black/raver"
 			],
 			"blobsFolders": [
 				"blobs/black/raver"
@@ -1125,8 +1121,8 @@
 			"name": "Lucky Ducky",
 			"type": "select",
 			"contentFolders": [
-				"mats/black",
-				"replace/black/luckyducky"
+				"1_content/mats/black",
+				"2_patches/replace/black/luckyducky"
 			],
 			"blobsFolders": [
 				"blobs/black/luckyducky"
@@ -1174,43 +1170,20 @@
 			"type": "select",
 			"tooltip": "Install the emerald green tracksuit with white stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
 			"contentFolders": [
-				"mats/emeraldgreen",
-				"replace/emeraldgreen/addon"
+				"1_content/mats/emeraldgreen",
+				"2_patches/replace/emeraldgreen/addon"
 			],
 			"blobsFolders": [
 				"blobs/emeraldgreen/addon"
-			],
-			"localisedLines": {
-				"00CD170917E993C2": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME"
-			},
-			"localisation": {
-				"english": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "adidas Tracksuit (Emerald Green)"
-				},
-				"french": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "Survêtement adidas (Vert Emeraude)"
-				},
-				"italian": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "Tuta adidas (Verde Smeraldo)"
-				},
-				"german": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "adidas Trainingsanzug (Smaragdgrün)"
-				},
-				"spanish": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "Chándal adidas (Verde Esmeralda)"
-				},
-				"russian": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "Спортивный костюм adidas (светло-зеленый)"
-				}
-			}
+			]
 		},
 		{
 			"group": "Emerald Green",
 			"name": "Casual Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/emeraldgreen",
-				"replace/emeraldgreen/bangkok"
+				"1_content/mats/emeraldgreen",
+				"2_patches/replace/emeraldgreen/bangkok"
 			],
 			"blobsFolders": [
 				"blobs/emeraldgreen/bangkok"
@@ -1249,8 +1222,8 @@
 			"name": "Italian Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/emeraldgreen",
-				"replace/emeraldgreen/sapienza"
+				"1_content/mats/emeraldgreen",
+				"2_patches/replace/emeraldgreen/sapienza"
 			],
 			"blobsFolders": [
 				"blobs/emeraldgreen/sapienza"
@@ -1289,8 +1262,8 @@
 			"name": "Florida Fit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/emeraldgreen",
-				"replace/emeraldgreen/miami"
+				"1_content/mats/emeraldgreen",
+				"2_patches/replace/emeraldgreen/miami"
 			],
 			"blobsFolders": [
 				"blobs/emeraldgreen/miami"
@@ -1329,8 +1302,8 @@
 			"name": "Casual Tourist with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/emeraldgreen",
-				"replace/emeraldgreen/sanfortuna"
+				"1_content/mats/emeraldgreen",
+				"2_patches/replace/emeraldgreen/sanfortuna"
 			],
 			"blobsFolders": [
 				"blobs/emeraldgreen/sanfortuna"
@@ -1369,8 +1342,8 @@
 			"name": "Summer Suave Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/emeraldgreen",
-				"replace/emeraldgreen/summersuave"
+				"1_content/mats/emeraldgreen",
+				"2_patches/replace/emeraldgreen/summersuave"
 			],
 			"blobsFolders": [
 				"blobs/emeraldgreen/summersuave"
@@ -1409,8 +1382,8 @@
 			"name": "Summer Sightseeing Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/emeraldgreen",
-				"replace/emeraldgreen/summersightseeing"
+				"1_content/mats/emeraldgreen",
+				"2_patches/replace/emeraldgreen/summersightseeing"
 			],
 			"blobsFolders": [
 				"blobs/emeraldgreen/summersightseeing"
@@ -1449,8 +1422,8 @@
 			"name": "Casual Undercover",
 			"type": "select",
 			"contentFolders": [
-				"mats/emeraldgreen",
-				"replace/emeraldgreen/casualundercover"
+				"1_content/mats/emeraldgreen",
+				"2_patches/replace/emeraldgreen/casualundercover"
 			],
 			"blobsFolders": [
 				"blobs/emeraldgreen/casualundercover"
@@ -1489,8 +1462,8 @@
 			"name": "Midnight Black Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/emeraldgreen",
-				"replace/emeraldgreen/midnightblack"
+				"1_content/mats/emeraldgreen",
+				"2_patches/replace/emeraldgreen/midnightblack"
 			],
 			"blobsFolders": [
 				"blobs/emeraldgreen/midnightblack"
@@ -1529,8 +1502,8 @@
 			"name": "Summer Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/emeraldgreen",
-				"replace/emeraldgreen/marrakesh"
+				"1_content/mats/emeraldgreen",
+				"2_patches/replace/emeraldgreen/marrakesh"
 			],
 			"blobsFolders": [
 				"blobs/emeraldgreen/marrakesh"
@@ -1569,8 +1542,8 @@
 			"name": "Tropical Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/emeraldgreen",
-				"replace/emeraldgreen/tropicalsuit"
+				"1_content/mats/emeraldgreen",
+				"2_patches/replace/emeraldgreen/tropicalsuit"
 			],
 			"blobsFolders": [
 				"blobs/emeraldgreen/tropicalsuit"
@@ -1609,8 +1582,8 @@
 			"name": "Smart Casual Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/emeraldgreen",
-				"replace/emeraldgreen/smartcasual"
+				"1_content/mats/emeraldgreen",
+				"2_patches/replace/emeraldgreen/smartcasual"
 			],
 			"blobsFolders": [
 				"blobs/emeraldgreen/smartcasual"
@@ -1649,8 +1622,8 @@
 			"name": "The Raver",
 			"type": "select",
 			"contentFolders": [
-				"mats/emeraldgreen",
-				"replace/emeraldgreen/raver"
+				"1_content/mats/emeraldgreen",
+				"2_patches/replace/emeraldgreen/raver"
 			],
 			"blobsFolders": [
 				"blobs/emeraldgreen/raver"
@@ -1689,8 +1662,8 @@
 			"name": "Lucky Ducky",
 			"type": "select",
 			"contentFolders": [
-				"mats/emeraldgreen",
-				"replace/emeraldgreen/luckyducky"
+				"1_content/mats/emeraldgreen",
+				"2_patches/replace/emeraldgreen/luckyducky"
 			],
 			"blobsFolders": [
 				"blobs/emeraldgreen/luckyducky"
@@ -1738,43 +1711,20 @@
 			"type": "select",
 			"tooltip": "Install the heather grey tracksuit with black stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
 			"contentFolders": [
-				"mats/heathergrey",
-				"replace/heathergrey/addon"
+				"1_content/mats/heathergrey",
+				"2_patches/replace/heathergrey/addon"
 			],
 			"blobsFolders": [
 				"blobs/heathergrey/addon"
-			],
-			"localisedLines": {
-				"00AB40BFAB4A8AEC": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME"
-			},
-			"localisation": {
-				"english": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "adidas Tracksuit (Heather Grey)"
-				},
-				"french": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "Survêtement adidas (Gris Chiné)"
-				},
-				"italian": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "Tuta adidas (Grigio)"
-				},
-				"german": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "adidas Trainingsanzug (Grau)"
-				},
-				"spanish": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "Chándal adidas (Gris Jaspeado)"
-				},
-				"russian": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "Спортивный костюм adidas (серый вереск)"
-				}
-			}
+			]
 		},
 		{
 			"group": "Heather Grey",
 			"name": "Casual Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/heathergrey",
-				"replace/heathergrey/bangkok"
+				"1_content/mats/heathergrey",
+				"2_patches/replace/heathergrey/bangkok"
 			],
 			"blobsFolders": [
 				"blobs/heathergrey/bangkok"
@@ -1813,8 +1763,8 @@
 			"name": "Italian Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/heathergrey",
-				"replace/heathergrey/sapienza"
+				"1_content/mats/heathergrey",
+				"2_patches/replace/heathergrey/sapienza"
 			],
 			"blobsFolders": [
 				"blobs/heathergrey/sapienza"
@@ -1853,8 +1803,8 @@
 			"name": "Florida Fit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/heathergrey",
-				"replace/heathergrey/miami"
+				"1_content/mats/heathergrey",
+				"2_patches/replace/heathergrey/miami"
 			],
 			"blobsFolders": [
 				"blobs/heathergrey/miami"
@@ -1893,8 +1843,8 @@
 			"name": "Casual Tourist with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/heathergrey",
-				"replace/heathergrey/sanfortuna"
+				"1_content/mats/heathergrey",
+				"2_patches/replace/heathergrey/sanfortuna"
 			],
 			"blobsFolders": [
 				"blobs/heathergrey/sanfortuna"
@@ -1933,8 +1883,8 @@
 			"name": "Summer Suave Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/heathergrey",
-				"replace/heathergrey/summersuave"
+				"1_content/mats/heathergrey",
+				"2_patches/replace/heathergrey/summersuave"
 			],
 			"blobsFolders": [
 				"blobs/heathergrey/summersuave"
@@ -1973,8 +1923,8 @@
 			"name": "Summer Sightseeing Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/heathergrey",
-				"replace/heathergrey/summersightseeing"
+				"1_content/mats/heathergrey",
+				"2_patches/replace/heathergrey/summersightseeing"
 			],
 			"blobsFolders": [
 				"blobs/heathergrey/summersightseeing"
@@ -2013,8 +1963,8 @@
 			"name": "Casual Undercover",
 			"type": "select",
 			"contentFolders": [
-				"mats/heathergrey",
-				"replace/heathergrey/casualundercover"
+				"1_content/mats/heathergrey",
+				"2_patches/replace/heathergrey/casualundercover"
 			],
 			"blobsFolders": [
 				"blobs/heathergrey/casualundercover"
@@ -2053,8 +2003,8 @@
 			"name": "Midnight Black Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/heathergrey",
-				"replace/heathergrey/midnightblack"
+				"1_content/mats/heathergrey",
+				"2_patches/replace/heathergrey/midnightblack"
 			],
 			"blobsFolders": [
 				"blobs/heathergrey/midnightblack"
@@ -2093,8 +2043,8 @@
 			"name": "Summer Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/heathergrey",
-				"replace/heathergrey/marrakesh"
+				"1_content/mats/heathergrey",
+				"2_patches/replace/heathergrey/marrakesh"
 			],
 			"blobsFolders": [
 				"blobs/heathergrey/marrakesh"
@@ -2133,8 +2083,8 @@
 			"name": "Tropical Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/heathergrey",
-				"replace/heathergrey/tropicalsuit"
+				"1_content/mats/heathergrey",
+				"2_patches/replace/heathergrey/tropicalsuit"
 			],
 			"blobsFolders": [
 				"blobs/heathergrey/tropicalsuit"
@@ -2173,8 +2123,8 @@
 			"name": "Smart Casual Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/heathergrey",
-				"replace/heathergrey/smartcasual"
+				"1_content/mats/heathergrey",
+				"2_patches/replace/heathergrey/smartcasual"
 			],
 			"blobsFolders": [
 				"blobs/heathergrey/smartcasual"
@@ -2213,8 +2163,8 @@
 			"name": "The Raver",
 			"type": "select",
 			"contentFolders": [
-				"mats/heathergrey",
-				"replace/heathergrey/raver"
+				"1_content/mats/heathergrey",
+				"2_patches/replace/heathergrey/raver"
 			],
 			"blobsFolders": [
 				"blobs/heathergrey/raver"
@@ -2253,8 +2203,8 @@
 			"name": "Lucky Ducky",
 			"type": "select",
 			"contentFolders": [
-				"mats/heathergrey",
-				"replace/heathergrey/luckyducky"
+				"1_content/mats/heathergrey",
+				"2_patches/replace/heathergrey/luckyducky"
 			],
 			"blobsFolders": [
 				"blobs/heathergrey/luckyducky"
@@ -2302,43 +2252,20 @@
 			"type": "select",
 			"tooltip": "Install the navy blue tracksuit with white stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
 			"contentFolders": [
-				"mats/navyblue",
-				"replace/navyblue/addon"
+				"1_content/mats/navyblue",
+				"2_patches/replace/navyblue/addon"
 			],
 			"blobsFolders": [
 				"blobs/navyblue/addon"
-			],
-			"localisedLines": {
-				"00260D7EF7B82790": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME"
-			},
-			"localisation": {
-				"english": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "adidas Tracksuit (Navy Blue)"
-				},
-				"french": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "Survêtement adidas (Bleu Marine)"
-				},
-				"italian": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "Tuta adidas (Blu Navy)"
-				},
-				"german": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "adidas Trainingsanzug (Marineblau)"
-				},
-				"spanish": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "Chándal adidas (Azul Marino)"
-				},
-				"russian": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "Спортивный костюм adidas (темно-синий)"
-				}
-			}
+			]
 		},
 		{
 			"group": "Navy Blue",
 			"name": "Casual Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/navyblue",
-				"replace/navyblue/bangkok"
+				"1_content/mats/navyblue",
+				"2_patches/replace/navyblue/bangkok"
 			],
 			"blobsFolders": [
 				"blobs/navyblue/bangkok"
@@ -2377,8 +2304,8 @@
 			"name": "Italian Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/navyblue",
-				"replace/navyblue/sapienza"
+				"1_content/mats/navyblue",
+				"2_patches/replace/navyblue/sapienza"
 			],
 			"blobsFolders": [
 				"blobs/navyblue/sapienza"
@@ -2417,8 +2344,8 @@
 			"name": "Florida Fit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/navyblue",
-				"replace/navyblue/miami"
+				"1_content/mats/navyblue",
+				"2_patches/replace/navyblue/miami"
 			],
 			"blobsFolders": [
 				"blobs/navyblue/miami"
@@ -2457,8 +2384,8 @@
 			"name": "Casual Tourist with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/navyblue",
-				"replace/navyblue/sanfortuna"
+				"1_content/mats/navyblue",
+				"2_patches/replace/navyblue/sanfortuna"
 			],
 			"blobsFolders": [
 				"blobs/navyblue/sanfortuna"
@@ -2497,8 +2424,8 @@
 			"name": "Summer Suave Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/navyblue",
-				"replace/navyblue/summersuave"
+				"1_content/mats/navyblue",
+				"2_patches/replace/navyblue/summersuave"
 			],
 			"blobsFolders": [
 				"blobs/navyblue/summersuave"
@@ -2537,8 +2464,8 @@
 			"name": "Summer Sightseeing Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/navyblue",
-				"replace/navyblue/summersightseeing"
+				"1_content/mats/navyblue",
+				"2_patches/replace/navyblue/summersightseeing"
 			],
 			"blobsFolders": [
 				"blobs/navyblue/summersightseeing"
@@ -2577,8 +2504,8 @@
 			"name": "Casual Undercover",
 			"type": "select",
 			"contentFolders": [
-				"mats/navyblue",
-				"replace/navyblue/casualundercover"
+				"1_content/mats/navyblue",
+				"2_patches/replace/navyblue/casualundercover"
 			],
 			"blobsFolders": [
 				"blobs/navyblue/casualundercover"
@@ -2617,8 +2544,8 @@
 			"name": "Midnight Black Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/navyblue",
-				"replace/navyblue/midnightblack"
+				"1_content/mats/navyblue",
+				"2_patches/replace/navyblue/midnightblack"
 			],
 			"blobsFolders": [
 				"blobs/navyblue/midnightblack"
@@ -2657,8 +2584,8 @@
 			"name": "Summer Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/navyblue",
-				"replace/navyblue/marrakesh"
+				"1_content/mats/navyblue",
+				"2_patches/replace/navyblue/marrakesh"
 			],
 			"blobsFolders": [
 				"blobs/navyblue/marrakesh"
@@ -2697,8 +2624,8 @@
 			"name": "Tropical Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/navyblue",
-				"replace/navyblue/tropicalsuit"
+				"1_content/mats/navyblue",
+				"2_patches/replace/navyblue/tropicalsuit"
 			],
 			"blobsFolders": [
 				"blobs/navyblue/tropicalsuit"
@@ -2737,8 +2664,8 @@
 			"name": "Smart Casual Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/navyblue",
-				"replace/navyblue/smartcasual"
+				"1_content/mats/navyblue",
+				"2_patches/replace/navyblue/smartcasual"
 			],
 			"blobsFolders": [
 				"blobs/navyblue/smartcasual"
@@ -2777,8 +2704,8 @@
 			"name": "The Raver",
 			"type": "select",
 			"contentFolders": [
-				"mats/navyblue",
-				"replace/navyblue/raver"
+				"1_content/mats/navyblue",
+				"2_patches/replace/navyblue/raver"
 			],
 			"blobsFolders": [
 				"blobs/navyblue/raver"
@@ -2817,8 +2744,8 @@
 			"name": "Lucky Ducky",
 			"type": "select",
 			"contentFolders": [
-				"mats/navyblue",
-				"replace/navyblue/luckyducky"
+				"1_content/mats/navyblue",
+				"2_patches/replace/navyblue/luckyducky"
 			],
 			"blobsFolders": [
 				"blobs/navyblue/luckyducky"
@@ -2866,43 +2793,20 @@
 			"type": "select",
 			"tooltip": "Install the red tracksuit with white stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
 			"contentFolders": [
-				"mats/red",
-				"replace/red/addon"
+				"1_content/mats/red",
+				"2_patches/replace/red/addon"
 			],
 			"blobsFolders": [
 				"blobs/red/addon"
-			],
-			"localisedLines": {
-				"008A7E4AC305E392": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME"
-			},
-			"localisation": {
-				"english": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "adidas Tracksuit (Red)"
-				},
-				"french": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "Survêtement adidas (Rouge)"
-				},
-				"italian": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "Tuta adidas (Rosso)"
-				},
-				"german": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "adidas Trainingsanzug (Rot)"
-				},
-				"spanish": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "Chándal adidas (Rojo)"
-				},
-				"russian": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "Спортивный костюм adidas (красный)"
-				}
-			}
+			]
 		},
 		{
 			"group": "Red",
 			"name": "Casual Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/red",
-				"replace/red/bangkok"
+				"1_content/mats/red",
+				"2_patches/replace/red/bangkok"
 			],
 			"blobsFolders": [
 				"blobs/red/bangkok"
@@ -2941,8 +2845,8 @@
 			"name": "Italian Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/red",
-				"replace/red/sapienza"
+				"1_content/mats/red",
+				"2_patches/replace/red/sapienza"
 			],
 			"blobsFolders": [
 				"blobs/red/sapienza"
@@ -2981,8 +2885,8 @@
 			"name": "Florida Fit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/red",
-				"replace/red/miami"
+				"1_content/mats/red",
+				"2_patches/replace/red/miami"
 			],
 			"blobsFolders": [
 				"blobs/red/miami"
@@ -3021,8 +2925,8 @@
 			"name": "Casual Tourist with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/red",
-				"replace/red/sanfortuna"
+				"1_content/mats/red",
+				"2_patches/replace/red/sanfortuna"
 			],
 			"blobsFolders": [
 				"blobs/red/sanfortuna"
@@ -3061,8 +2965,8 @@
 			"name": "Summer Suave Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/red",
-				"replace/red/summersuave"
+				"1_content/mats/red",
+				"2_patches/replace/red/summersuave"
 			],
 			"blobsFolders": [
 				"blobs/red/summersuave"
@@ -3101,8 +3005,8 @@
 			"name": "Summer Sightseeing Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/red",
-				"replace/red/summersightseeing"
+				"1_content/mats/red",
+				"2_patches/replace/red/summersightseeing"
 			],
 			"blobsFolders": [
 				"blobs/red/summersightseeing"
@@ -3141,8 +3045,8 @@
 			"name": "Casual Undercover",
 			"type": "select",
 			"contentFolders": [
-				"mats/red",
-				"replace/red/casualundercover"
+				"1_content/mats/red",
+				"2_patches/replace/red/casualundercover"
 			],
 			"blobsFolders": [
 				"blobs/red/casualundercover"
@@ -3181,8 +3085,8 @@
 			"name": "Midnight Black Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/red",
-				"replace/red/midnightblack"
+				"1_content/mats/red",
+				"2_patches/replace/red/midnightblack"
 			],
 			"blobsFolders": [
 				"blobs/red/midnightblack"
@@ -3221,8 +3125,8 @@
 			"name": "Summer Suit with Gloves",
 			"type": "select",
 			"contentFolders": [
-				"mats/red",
-				"replace/red/marrakesh"
+				"1_content/mats/red",
+				"2_patches/replace/red/marrakesh"
 			],
 			"blobsFolders": [
 				"blobs/red/marrakesh"
@@ -3261,8 +3165,8 @@
 			"name": "Tropical Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/red",
-				"replace/red/tropicalsuit"
+				"1_content/mats/red",
+				"2_patches/replace/red/tropicalsuit"
 			],
 			"blobsFolders": [
 				"blobs/red/tropicalsuit"
@@ -3301,8 +3205,8 @@
 			"name": "Smart Casual Suit",
 			"type": "select",
 			"contentFolders": [
-				"mats/red",
-				"replace/red/smartcasual"
+				"1_content/mats/red",
+				"2_patches/replace/red/smartcasual"
 			],
 			"blobsFolders": [
 				"blobs/red/smartcasual"
@@ -3341,8 +3245,8 @@
 			"name": "The Raver",
 			"type": "select",
 			"contentFolders": [
-				"mats/red",
-				"replace/red/raver"
+				"1_content/mats/red",
+				"2_patches/replace/red/raver"
 			],
 			"blobsFolders": [
 				"blobs/red/raver"
@@ -3381,8 +3285,8 @@
 			"name": "Lucky Ducky",
 			"type": "select",
 			"contentFolders": [
-				"mats/red",
-				"replace/red/luckyducky"
+				"1_content/mats/red",
+				"2_patches/replace/red/luckyducky"
 			],
 			"blobsFolders": [
 				"blobs/red/luckyducky"
@@ -3415,6 +3319,330 @@
 					}
 				}
 			}
+		},
+		{
+			"group": "Variant - Baby Blue - Hat",
+			"name": "No hat",
+			"type": "select",
+			"tooltip": "Don't use a hat.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Variant - Black - Hat",
+			"name": "No hat",
+			"type": "select",
+			"tooltip": "Don't use a hat.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Variant - Emerald Green - Hat",
+			"name": "No hat",
+			"type": "select",
+			"tooltip": "Don't use a hat.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Variant - Heather Grey - Hat",
+			"name": "No hat",
+			"type": "select",
+			"tooltip": "Don't use a hat.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Variant - Navy Blue - Hat",
+			"name": "No hat",
+			"type": "select",
+			"tooltip": "Don't use a hat.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Variant - Red - Hat",
+			"name": "No hat",
+			"type": "select",
+			"tooltip": "Don't use a hat.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Variant - Baby Blue - Gloves",
+			"name": "No gloves",
+			"type": "select",
+			"tooltip": "Don't use gloves.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Variant - Black - Gloves",
+			"name": "No gloves",
+			"type": "select",
+			"tooltip": "Don't use gloves.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Variant - Emerald Green - Gloves",
+			"name": "No gloves",
+			"type": "select",
+			"tooltip": "Don't use gloves.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Variant - Heather Grey - Gloves",
+			"name": "No gloves",
+			"type": "select",
+			"tooltip": "Don't use gloves.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Variant - Navy Blue - Gloves",
+			"name": "No gloves",
+			"type": "select",
+			"tooltip": "Don't use gloves.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Variant - Red - Gloves",
+			"name": "No gloves",
+			"type": "select",
+			"tooltip": "Don't use gloves.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Variant - Baby Blue - Hat",
+			"name": "Black flatcap",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/babyblue/flatcap_black"
+			],
+			"tooltip": "Use a black flatcap.",
+			"image": "flatcap_black.jpg"
+		},
+		{
+			"group": "Variant - Black - Hat",
+			"name": "Black flatcap",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/black/flatcap_black"
+			],
+			"tooltip": "Use a black flatcap.",
+			"image": "flatcap_black.jpg"
+		},
+		{
+			"group": "Variant - Emerald Green - Hat",
+			"name": "Black flatcap",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/emeraldgreen/flatcap_black"
+			],
+			"tooltip": "Use a black flatcap.",
+			"image": "flatcap_black.jpg"
+		},
+		{
+			"group": "Variant - Heather Grey - Hat",
+			"name": "Black flatcap",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/heathergrey/flatcap_black"
+			],
+			"tooltip": "Use a black flatcap.",
+			"image": "flatcap_black.jpg"
+		},
+		{
+			"group": "Variant - Navy Blue - Hat",
+			"name": "Black flatcap",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/navyblue/flatcap_black"
+			],
+			"tooltip": "Use a black flatcap.",
+			"image": "flatcap_black.jpg"
+		},
+		{
+			"group": "Variant - Red - Hat",
+			"name": "Black flatcap",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/red/flatcap_black"
+			],
+			"tooltip": "Use a black flatcap.",
+			"image": "flatcap_black.jpg"
+		},
+		{
+			"group": "Variant - Baby Blue - Hat",
+			"name": "Grey flatcap",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/babyblue/flatcap_grey"
+			],
+			"tooltip": "Use a grey flatcap.",
+			"image": "flatcap_grey.jpg"
+		},
+		{
+			"group": "Variant - Black - Hat",
+			"name": "Grey flatcap",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/black/flatcap_grey"
+			],
+			"tooltip": "Use a grey flatcap.",
+			"image": "flatcap_grey.jpg"
+		},
+		{
+			"group": "Variant - Emerald Green - Hat",
+			"name": "Grey flatcap",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/emeraldgreen/flatcap_grey"
+			],
+			"tooltip": "Use a grey flatcap.",
+			"image": "flatcap_grey.jpg"
+		},
+		{
+			"group": "Variant - Heather Grey - Hat",
+			"name": "Grey flatcap",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/heathergrey/flatcap_grey"
+			],
+			"tooltip": "Use a grey flatcap.",
+			"image": "flatcap_grey.jpg"
+		},
+		{
+			"group": "Variant - Navy Blue - Hat",
+			"name": "Grey flatcap",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/navyblue/flatcap_grey"
+			],
+			"tooltip": "Use a grey flatcap.",
+			"image": "flatcap_grey.jpg"
+		},
+		{
+			"group": "Variant - Red - Hat",
+			"name": "Grey flatcap",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/red/flatcap_grey"
+			],
+			"tooltip": "Use a grey flatcap.",
+			"image": "flatcap_grey.jpg"
+		},
+		{
+			"group": "Variant - Baby Blue - Gloves",
+			"name": "Driving gloves",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/babyblue/drivinggloves"
+			],
+			"tooltip": "Use driving gloves.",
+			"image": "drivinggloves.jpg"
+		},
+		{
+			"group": "Variant - Black - Gloves",
+			"name": "Driving gloves",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/black/drivinggloves"
+			],
+			"tooltip": "Use driving gloves.",
+			"image": "drivinggloves.jpg"
+		},
+		{
+			"group": "Variant - Emerald Green - Gloves",
+			"name": "Driving gloves",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/emeraldgreen/drivinggloves"
+			],
+			"tooltip": "Use driving gloves.",
+			"image": "drivinggloves.jpg"
+		},
+		{
+			"group": "Variant - Heather Grey - Gloves",
+			"name": "Driving gloves",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/heathergrey/drivinggloves"
+			],
+			"tooltip": "Use driving gloves.",
+			"image": "drivinggloves.jpg"
+		},
+		{
+			"group": "Variant - Navy Blue - Gloves",
+			"name": "Driving gloves",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/navyblue/drivinggloves"
+			],
+			"tooltip": "Use driving gloves.",
+			"image": "drivinggloves.jpg"
+		},
+		{
+			"group": "Variant - Red - Gloves",
+			"name": "Driving gloves",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/red/drivinggloves"
+			],
+			"tooltip": "Use driving gloves.",
+			"image": "drivinggloves.jpg"
+		},
+		{
+			"group": "Variant - Baby Blue - Gloves",
+			"name": "Leather gloves",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/babyblue/leathergloves"
+			],
+			"tooltip": "Use leather gloves.",
+			"image": "leathergloves.jpg"
+		},
+		{
+			"group": "Variant - Black - Gloves",
+			"name": "Leather gloves",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/black/leathergloves"
+			],
+			"tooltip": "Use leather gloves.",
+			"image": "leathergloves.jpg"
+		},
+		{
+			"group": "Variant - Emerald Green - Gloves",
+			"name": "Leather gloves",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/emeraldgreen/leathergloves"
+			],
+			"tooltip": "Use leather gloves.",
+			"image": "leathergloves.jpg"
+		},
+		{
+			"group": "Variant - Heather Grey - Gloves",
+			"name": "Leather gloves",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/heathergrey/leathergloves"
+			],
+			"tooltip": "Use leather gloves.",
+			"image": "leathergloves.jpg"
+		},
+		{
+			"group": "Variant - Navy Blue - Gloves",
+			"name": "Leather gloves",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/navyblue/leathergloves"
+			],
+			"tooltip": "Use leather gloves.",
+			"image": "leathergloves.jpg"
+		},
+		{
+			"group": "Variant - Red - Gloves",
+			"name": "Leather gloves",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/red/leathergloves"
+			],
+			"tooltip": "Use leather gloves.",
+			"image": "leathergloves.jpg"
 		}
 	]
 }
