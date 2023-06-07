@@ -4,8 +4,8 @@
 	"name": "adidas Tracksuit",
 	"description": "Configurable adidas tracksuit. Comes in 6 colors. Install them for Peacock or replace a casual suit of your choice.",
 	"authors": ["Jojje"],
-	"frameworkVersion": "2.25.0",
-	"version": "1.2.1",
+	"frameworkVersion": "2.27.0",
+	"version": "1.3.0",
 	"updateCheck": "https://github.com/JojjeE/h3-adidas-tracksuit/releases/latest/download/updates.json",
 	"contentFolders": ["1_content/base"],
 	"localisedLines": {
@@ -87,25 +87,15 @@
 			"name": "Peacock Addon",
 			"type": "select",
 			"tooltip": "Install the baby blue tracksuit with white stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
-			"contentFolders": [
-				"1_content/mats/babyblue",
-				"2_patches/replace/babyblue/addon"
-			],
-			"blobsFolders": [
-				"blobs/babyblue/addon"
-			]
+			"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/addon"],
+			"blobsFolders": ["blobs/babyblue/addon"]
 		},
 		{
 			"group": "Baby Blue",
 			"name": "Casual Suit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/babyblue",
-				"2_patches/replace/babyblue/bangkok"
-			],
-			"blobsFolders": [
-				"blobs/babyblue/bangkok"
-			],
+			"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/bangkok"],
+			"blobsFolders": ["blobs/babyblue/bangkok"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -139,13 +129,8 @@
 			"group": "Baby Blue",
 			"name": "Italian Suit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/babyblue",
-				"2_patches/replace/babyblue/sapienza"
-			],
-			"blobsFolders": [
-				"blobs/babyblue/sapienza"
-			],
+			"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/sapienza"],
+			"blobsFolders": ["blobs/babyblue/sapienza"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -179,13 +164,8 @@
 			"group": "Baby Blue",
 			"name": "Florida Fit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/babyblue",
-				"2_patches/replace/babyblue/miami"
-			],
-			"blobsFolders": [
-				"blobs/babyblue/miami"
-			],
+			"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/miami"],
+			"blobsFolders": ["blobs/babyblue/miami"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -219,13 +199,8 @@
 			"group": "Baby Blue",
 			"name": "Casual Tourist with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/babyblue",
-				"2_patches/replace/babyblue/sanfortuna"
-			],
-			"blobsFolders": [
-				"blobs/babyblue/sanfortuna"
-			],
+			"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/sanfortuna"],
+			"blobsFolders": ["blobs/babyblue/sanfortuna"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -259,13 +234,8 @@
 			"group": "Baby Blue",
 			"name": "Summer Suave Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/babyblue",
-				"2_patches/replace/babyblue/summersuave"
-			],
-			"blobsFolders": [
-				"blobs/babyblue/summersuave"
-			],
+			"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/summersuave"],
+			"blobsFolders": ["blobs/babyblue/summersuave"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -299,13 +269,8 @@
 			"group": "Baby Blue",
 			"name": "Summer Sightseeing Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/babyblue",
-				"2_patches/replace/babyblue/summersightseeing"
-			],
-			"blobsFolders": [
-				"blobs/babyblue/summersightseeing"
-			],
+			"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/summersightseeing"],
+			"blobsFolders": ["blobs/babyblue/summersightseeing"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
 					"english": {
@@ -339,13 +304,8 @@
 			"group": "Baby Blue",
 			"name": "Casual Undercover",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/babyblue",
-				"2_patches/replace/babyblue/casualundercover"
-			],
-			"blobsFolders": [
-				"blobs/babyblue/casualundercover"
-			],
+			"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/casualundercover"],
+			"blobsFolders": ["blobs/babyblue/casualundercover"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -379,13 +339,8 @@
 			"group": "Baby Blue",
 			"name": "Midnight Black Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/babyblue",
-				"2_patches/replace/babyblue/midnightblack"
-			],
-			"blobsFolders": [
-				"blobs/babyblue/midnightblack"
-			],
+			"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/midnightblack"],
+			"blobsFolders": ["blobs/babyblue/midnightblack"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -419,13 +374,8 @@
 			"group": "Baby Blue",
 			"name": "Summer Suit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/babyblue",
-				"2_patches/replace/babyblue/marrakesh"
-			],
-			"blobsFolders": [
-				"blobs/babyblue/marrakesh"
-			],
+			"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/marrakesh"],
+			"blobsFolders": ["blobs/babyblue/marrakesh"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -459,13 +409,8 @@
 			"group": "Baby Blue",
 			"name": "Tropical Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/babyblue",
-				"2_patches/replace/babyblue/tropicalsuit"
-			],
-			"blobsFolders": [
-				"blobs/babyblue/tropicalsuit"
-			],
+			"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/tropicalsuit"],
+			"blobsFolders": ["blobs/babyblue/tropicalsuit"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -499,13 +444,8 @@
 			"group": "Baby Blue",
 			"name": "Smart Casual Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/babyblue",
-				"2_patches/replace/babyblue/smartcasual"
-			],
-			"blobsFolders": [
-				"blobs/babyblue/smartcasual"
-			],
+			"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/smartcasual"],
+			"blobsFolders": ["blobs/babyblue/smartcasual"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -539,13 +479,8 @@
 			"group": "Baby Blue",
 			"name": "The Raver",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/babyblue",
-				"2_patches/replace/babyblue/raver"
-			],
-			"blobsFolders": [
-				"blobs/babyblue/raver"
-			],
+			"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/raver"],
+			"blobsFolders": ["blobs/babyblue/raver"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
 					"english": {
@@ -579,38 +514,33 @@
 			"group": "Baby Blue",
 			"name": "Lucky Ducky",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/babyblue",
-				"2_patches/replace/babyblue/luckyducky"
-			],
-			"blobsFolders": [
-				"blobs/babyblue/luckyducky"
-			],
+			"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/luckyducky"],
+			"blobsFolders": ["blobs/babyblue/luckyducky"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
 					"english": {
-						"2760943898": "adidas Tracksuit (Baby Blue)",
-						"2681050670": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+						"2681050670": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"2760943898": "adidas Tracksuit (Baby Blue)"
 					},
 					"french": {
-						"2760943898": "Survêtement adidas (Bleu Clair)",
-						"2681050670": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+						"2681050670": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"2760943898": "Survêtement adidas (Bleu Clair)"
 					},
 					"italian": {
-						"2760943898": "Tuta adidas (Blu Chiaro)",
-						"2681050670": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+						"2681050670": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"2760943898": "Tuta adidas (Blu Chiaro)"
 					},
 					"german": {
-						"2760943898": "adidas Trainingsanzug (Babyblau)",
-						"2681050670": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+						"2681050670": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"2760943898": "adidas Trainingsanzug (Babyblau)"
 					},
 					"spanish": {
-						"2760943898": "Chándal adidas (Azul Bebé)",
-						"2681050670": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+						"2681050670": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"2760943898": "Chándal adidas (Azul Bebé)"
 					},
 					"russian": {
-						"2760943898": "Спортивный костюм adidas (светло-голубой)",
-						"2681050670": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+						"2681050670": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"2760943898": "Спортивный костюм adidas (светло-голубой)"
 					}
 				}
 			}
@@ -628,25 +558,15 @@
 			"name": "Peacock Addon",
 			"type": "select",
 			"tooltip": "Install the black tracksuit with white stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
-			"contentFolders": [
-				"1_content/mats/black",
-				"2_patches/replace/black/addon"
-			],
-			"blobsFolders": [
-				"blobs/black/addon"
-			]
+			"contentFolders": ["1_content/mats/black", "2_patches/replace/black/addon"],
+			"blobsFolders": ["blobs/black/addon"]
 		},
 		{
 			"group": "Black",
 			"name": "Casual Suit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/black",
-				"2_patches/replace/black/bangkok"
-			],
-			"blobsFolders": [
-				"blobs/black/bangkok"
-			],
+			"contentFolders": ["1_content/mats/black", "2_patches/replace/black/bangkok"],
+			"blobsFolders": ["blobs/black/bangkok"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -680,13 +600,8 @@
 			"group": "Black",
 			"name": "Italian Suit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/black",
-				"2_patches/replace/black/sapienza"
-			],
-			"blobsFolders": [
-				"blobs/black/sapienza"
-			],
+			"contentFolders": ["1_content/mats/black", "2_patches/replace/black/sapienza"],
+			"blobsFolders": ["blobs/black/sapienza"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -720,13 +635,8 @@
 			"group": "Black",
 			"name": "Florida Fit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/black",
-				"2_patches/replace/black/miami"
-			],
-			"blobsFolders": [
-				"blobs/black/miami"
-			],
+			"contentFolders": ["1_content/mats/black", "2_patches/replace/black/miami"],
+			"blobsFolders": ["blobs/black/miami"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -760,13 +670,8 @@
 			"group": "Black",
 			"name": "Casual Tourist with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/black",
-				"2_patches/replace/black/sanfortuna"
-			],
-			"blobsFolders": [
-				"blobs/black/sanfortuna"
-			],
+			"contentFolders": ["1_content/mats/black", "2_patches/replace/black/sanfortuna"],
+			"blobsFolders": ["blobs/black/sanfortuna"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -800,13 +705,8 @@
 			"group": "Black",
 			"name": "Summer Suave Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/black",
-				"2_patches/replace/black/summersuave"
-			],
-			"blobsFolders": [
-				"blobs/black/summersuave"
-			],
+			"contentFolders": ["1_content/mats/black", "2_patches/replace/black/summersuave"],
+			"blobsFolders": ["blobs/black/summersuave"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -840,13 +740,8 @@
 			"group": "Black",
 			"name": "Summer Sightseeing Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/black",
-				"2_patches/replace/black/summersightseeing"
-			],
-			"blobsFolders": [
-				"blobs/black/summersightseeing"
-			],
+			"contentFolders": ["1_content/mats/black", "2_patches/replace/black/summersightseeing"],
+			"blobsFolders": ["blobs/black/summersightseeing"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
 					"english": {
@@ -880,13 +775,8 @@
 			"group": "Black",
 			"name": "Casual Undercover",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/black",
-				"2_patches/replace/black/casualundercover"
-			],
-			"blobsFolders": [
-				"blobs/black/casualundercover"
-			],
+			"contentFolders": ["1_content/mats/black", "2_patches/replace/black/casualundercover"],
+			"blobsFolders": ["blobs/black/casualundercover"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -920,13 +810,8 @@
 			"group": "Black",
 			"name": "Midnight Black Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/black",
-				"2_patches/replace/black/midnightblack"
-			],
-			"blobsFolders": [
-				"blobs/black/midnightblack"
-			],
+			"contentFolders": ["1_content/mats/black", "2_patches/replace/black/midnightblack"],
+			"blobsFolders": ["blobs/black/midnightblack"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -960,13 +845,8 @@
 			"group": "Black",
 			"name": "Summer Suit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/black",
-				"2_patches/replace/black/marrakesh"
-			],
-			"blobsFolders": [
-				"blobs/black/marrakesh"
-			],
+			"contentFolders": ["1_content/mats/black", "2_patches/replace/black/marrakesh"],
+			"blobsFolders": ["blobs/black/marrakesh"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -1000,13 +880,8 @@
 			"group": "Black",
 			"name": "Tropical Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/black",
-				"2_patches/replace/black/tropicalsuit"
-			],
-			"blobsFolders": [
-				"blobs/black/tropicalsuit"
-			],
+			"contentFolders": ["1_content/mats/black", "2_patches/replace/black/tropicalsuit"],
+			"blobsFolders": ["blobs/black/tropicalsuit"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -1040,13 +915,8 @@
 			"group": "Black",
 			"name": "Smart Casual Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/black",
-				"2_patches/replace/black/smartcasual"
-			],
-			"blobsFolders": [
-				"blobs/black/smartcasual"
-			],
+			"contentFolders": ["1_content/mats/black", "2_patches/replace/black/smartcasual"],
+			"blobsFolders": ["blobs/black/smartcasual"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -1080,13 +950,8 @@
 			"group": "Black",
 			"name": "The Raver",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/black",
-				"2_patches/replace/black/raver"
-			],
-			"blobsFolders": [
-				"blobs/black/raver"
-			],
+			"contentFolders": ["1_content/mats/black", "2_patches/replace/black/raver"],
+			"blobsFolders": ["blobs/black/raver"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
 					"english": {
@@ -1120,38 +985,33 @@
 			"group": "Black",
 			"name": "Lucky Ducky",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/black",
-				"2_patches/replace/black/luckyducky"
-			],
-			"blobsFolders": [
-				"blobs/black/luckyducky"
-			],
+			"contentFolders": ["1_content/mats/black", "2_patches/replace/black/luckyducky"],
+			"blobsFolders": ["blobs/black/luckyducky"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
 					"english": {
-						"2760943898": "adidas Tracksuit (Black)",
-						"2681050670": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+						"2681050670": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"2760943898": "adidas Tracksuit (Black)"
 					},
 					"french": {
-						"2760943898": "Survêtement adidas (Noir)",
-						"2681050670": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+						"2681050670": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"2760943898": "Survêtement adidas (Noir)"
 					},
 					"italian": {
-						"2760943898": "Tuta adidas (Nero)",
-						"2681050670": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+						"2681050670": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"2760943898": "Tuta adidas (Nero)"
 					},
 					"german": {
-						"2760943898": "adidas Trainingsanzug (Schwarz)",
-						"2681050670": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+						"2681050670": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"2760943898": "adidas Trainingsanzug (Schwarz)"
 					},
 					"spanish": {
-						"2760943898": "Chándal adidas (Negro)",
-						"2681050670": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+						"2681050670": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"2760943898": "Chándal adidas (Negro)"
 					},
 					"russian": {
-						"2760943898": "Спортивный костюм adidas (черный)",
-						"2681050670": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+						"2681050670": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"2760943898": "Спортивный костюм adidas (черный)"
 					}
 				}
 			}
@@ -1169,25 +1029,15 @@
 			"name": "Peacock Addon",
 			"type": "select",
 			"tooltip": "Install the emerald green tracksuit with white stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
-			"contentFolders": [
-				"1_content/mats/emeraldgreen",
-				"2_patches/replace/emeraldgreen/addon"
-			],
-			"blobsFolders": [
-				"blobs/emeraldgreen/addon"
-			]
+			"contentFolders": ["1_content/mats/emeraldgreen", "2_patches/replace/emeraldgreen/addon"],
+			"blobsFolders": ["blobs/emeraldgreen/addon"]
 		},
 		{
 			"group": "Emerald Green",
 			"name": "Casual Suit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/emeraldgreen",
-				"2_patches/replace/emeraldgreen/bangkok"
-			],
-			"blobsFolders": [
-				"blobs/emeraldgreen/bangkok"
-			],
+			"contentFolders": ["1_content/mats/emeraldgreen", "2_patches/replace/emeraldgreen/bangkok"],
+			"blobsFolders": ["blobs/emeraldgreen/bangkok"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -1221,13 +1071,8 @@
 			"group": "Emerald Green",
 			"name": "Italian Suit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/emeraldgreen",
-				"2_patches/replace/emeraldgreen/sapienza"
-			],
-			"blobsFolders": [
-				"blobs/emeraldgreen/sapienza"
-			],
+			"contentFolders": ["1_content/mats/emeraldgreen", "2_patches/replace/emeraldgreen/sapienza"],
+			"blobsFolders": ["blobs/emeraldgreen/sapienza"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -1261,13 +1106,8 @@
 			"group": "Emerald Green",
 			"name": "Florida Fit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/emeraldgreen",
-				"2_patches/replace/emeraldgreen/miami"
-			],
-			"blobsFolders": [
-				"blobs/emeraldgreen/miami"
-			],
+			"contentFolders": ["1_content/mats/emeraldgreen", "2_patches/replace/emeraldgreen/miami"],
+			"blobsFolders": ["blobs/emeraldgreen/miami"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -1301,13 +1141,8 @@
 			"group": "Emerald Green",
 			"name": "Casual Tourist with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/emeraldgreen",
-				"2_patches/replace/emeraldgreen/sanfortuna"
-			],
-			"blobsFolders": [
-				"blobs/emeraldgreen/sanfortuna"
-			],
+			"contentFolders": ["1_content/mats/emeraldgreen", "2_patches/replace/emeraldgreen/sanfortuna"],
+			"blobsFolders": ["blobs/emeraldgreen/sanfortuna"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -1341,13 +1176,8 @@
 			"group": "Emerald Green",
 			"name": "Summer Suave Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/emeraldgreen",
-				"2_patches/replace/emeraldgreen/summersuave"
-			],
-			"blobsFolders": [
-				"blobs/emeraldgreen/summersuave"
-			],
+			"contentFolders": ["1_content/mats/emeraldgreen", "2_patches/replace/emeraldgreen/summersuave"],
+			"blobsFolders": ["blobs/emeraldgreen/summersuave"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -1381,13 +1211,8 @@
 			"group": "Emerald Green",
 			"name": "Summer Sightseeing Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/emeraldgreen",
-				"2_patches/replace/emeraldgreen/summersightseeing"
-			],
-			"blobsFolders": [
-				"blobs/emeraldgreen/summersightseeing"
-			],
+			"contentFolders": ["1_content/mats/emeraldgreen", "2_patches/replace/emeraldgreen/summersightseeing"],
+			"blobsFolders": ["blobs/emeraldgreen/summersightseeing"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
 					"english": {
@@ -1421,13 +1246,8 @@
 			"group": "Emerald Green",
 			"name": "Casual Undercover",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/emeraldgreen",
-				"2_patches/replace/emeraldgreen/casualundercover"
-			],
-			"blobsFolders": [
-				"blobs/emeraldgreen/casualundercover"
-			],
+			"contentFolders": ["1_content/mats/emeraldgreen", "2_patches/replace/emeraldgreen/casualundercover"],
+			"blobsFolders": ["blobs/emeraldgreen/casualundercover"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -1461,13 +1281,8 @@
 			"group": "Emerald Green",
 			"name": "Midnight Black Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/emeraldgreen",
-				"2_patches/replace/emeraldgreen/midnightblack"
-			],
-			"blobsFolders": [
-				"blobs/emeraldgreen/midnightblack"
-			],
+			"contentFolders": ["1_content/mats/emeraldgreen", "2_patches/replace/emeraldgreen/midnightblack"],
+			"blobsFolders": ["blobs/emeraldgreen/midnightblack"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -1501,13 +1316,8 @@
 			"group": "Emerald Green",
 			"name": "Summer Suit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/emeraldgreen",
-				"2_patches/replace/emeraldgreen/marrakesh"
-			],
-			"blobsFolders": [
-				"blobs/emeraldgreen/marrakesh"
-			],
+			"contentFolders": ["1_content/mats/emeraldgreen", "2_patches/replace/emeraldgreen/marrakesh"],
+			"blobsFolders": ["blobs/emeraldgreen/marrakesh"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -1541,13 +1351,8 @@
 			"group": "Emerald Green",
 			"name": "Tropical Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/emeraldgreen",
-				"2_patches/replace/emeraldgreen/tropicalsuit"
-			],
-			"blobsFolders": [
-				"blobs/emeraldgreen/tropicalsuit"
-			],
+			"contentFolders": ["1_content/mats/emeraldgreen", "2_patches/replace/emeraldgreen/tropicalsuit"],
+			"blobsFolders": ["blobs/emeraldgreen/tropicalsuit"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -1581,13 +1386,8 @@
 			"group": "Emerald Green",
 			"name": "Smart Casual Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/emeraldgreen",
-				"2_patches/replace/emeraldgreen/smartcasual"
-			],
-			"blobsFolders": [
-				"blobs/emeraldgreen/smartcasual"
-			],
+			"contentFolders": ["1_content/mats/emeraldgreen", "2_patches/replace/emeraldgreen/smartcasual"],
+			"blobsFolders": ["blobs/emeraldgreen/smartcasual"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -1621,13 +1421,8 @@
 			"group": "Emerald Green",
 			"name": "The Raver",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/emeraldgreen",
-				"2_patches/replace/emeraldgreen/raver"
-			],
-			"blobsFolders": [
-				"blobs/emeraldgreen/raver"
-			],
+			"contentFolders": ["1_content/mats/emeraldgreen", "2_patches/replace/emeraldgreen/raver"],
+			"blobsFolders": ["blobs/emeraldgreen/raver"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
 					"english": {
@@ -1661,38 +1456,33 @@
 			"group": "Emerald Green",
 			"name": "Lucky Ducky",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/emeraldgreen",
-				"2_patches/replace/emeraldgreen/luckyducky"
-			],
-			"blobsFolders": [
-				"blobs/emeraldgreen/luckyducky"
-			],
+			"contentFolders": ["1_content/mats/emeraldgreen", "2_patches/replace/emeraldgreen/luckyducky"],
+			"blobsFolders": ["blobs/emeraldgreen/luckyducky"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
 					"english": {
-						"2760943898": "adidas Tracksuit (Emerald Green)",
-						"2681050670": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+						"2681050670": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"2760943898": "adidas Tracksuit (Emerald Green)"
 					},
 					"french": {
-						"2760943898": "Survêtement adidas (Vert Emeraude)",
-						"2681050670": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+						"2681050670": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"2760943898": "Survêtement adidas (Vert Emeraude)"
 					},
 					"italian": {
-						"2760943898": "Tuta adidas (Verde Smeraldo)",
-						"2681050670": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+						"2681050670": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"2760943898": "Tuta adidas (Verde Smeraldo)"
 					},
 					"german": {
-						"2760943898": "adidas Trainingsanzug (Smaragdgrün)",
-						"2681050670": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+						"2681050670": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"2760943898": "adidas Trainingsanzug (Smaragdgrün)"
 					},
 					"spanish": {
-						"2760943898": "Chándal adidas (Verde Esmeralda)",
-						"2681050670": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+						"2681050670": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"2760943898": "Chándal adidas (Verde Esmeralda)"
 					},
 					"russian": {
-						"2760943898": "Спортивный костюм adidas (светло-зеленый)",
-						"2681050670": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+						"2681050670": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"2760943898": "Спортивный костюм adidas (светло-зеленый)"
 					}
 				}
 			}
@@ -1710,25 +1500,15 @@
 			"name": "Peacock Addon",
 			"type": "select",
 			"tooltip": "Install the heather grey tracksuit with black stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
-			"contentFolders": [
-				"1_content/mats/heathergrey",
-				"2_patches/replace/heathergrey/addon"
-			],
-			"blobsFolders": [
-				"blobs/heathergrey/addon"
-			]
+			"contentFolders": ["1_content/mats/heathergrey", "2_patches/replace/heathergrey/addon"],
+			"blobsFolders": ["blobs/heathergrey/addon"]
 		},
 		{
 			"group": "Heather Grey",
 			"name": "Casual Suit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/heathergrey",
-				"2_patches/replace/heathergrey/bangkok"
-			],
-			"blobsFolders": [
-				"blobs/heathergrey/bangkok"
-			],
+			"contentFolders": ["1_content/mats/heathergrey", "2_patches/replace/heathergrey/bangkok"],
+			"blobsFolders": ["blobs/heathergrey/bangkok"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -1762,13 +1542,8 @@
 			"group": "Heather Grey",
 			"name": "Italian Suit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/heathergrey",
-				"2_patches/replace/heathergrey/sapienza"
-			],
-			"blobsFolders": [
-				"blobs/heathergrey/sapienza"
-			],
+			"contentFolders": ["1_content/mats/heathergrey", "2_patches/replace/heathergrey/sapienza"],
+			"blobsFolders": ["blobs/heathergrey/sapienza"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -1802,13 +1577,8 @@
 			"group": "Heather Grey",
 			"name": "Florida Fit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/heathergrey",
-				"2_patches/replace/heathergrey/miami"
-			],
-			"blobsFolders": [
-				"blobs/heathergrey/miami"
-			],
+			"contentFolders": ["1_content/mats/heathergrey", "2_patches/replace/heathergrey/miami"],
+			"blobsFolders": ["blobs/heathergrey/miami"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -1842,13 +1612,8 @@
 			"group": "Heather Grey",
 			"name": "Casual Tourist with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/heathergrey",
-				"2_patches/replace/heathergrey/sanfortuna"
-			],
-			"blobsFolders": [
-				"blobs/heathergrey/sanfortuna"
-			],
+			"contentFolders": ["1_content/mats/heathergrey", "2_patches/replace/heathergrey/sanfortuna"],
+			"blobsFolders": ["blobs/heathergrey/sanfortuna"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -1882,13 +1647,8 @@
 			"group": "Heather Grey",
 			"name": "Summer Suave Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/heathergrey",
-				"2_patches/replace/heathergrey/summersuave"
-			],
-			"blobsFolders": [
-				"blobs/heathergrey/summersuave"
-			],
+			"contentFolders": ["1_content/mats/heathergrey", "2_patches/replace/heathergrey/summersuave"],
+			"blobsFolders": ["blobs/heathergrey/summersuave"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -1922,13 +1682,8 @@
 			"group": "Heather Grey",
 			"name": "Summer Sightseeing Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/heathergrey",
-				"2_patches/replace/heathergrey/summersightseeing"
-			],
-			"blobsFolders": [
-				"blobs/heathergrey/summersightseeing"
-			],
+			"contentFolders": ["1_content/mats/heathergrey", "2_patches/replace/heathergrey/summersightseeing"],
+			"blobsFolders": ["blobs/heathergrey/summersightseeing"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
 					"english": {
@@ -1962,13 +1717,8 @@
 			"group": "Heather Grey",
 			"name": "Casual Undercover",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/heathergrey",
-				"2_patches/replace/heathergrey/casualundercover"
-			],
-			"blobsFolders": [
-				"blobs/heathergrey/casualundercover"
-			],
+			"contentFolders": ["1_content/mats/heathergrey", "2_patches/replace/heathergrey/casualundercover"],
+			"blobsFolders": ["blobs/heathergrey/casualundercover"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -2002,13 +1752,8 @@
 			"group": "Heather Grey",
 			"name": "Midnight Black Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/heathergrey",
-				"2_patches/replace/heathergrey/midnightblack"
-			],
-			"blobsFolders": [
-				"blobs/heathergrey/midnightblack"
-			],
+			"contentFolders": ["1_content/mats/heathergrey", "2_patches/replace/heathergrey/midnightblack"],
+			"blobsFolders": ["blobs/heathergrey/midnightblack"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -2042,13 +1787,8 @@
 			"group": "Heather Grey",
 			"name": "Summer Suit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/heathergrey",
-				"2_patches/replace/heathergrey/marrakesh"
-			],
-			"blobsFolders": [
-				"blobs/heathergrey/marrakesh"
-			],
+			"contentFolders": ["1_content/mats/heathergrey", "2_patches/replace/heathergrey/marrakesh"],
+			"blobsFolders": ["blobs/heathergrey/marrakesh"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -2082,13 +1822,8 @@
 			"group": "Heather Grey",
 			"name": "Tropical Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/heathergrey",
-				"2_patches/replace/heathergrey/tropicalsuit"
-			],
-			"blobsFolders": [
-				"blobs/heathergrey/tropicalsuit"
-			],
+			"contentFolders": ["1_content/mats/heathergrey", "2_patches/replace/heathergrey/tropicalsuit"],
+			"blobsFolders": ["blobs/heathergrey/tropicalsuit"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -2122,13 +1857,8 @@
 			"group": "Heather Grey",
 			"name": "Smart Casual Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/heathergrey",
-				"2_patches/replace/heathergrey/smartcasual"
-			],
-			"blobsFolders": [
-				"blobs/heathergrey/smartcasual"
-			],
+			"contentFolders": ["1_content/mats/heathergrey", "2_patches/replace/heathergrey/smartcasual"],
+			"blobsFolders": ["blobs/heathergrey/smartcasual"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -2162,13 +1892,8 @@
 			"group": "Heather Grey",
 			"name": "The Raver",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/heathergrey",
-				"2_patches/replace/heathergrey/raver"
-			],
-			"blobsFolders": [
-				"blobs/heathergrey/raver"
-			],
+			"contentFolders": ["1_content/mats/heathergrey", "2_patches/replace/heathergrey/raver"],
+			"blobsFolders": ["blobs/heathergrey/raver"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
 					"english": {
@@ -2202,38 +1927,33 @@
 			"group": "Heather Grey",
 			"name": "Lucky Ducky",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/heathergrey",
-				"2_patches/replace/heathergrey/luckyducky"
-			],
-			"blobsFolders": [
-				"blobs/heathergrey/luckyducky"
-			],
+			"contentFolders": ["1_content/mats/heathergrey", "2_patches/replace/heathergrey/luckyducky"],
+			"blobsFolders": ["blobs/heathergrey/luckyducky"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
 					"english": {
-						"2760943898": "adidas Tracksuit (Heather Grey)",
-						"2681050670": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+						"2681050670": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"2760943898": "adidas Tracksuit (Heather Grey)"
 					},
 					"french": {
-						"2760943898": "Survêtement adidas (Gris Chiné)",
-						"2681050670": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+						"2681050670": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"2760943898": "Survêtement adidas (Gris Chiné)"
 					},
 					"italian": {
-						"2760943898": "Tuta adidas (Grigio)",
-						"2681050670": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+						"2681050670": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"2760943898": "Tuta adidas (Grigio)"
 					},
 					"german": {
-						"2760943898": "adidas Trainingsanzug (Grau)",
-						"2681050670": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+						"2681050670": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"2760943898": "adidas Trainingsanzug (Grau)"
 					},
 					"spanish": {
-						"2760943898": "Chándal adidas (Gris Jaspeado)",
-						"2681050670": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+						"2681050670": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"2760943898": "Chándal adidas (Gris Jaspeado)"
 					},
 					"russian": {
-						"2760943898": "Спортивный костюм adidas (серый вереск)",
-						"2681050670": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+						"2681050670": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"2760943898": "Спортивный костюм adidas (серый вереск)"
 					}
 				}
 			}
@@ -2251,25 +1971,15 @@
 			"name": "Peacock Addon",
 			"type": "select",
 			"tooltip": "Install the navy blue tracksuit with white stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
-			"contentFolders": [
-				"1_content/mats/navyblue",
-				"2_patches/replace/navyblue/addon"
-			],
-			"blobsFolders": [
-				"blobs/navyblue/addon"
-			]
+			"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/addon"],
+			"blobsFolders": ["blobs/navyblue/addon"]
 		},
 		{
 			"group": "Navy Blue",
 			"name": "Casual Suit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/navyblue",
-				"2_patches/replace/navyblue/bangkok"
-			],
-			"blobsFolders": [
-				"blobs/navyblue/bangkok"
-			],
+			"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/bangkok"],
+			"blobsFolders": ["blobs/navyblue/bangkok"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -2303,13 +2013,8 @@
 			"group": "Navy Blue",
 			"name": "Italian Suit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/navyblue",
-				"2_patches/replace/navyblue/sapienza"
-			],
-			"blobsFolders": [
-				"blobs/navyblue/sapienza"
-			],
+			"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/sapienza"],
+			"blobsFolders": ["blobs/navyblue/sapienza"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -2343,13 +2048,8 @@
 			"group": "Navy Blue",
 			"name": "Florida Fit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/navyblue",
-				"2_patches/replace/navyblue/miami"
-			],
-			"blobsFolders": [
-				"blobs/navyblue/miami"
-			],
+			"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/miami"],
+			"blobsFolders": ["blobs/navyblue/miami"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -2383,13 +2083,8 @@
 			"group": "Navy Blue",
 			"name": "Casual Tourist with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/navyblue",
-				"2_patches/replace/navyblue/sanfortuna"
-			],
-			"blobsFolders": [
-				"blobs/navyblue/sanfortuna"
-			],
+			"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/sanfortuna"],
+			"blobsFolders": ["blobs/navyblue/sanfortuna"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -2423,13 +2118,8 @@
 			"group": "Navy Blue",
 			"name": "Summer Suave Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/navyblue",
-				"2_patches/replace/navyblue/summersuave"
-			],
-			"blobsFolders": [
-				"blobs/navyblue/summersuave"
-			],
+			"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/summersuave"],
+			"blobsFolders": ["blobs/navyblue/summersuave"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -2463,13 +2153,8 @@
 			"group": "Navy Blue",
 			"name": "Summer Sightseeing Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/navyblue",
-				"2_patches/replace/navyblue/summersightseeing"
-			],
-			"blobsFolders": [
-				"blobs/navyblue/summersightseeing"
-			],
+			"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/summersightseeing"],
+			"blobsFolders": ["blobs/navyblue/summersightseeing"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
 					"english": {
@@ -2503,13 +2188,8 @@
 			"group": "Navy Blue",
 			"name": "Casual Undercover",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/navyblue",
-				"2_patches/replace/navyblue/casualundercover"
-			],
-			"blobsFolders": [
-				"blobs/navyblue/casualundercover"
-			],
+			"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/casualundercover"],
+			"blobsFolders": ["blobs/navyblue/casualundercover"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -2543,13 +2223,8 @@
 			"group": "Navy Blue",
 			"name": "Midnight Black Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/navyblue",
-				"2_patches/replace/navyblue/midnightblack"
-			],
-			"blobsFolders": [
-				"blobs/navyblue/midnightblack"
-			],
+			"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/midnightblack"],
+			"blobsFolders": ["blobs/navyblue/midnightblack"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -2583,13 +2258,8 @@
 			"group": "Navy Blue",
 			"name": "Summer Suit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/navyblue",
-				"2_patches/replace/navyblue/marrakesh"
-			],
-			"blobsFolders": [
-				"blobs/navyblue/marrakesh"
-			],
+			"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/marrakesh"],
+			"blobsFolders": ["blobs/navyblue/marrakesh"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -2623,13 +2293,8 @@
 			"group": "Navy Blue",
 			"name": "Tropical Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/navyblue",
-				"2_patches/replace/navyblue/tropicalsuit"
-			],
-			"blobsFolders": [
-				"blobs/navyblue/tropicalsuit"
-			],
+			"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/tropicalsuit"],
+			"blobsFolders": ["blobs/navyblue/tropicalsuit"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -2663,13 +2328,8 @@
 			"group": "Navy Blue",
 			"name": "Smart Casual Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/navyblue",
-				"2_patches/replace/navyblue/smartcasual"
-			],
-			"blobsFolders": [
-				"blobs/navyblue/smartcasual"
-			],
+			"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/smartcasual"],
+			"blobsFolders": ["blobs/navyblue/smartcasual"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -2703,13 +2363,8 @@
 			"group": "Navy Blue",
 			"name": "The Raver",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/navyblue",
-				"2_patches/replace/navyblue/raver"
-			],
-			"blobsFolders": [
-				"blobs/navyblue/raver"
-			],
+			"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/raver"],
+			"blobsFolders": ["blobs/navyblue/raver"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
 					"english": {
@@ -2743,38 +2398,33 @@
 			"group": "Navy Blue",
 			"name": "Lucky Ducky",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/navyblue",
-				"2_patches/replace/navyblue/luckyducky"
-			],
-			"blobsFolders": [
-				"blobs/navyblue/luckyducky"
-			],
+			"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/luckyducky"],
+			"blobsFolders": ["blobs/navyblue/luckyducky"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
 					"english": {
-						"2760943898": "adidas Tracksuit (Navy Blue)",
-						"2681050670": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+						"2681050670": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"2760943898": "adidas Tracksuit (Navy Blue)"
 					},
 					"french": {
-						"2760943898": "Survêtement adidas (Bleu Marine)",
-						"2681050670": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+						"2681050670": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"2760943898": "Survêtement adidas (Bleu Marine)"
 					},
 					"italian": {
-						"2760943898": "Tuta adidas (Blu Navy)",
-						"2681050670": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+						"2681050670": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"2760943898": "Tuta adidas (Blu Navy)"
 					},
 					"german": {
-						"2760943898": "adidas Trainingsanzug (Marineblau)",
-						"2681050670": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+						"2681050670": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"2760943898": "adidas Trainingsanzug (Marineblau)"
 					},
 					"spanish": {
-						"2760943898": "Chándal adidas (Azul Marino)",
-						"2681050670": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+						"2681050670": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"2760943898": "Chándal adidas (Azul Marino)"
 					},
 					"russian": {
-						"2760943898": "Спортивный костюм adidas (темно-синий)",
-						"2681050670": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+						"2681050670": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"2760943898": "Спортивный костюм adidas (темно-синий)"
 					}
 				}
 			}
@@ -2792,25 +2442,15 @@
 			"name": "Peacock Addon",
 			"type": "select",
 			"tooltip": "Install the red tracksuit with white stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
-			"contentFolders": [
-				"1_content/mats/red",
-				"2_patches/replace/red/addon"
-			],
-			"blobsFolders": [
-				"blobs/red/addon"
-			]
+			"contentFolders": ["1_content/mats/red", "2_patches/replace/red/addon"],
+			"blobsFolders": ["blobs/red/addon"]
 		},
 		{
 			"group": "Red",
 			"name": "Casual Suit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/red",
-				"2_patches/replace/red/bangkok"
-			],
-			"blobsFolders": [
-				"blobs/red/bangkok"
-			],
+			"contentFolders": ["1_content/mats/red", "2_patches/replace/red/bangkok"],
+			"blobsFolders": ["blobs/red/bangkok"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -2844,13 +2484,8 @@
 			"group": "Red",
 			"name": "Italian Suit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/red",
-				"2_patches/replace/red/sapienza"
-			],
-			"blobsFolders": [
-				"blobs/red/sapienza"
-			],
+			"contentFolders": ["1_content/mats/red", "2_patches/replace/red/sapienza"],
+			"blobsFolders": ["blobs/red/sapienza"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -2884,13 +2519,8 @@
 			"group": "Red",
 			"name": "Florida Fit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/red",
-				"2_patches/replace/red/miami"
-			],
-			"blobsFolders": [
-				"blobs/red/miami"
-			],
+			"contentFolders": ["1_content/mats/red", "2_patches/replace/red/miami"],
+			"blobsFolders": ["blobs/red/miami"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -2924,13 +2554,8 @@
 			"group": "Red",
 			"name": "Casual Tourist with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/red",
-				"2_patches/replace/red/sanfortuna"
-			],
-			"blobsFolders": [
-				"blobs/red/sanfortuna"
-			],
+			"contentFolders": ["1_content/mats/red", "2_patches/replace/red/sanfortuna"],
+			"blobsFolders": ["blobs/red/sanfortuna"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -2964,13 +2589,8 @@
 			"group": "Red",
 			"name": "Summer Suave Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/red",
-				"2_patches/replace/red/summersuave"
-			],
-			"blobsFolders": [
-				"blobs/red/summersuave"
-			],
+			"contentFolders": ["1_content/mats/red", "2_patches/replace/red/summersuave"],
+			"blobsFolders": ["blobs/red/summersuave"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -3004,13 +2624,8 @@
 			"group": "Red",
 			"name": "Summer Sightseeing Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/red",
-				"2_patches/replace/red/summersightseeing"
-			],
-			"blobsFolders": [
-				"blobs/red/summersightseeing"
-			],
+			"contentFolders": ["1_content/mats/red", "2_patches/replace/red/summersightseeing"],
+			"blobsFolders": ["blobs/red/summersightseeing"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
 					"english": {
@@ -3044,13 +2659,8 @@
 			"group": "Red",
 			"name": "Casual Undercover",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/red",
-				"2_patches/replace/red/casualundercover"
-			],
-			"blobsFolders": [
-				"blobs/red/casualundercover"
-			],
+			"contentFolders": ["1_content/mats/red", "2_patches/replace/red/casualundercover"],
+			"blobsFolders": ["blobs/red/casualundercover"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -3084,13 +2694,8 @@
 			"group": "Red",
 			"name": "Midnight Black Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/red",
-				"2_patches/replace/red/midnightblack"
-			],
-			"blobsFolders": [
-				"blobs/red/midnightblack"
-			],
+			"contentFolders": ["1_content/mats/red", "2_patches/replace/red/midnightblack"],
+			"blobsFolders": ["blobs/red/midnightblack"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -3124,13 +2729,8 @@
 			"group": "Red",
 			"name": "Summer Suit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/red",
-				"2_patches/replace/red/marrakesh"
-			],
-			"blobsFolders": [
-				"blobs/red/marrakesh"
-			],
+			"contentFolders": ["1_content/mats/red", "2_patches/replace/red/marrakesh"],
+			"blobsFolders": ["blobs/red/marrakesh"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -3164,13 +2764,8 @@
 			"group": "Red",
 			"name": "Tropical Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/red",
-				"2_patches/replace/red/tropicalsuit"
-			],
-			"blobsFolders": [
-				"blobs/red/tropicalsuit"
-			],
+			"contentFolders": ["1_content/mats/red", "2_patches/replace/red/tropicalsuit"],
+			"blobsFolders": ["blobs/red/tropicalsuit"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -3204,13 +2799,8 @@
 			"group": "Red",
 			"name": "Smart Casual Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/red",
-				"2_patches/replace/red/smartcasual"
-			],
-			"blobsFolders": [
-				"blobs/red/smartcasual"
-			],
+			"contentFolders": ["1_content/mats/red", "2_patches/replace/red/smartcasual"],
+			"blobsFolders": ["blobs/red/smartcasual"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -3244,13 +2834,8 @@
 			"group": "Red",
 			"name": "The Raver",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/red",
-				"2_patches/replace/red/raver"
-			],
-			"blobsFolders": [
-				"blobs/red/raver"
-			],
+			"contentFolders": ["1_content/mats/red", "2_patches/replace/red/raver"],
+			"blobsFolders": ["blobs/red/raver"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
 					"english": {
@@ -3284,38 +2869,33 @@
 			"group": "Red",
 			"name": "Lucky Ducky",
 			"type": "select",
-			"contentFolders": [
-				"1_content/mats/red",
-				"2_patches/replace/red/luckyducky"
-			],
-			"blobsFolders": [
-				"blobs/red/luckyducky"
-			],
+			"contentFolders": ["1_content/mats/red", "2_patches/replace/red/luckyducky"],
+			"blobsFolders": ["blobs/red/luckyducky"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
 					"english": {
-						"2760943898": "adidas Tracksuit (Red)",
-						"2681050670": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+						"2681050670": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"2760943898": "adidas Tracksuit (Red)"
 					},
 					"french": {
-						"2760943898": "Survêtement adidas (Rouge)",
-						"2681050670": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+						"2681050670": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"2760943898": "Survêtement adidas (Rouge)"
 					},
 					"italian": {
-						"2760943898": "Tuta adidas (Rosso)",
-						"2681050670": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+						"2681050670": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"2760943898": "Tuta adidas (Rosso)"
 					},
 					"german": {
-						"2760943898": "adidas Trainingsanzug (Rot)",
-						"2681050670": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+						"2681050670": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"2760943898": "adidas Trainingsanzug (Rot)"
 					},
 					"spanish": {
-						"2760943898": "Chándal adidas (Rojo)",
-						"2681050670": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+						"2681050670": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"2760943898": "Chándal adidas (Rojo)"
 					},
 					"russian": {
-						"2760943898": "Спортивный костюм adidas (красный)",
-						"2681050670": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+						"2681050670": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"2760943898": "Спортивный костюм adidas (красный)"
 					}
 				}
 			}
@@ -3408,9 +2988,7 @@
 			"group": "Variant - Baby Blue - Hat",
 			"name": "Black flatcap",
 			"type": "select",
-			"contentFolders": [
-				"2_patches/variant/babyblue/flatcap_black"
-			],
+			"contentFolders": ["2_patches/variant/babyblue/flatcap_black"],
 			"tooltip": "Use a black flatcap.",
 			"image": "flatcap_black.jpg"
 		},
@@ -3418,9 +2996,7 @@
 			"group": "Variant - Black - Hat",
 			"name": "Black flatcap",
 			"type": "select",
-			"contentFolders": [
-				"2_patches/variant/black/flatcap_black"
-			],
+			"contentFolders": ["2_patches/variant/black/flatcap_black"],
 			"tooltip": "Use a black flatcap.",
 			"image": "flatcap_black.jpg"
 		},
@@ -3428,9 +3004,7 @@
 			"group": "Variant - Emerald Green - Hat",
 			"name": "Black flatcap",
 			"type": "select",
-			"contentFolders": [
-				"2_patches/variant/emeraldgreen/flatcap_black"
-			],
+			"contentFolders": ["2_patches/variant/emeraldgreen/flatcap_black"],
 			"tooltip": "Use a black flatcap.",
 			"image": "flatcap_black.jpg"
 		},
@@ -3438,9 +3012,7 @@
 			"group": "Variant - Heather Grey - Hat",
 			"name": "Black flatcap",
 			"type": "select",
-			"contentFolders": [
-				"2_patches/variant/heathergrey/flatcap_black"
-			],
+			"contentFolders": ["2_patches/variant/heathergrey/flatcap_black"],
 			"tooltip": "Use a black flatcap.",
 			"image": "flatcap_black.jpg"
 		},
@@ -3448,9 +3020,7 @@
 			"group": "Variant - Navy Blue - Hat",
 			"name": "Black flatcap",
 			"type": "select",
-			"contentFolders": [
-				"2_patches/variant/navyblue/flatcap_black"
-			],
+			"contentFolders": ["2_patches/variant/navyblue/flatcap_black"],
 			"tooltip": "Use a black flatcap.",
 			"image": "flatcap_black.jpg"
 		},
@@ -3458,9 +3028,7 @@
 			"group": "Variant - Red - Hat",
 			"name": "Black flatcap",
 			"type": "select",
-			"contentFolders": [
-				"2_patches/variant/red/flatcap_black"
-			],
+			"contentFolders": ["2_patches/variant/red/flatcap_black"],
 			"tooltip": "Use a black flatcap.",
 			"image": "flatcap_black.jpg"
 		},
@@ -3468,9 +3036,7 @@
 			"group": "Variant - Baby Blue - Hat",
 			"name": "Grey flatcap",
 			"type": "select",
-			"contentFolders": [
-				"2_patches/variant/babyblue/flatcap_grey"
-			],
+			"contentFolders": ["2_patches/variant/babyblue/flatcap_grey"],
 			"tooltip": "Use a grey flatcap.",
 			"image": "flatcap_grey.jpg"
 		},
@@ -3478,9 +3044,7 @@
 			"group": "Variant - Black - Hat",
 			"name": "Grey flatcap",
 			"type": "select",
-			"contentFolders": [
-				"2_patches/variant/black/flatcap_grey"
-			],
+			"contentFolders": ["2_patches/variant/black/flatcap_grey"],
 			"tooltip": "Use a grey flatcap.",
 			"image": "flatcap_grey.jpg"
 		},
@@ -3488,9 +3052,7 @@
 			"group": "Variant - Emerald Green - Hat",
 			"name": "Grey flatcap",
 			"type": "select",
-			"contentFolders": [
-				"2_patches/variant/emeraldgreen/flatcap_grey"
-			],
+			"contentFolders": ["2_patches/variant/emeraldgreen/flatcap_grey"],
 			"tooltip": "Use a grey flatcap.",
 			"image": "flatcap_grey.jpg"
 		},
@@ -3498,9 +3060,7 @@
 			"group": "Variant - Heather Grey - Hat",
 			"name": "Grey flatcap",
 			"type": "select",
-			"contentFolders": [
-				"2_patches/variant/heathergrey/flatcap_grey"
-			],
+			"contentFolders": ["2_patches/variant/heathergrey/flatcap_grey"],
 			"tooltip": "Use a grey flatcap.",
 			"image": "flatcap_grey.jpg"
 		},
@@ -3508,9 +3068,7 @@
 			"group": "Variant - Navy Blue - Hat",
 			"name": "Grey flatcap",
 			"type": "select",
-			"contentFolders": [
-				"2_patches/variant/navyblue/flatcap_grey"
-			],
+			"contentFolders": ["2_patches/variant/navyblue/flatcap_grey"],
 			"tooltip": "Use a grey flatcap.",
 			"image": "flatcap_grey.jpg"
 		},
@@ -3518,9 +3076,7 @@
 			"group": "Variant - Red - Hat",
 			"name": "Grey flatcap",
 			"type": "select",
-			"contentFolders": [
-				"2_patches/variant/red/flatcap_grey"
-			],
+			"contentFolders": ["2_patches/variant/red/flatcap_grey"],
 			"tooltip": "Use a grey flatcap.",
 			"image": "flatcap_grey.jpg"
 		},
@@ -3528,9 +3084,7 @@
 			"group": "Variant - Baby Blue - Gloves",
 			"name": "Driving gloves",
 			"type": "select",
-			"contentFolders": [
-				"2_patches/variant/babyblue/drivinggloves"
-			],
+			"contentFolders": ["2_patches/variant/babyblue/drivinggloves"],
 			"tooltip": "Use driving gloves.",
 			"image": "drivinggloves.jpg"
 		},
@@ -3538,9 +3092,7 @@
 			"group": "Variant - Black - Gloves",
 			"name": "Driving gloves",
 			"type": "select",
-			"contentFolders": [
-				"2_patches/variant/black/drivinggloves"
-			],
+			"contentFolders": ["2_patches/variant/black/drivinggloves"],
 			"tooltip": "Use driving gloves.",
 			"image": "drivinggloves.jpg"
 		},
@@ -3548,9 +3100,7 @@
 			"group": "Variant - Emerald Green - Gloves",
 			"name": "Driving gloves",
 			"type": "select",
-			"contentFolders": [
-				"2_patches/variant/emeraldgreen/drivinggloves"
-			],
+			"contentFolders": ["2_patches/variant/emeraldgreen/drivinggloves"],
 			"tooltip": "Use driving gloves.",
 			"image": "drivinggloves.jpg"
 		},
@@ -3558,9 +3108,7 @@
 			"group": "Variant - Heather Grey - Gloves",
 			"name": "Driving gloves",
 			"type": "select",
-			"contentFolders": [
-				"2_patches/variant/heathergrey/drivinggloves"
-			],
+			"contentFolders": ["2_patches/variant/heathergrey/drivinggloves"],
 			"tooltip": "Use driving gloves.",
 			"image": "drivinggloves.jpg"
 		},
@@ -3568,9 +3116,7 @@
 			"group": "Variant - Navy Blue - Gloves",
 			"name": "Driving gloves",
 			"type": "select",
-			"contentFolders": [
-				"2_patches/variant/navyblue/drivinggloves"
-			],
+			"contentFolders": ["2_patches/variant/navyblue/drivinggloves"],
 			"tooltip": "Use driving gloves.",
 			"image": "drivinggloves.jpg"
 		},
@@ -3578,9 +3124,7 @@
 			"group": "Variant - Red - Gloves",
 			"name": "Driving gloves",
 			"type": "select",
-			"contentFolders": [
-				"2_patches/variant/red/drivinggloves"
-			],
+			"contentFolders": ["2_patches/variant/red/drivinggloves"],
 			"tooltip": "Use driving gloves.",
 			"image": "drivinggloves.jpg"
 		},
@@ -3588,9 +3132,7 @@
 			"group": "Variant - Baby Blue - Gloves",
 			"name": "Leather gloves",
 			"type": "select",
-			"contentFolders": [
-				"2_patches/variant/babyblue/leathergloves"
-			],
+			"contentFolders": ["2_patches/variant/babyblue/leathergloves"],
 			"tooltip": "Use leather gloves.",
 			"image": "leathergloves.jpg"
 		},
@@ -3598,9 +3140,7 @@
 			"group": "Variant - Black - Gloves",
 			"name": "Leather gloves",
 			"type": "select",
-			"contentFolders": [
-				"2_patches/variant/black/leathergloves"
-			],
+			"contentFolders": ["2_patches/variant/black/leathergloves"],
 			"tooltip": "Use leather gloves.",
 			"image": "leathergloves.jpg"
 		},
@@ -3608,9 +3148,7 @@
 			"group": "Variant - Emerald Green - Gloves",
 			"name": "Leather gloves",
 			"type": "select",
-			"contentFolders": [
-				"2_patches/variant/emeraldgreen/leathergloves"
-			],
+			"contentFolders": ["2_patches/variant/emeraldgreen/leathergloves"],
 			"tooltip": "Use leather gloves.",
 			"image": "leathergloves.jpg"
 		},
@@ -3618,9 +3156,7 @@
 			"group": "Variant - Heather Grey - Gloves",
 			"name": "Leather gloves",
 			"type": "select",
-			"contentFolders": [
-				"2_patches/variant/heathergrey/leathergloves"
-			],
+			"contentFolders": ["2_patches/variant/heathergrey/leathergloves"],
 			"tooltip": "Use leather gloves.",
 			"image": "leathergloves.jpg"
 		},
@@ -3628,9 +3164,7 @@
 			"group": "Variant - Navy Blue - Gloves",
 			"name": "Leather gloves",
 			"type": "select",
-			"contentFolders": [
-				"2_patches/variant/navyblue/leathergloves"
-			],
+			"contentFolders": ["2_patches/variant/navyblue/leathergloves"],
 			"tooltip": "Use leather gloves.",
 			"image": "leathergloves.jpg"
 		},
@@ -3638,9 +3172,7 @@
 			"group": "Variant - Red - Gloves",
 			"name": "Leather gloves",
 			"type": "select",
-			"contentFolders": [
-				"2_patches/variant/red/leathergloves"
-			],
+			"contentFolders": ["2_patches/variant/red/leathergloves"],
 			"tooltip": "Use leather gloves.",
 			"image": "leathergloves.jpg"
 		}

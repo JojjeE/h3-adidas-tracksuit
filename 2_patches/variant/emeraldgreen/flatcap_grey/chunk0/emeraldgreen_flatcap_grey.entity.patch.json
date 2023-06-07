@@ -1,1 +1,44 @@
-{"tempHash":"002D5BEA32680DA5","tbluHash":"0098D7CEED4E2A2E","patch":[{"SubEntityOperation":["5145807905d9ba6f",{"AddEventConnection":["Lerp","ConstantVector1D_14_Value","feed2ae0ec69699a"]}]},{"AddEntity":["feed2ae0ec69699a",{"parent":"eccd9b10729f1435","name":"hat_cap_flat_plain","factory":"0006F4B94399BEE7","blueprint":"008008263D5AF7C7","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":6.179113658624292,"y":89.36027788405707,"z":160.55998219653875},"position":{"x":0.07902999967336655,"y":0.024633999913930893,"z":-0.00002300000051036477}}},"Diffuse_Color_01_Value":{"type":"SColorRGB","value":"#6a6a6a"},"m_rLinkedProxyEntity":{"type":"SEntityTemplateReference","value":"56d2f89b41170725"},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.9316189885139465,"y":0.9732249975204468,"z":1}},"m_eidParent":{"type":"SEntityTemplateReference","value":"eccd9b10729f1435"}}}]}],"patchVersion":6}
+{
+	"tempHash": "002D5BEA32680DA5",
+	"tbluHash": "0098D7CEED4E2A2E",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"5145807905d9ba6f",
+				{ "AddEventConnection": ["Lerp", "ConstantVector1D_14_Value", "feed2ae0ec69699a"] }
+			]
+		},
+		{
+			"AddEntity": [
+				"feed2ae0ec69699a",
+				{
+					"parent": "eccd9b10729f1435",
+					"name": "hat_cap_flat_plain",
+					"factory": "0006F4B94399BEE7",
+					"blueprint": "008008263D5AF7C7",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 6.179113658624292, "y": 89.36027788405707, "z": 160.55998219653875 },
+								"position": {
+									"x": 0.07902999967336655,
+									"y": 0.024633999913930893,
+									"z": -0.00002300000051036477
+								}
+							}
+						},
+						"Diffuse_Color_01_Value": { "type": "SColorRGB", "value": "#6a6a6a" },
+						"m_rLinkedProxyEntity": { "type": "SEntityTemplateReference", "value": "56d2f89b41170725" },
+						"m_PrimitiveScale": {
+							"type": "SVector3",
+							"value": { "x": 0.9316189885139465, "y": 0.9732249975204468, "z": 1 }
+						},
+						"m_eidParent": { "type": "SEntityTemplateReference", "value": "eccd9b10729f1435" }
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

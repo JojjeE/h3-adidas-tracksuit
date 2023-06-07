@@ -1,1 +1,77 @@
-{"tempHash":"00BF6015F4F8D331","tbluHash":"003944FE1AF6A493","patch":[{"RemoveEntityByID":"de52a89a30e90b2d"},{"SubEntityOperation":["c228163a698a2e2c",{"PatchArrayPropertyValue":["m_aBodyParts",[{"RemoveItemByValue":"de52a89a30e90b2d"},{"AddItemAfter":["6735e4aab15282a0","feedc50f4d843f9f"]}]]}]},{"SubEntityOperation":["c1e8cd395950008c",{"AddEventConnection":["Lerp","ConstantVector1D_04_Value","feedc50f4d843f9f"]}]},{"AddEntity":["feedc50f4d843f9f",{"parent":"c228163a698a2e2c","name":"Mesh_Gloves","factory":"[modules:/zbodypartentity.class].pc_entitytype","blueprint":"[modules:/zbodypartentity.class].pc_entityblueprint","properties":{"m_pMeshResource":{"type":"ZRuntimeResourceID","value":{"resource":"00A92C546029C638","flag":"5F"}}},"inputCopying":{"ConstantVector1D_04_Value":{"ConstantVector1D_04_Value":["feedc0d3a4ed056e"]}}}]},{"AddEntity":["feedc0d3a4ed056e",{"parent":"feedc50f4d843f9f","name":"agent47_gloves_white","factory":"[assembly:/_pro/characters/assets/hero/agent47/materials/agent47_gloves_white.mi].pc_entitytype","blueprint":"[assembly:/_pro/characters/assets/hero/agent47/materials/agent47_gloves_white.mi].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0,"y":0,"z":0}}},"Diffuse_Color_01_Value_op":{"type":"IRenderMaterialEntity.EModifierOperation","value":"eReplace"},"Diffuse_Color_01_Value":{"type":"SColorRGB","value":"#171717"},"ConstantVector1D_04_Value_op":{"type":"IRenderMaterialEntity.EModifierOperation","value":"eReplace"},"Clients":{"type":"TArray<SEntityTemplateReference>","value":["feedc50f4d843f9f"],"postInit":true}}}]}],"patchVersion":6}
+{
+	"tempHash": "00BF6015F4F8D331",
+	"tbluHash": "003944FE1AF6A493",
+	"patch": [
+		{ "RemoveEntityByID": "de52a89a30e90b2d" },
+		{
+			"SubEntityOperation": [
+				"c228163a698a2e2c",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aBodyParts",
+						[
+							{ "RemoveItemByValue": "de52a89a30e90b2d" },
+							{ "AddItemAfter": ["6735e4aab15282a0", "feedc50f4d843f9f"] }
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c1e8cd395950008c",
+				{ "AddEventConnection": ["Lerp", "ConstantVector1D_04_Value", "feedc50f4d843f9f"] }
+			]
+		},
+		{
+			"AddEntity": [
+				"feedc50f4d843f9f",
+				{
+					"parent": "c228163a698a2e2c",
+					"name": "Mesh_Gloves",
+					"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+					"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+					"properties": {
+						"m_pMeshResource": {
+							"type": "ZRuntimeResourceID",
+							"value": { "resource": "00A92C546029C638", "flag": "5F" }
+						}
+					},
+					"inputCopying": { "ConstantVector1D_04_Value": { "ConstantVector1D_04_Value": ["feedc0d3a4ed056e"] } }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedc0d3a4ed056e",
+				{
+					"parent": "feedc50f4d843f9f",
+					"name": "agent47_gloves_white",
+					"factory": "[assembly:/_pro/characters/assets/hero/agent47/materials/agent47_gloves_white.mi].pc_entitytype",
+					"blueprint": "[assembly:/_pro/characters/assets/hero/agent47/materials/agent47_gloves_white.mi].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
+						},
+						"Diffuse_Color_01_Value_op": {
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eReplace"
+						},
+						"Diffuse_Color_01_Value": { "type": "SColorRGB", "value": "#171717" },
+						"ConstantVector1D_04_Value_op": {
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eReplace"
+						},
+						"Clients": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["feedc50f4d843f9f"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

@@ -1,1 +1,429 @@
-{"tempHash":"00C1DF45DC9C0D42","tbluHash":"00D0BEF90FF8D5E0","rootEntity":"7425f30b6f192b7b","entities":{"7425f30b6f192b7b":{"parent":null,"name":"OUTFIT_Agent47_Adidastracksuit_Black_HeroA_V0","factory":"00C0753FBF784C66","blueprint":"007294473357329E","properties":{"m_LocalColliders":{"type":"TArray<SEntityTemplateReference>","value":[]},"m_pBonesAndCollisionResource":{"type":"ZRuntimeResourceID","value":{"resource":"0017416135CF879C","flag":"5F"}},"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":37.97975158691406,"y":8.947802543640137,"z":0}}},"m_aBodyParts":{"type":"TArray<SEntityTemplateReference>","value":["80b5a5ae2285b5ef","eaf4c5f1662eef70","15771453af29f882","d40aaeaac3856dbe","100c770d4841e0c5","aaf8aaf5e935605a"],"postInit":true}}},"80b5a5ae2285b5ef":{"parent":"7425f30b6f192b7b","name":"Head_47","factory":"00537D16B5CE7286","blueprint":"00F2E4A932ECAA63"},"15771453af29f882":{"parent":"7425f30b6f192b7b","name":"Mesh_tracksuit_01","factory":"[modules:/zbodypartentity.class].pc_entitytype","blueprint":"[modules:/zbodypartentity.class].pc_entityblueprint","properties":{"m_pMeshResource":{"type":"ZRuntimeResourceID","value":{"resource":"0015A1ABA94EBE53","flag":"5F"}}},"inputCopying":{"ConstantVector1D_06_Value":{"ConstantVector1D_06_Value":["fb90cd9644279500"]},"ConstantVector1D_14_Value":{"ConstantVector1D_14_Value":["fb90cd9644279500"]},"ConstantVector1D_01_Value":{"ConstantVector1D_01_Value":["fb90cd9644279500"]}}},"fb90cd9644279500":{"parent":"15771453af29f882","name":"tracksuit_jacket_closed","factory":"00E707BA75E50804","blueprint":"009262565A38346E","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0,"y":0,"z":0}}},"Texture2D_01":{"type":"ZRuntimeResourceID","value":{"resource":"00B17FCC0B2B29F0","flag":"5F"}},"Texture2D_01_enab":{"type":"bool","value":true},"Texture2DNormal_01":{"type":"ZRuntimeResourceID","value":{"resource":"0092DA02F7F7626E","flag":"5F"}},"Texture2DNormal_01_enab":{"type":"bool","value":true},"Texture2D_03":{"type":"ZRuntimeResourceID","value":{"resource":"0001B429603B93EF","flag":"5F"}},"Texture2D_03_enab":{"type":"bool","value":true},"ConstantVector1D_03_Value_op":{"type":"IRenderMaterialEntity.EModifierOperation","value":"eReplace"},"ConstantVector1D_03_Value":{"type":"float32","value":0.4000000059604645},"ConstantVector1D_01_Value":{"type":"float32","value":1},"ConstantVector1D_01_Value_op":{"type":"IRenderMaterialEntity.EModifierOperation","value":"eReplace"},"ConstantVector1D_06_Value_op":{"type":"IRenderMaterialEntity.EModifierOperation","value":"eReplace"},"ConstantVector1D_15_Value_op":{"type":"IRenderMaterialEntity.EModifierOperation","value":"eReplace"},"ConstantVector1D_14_Value_op":{"type":"IRenderMaterialEntity.EModifierOperation","value":"eReplace"},"Clients":{"type":"TArray<SEntityTemplateReference>","value":["15771453af29f882"]},"m_eidParent":{"type":"SEntityTemplateReference","value":"7425f30b6f192b7b","postInit":true}}},"d40aaeaac3856dbe":{"parent":"7425f30b6f192b7b","name":"Mesh_tracksuit_pants_01","factory":"[modules:/zbodypartentity.class].pc_entitytype","blueprint":"[modules:/zbodypartentity.class].pc_entityblueprint","properties":{"m_pMeshResource":{"type":"ZRuntimeResourceID","value":{"resource":"0098C2353B8D1F71","flag":"5F"}}},"inputCopying":{"ConstantVector1D_06_Value":{"ConstantVector1D_06_Value":["29e3dad7c13c9eb8"]},"ConstantVector1D_14_Value":{"ConstantVector1D_14_Value":["29e3dad7c13c9eb8"]},"ConstantVector1D_01_Value":{"ConstantVector1D_01_Value":["29e3dad7c13c9eb8"]}}},"29e3dad7c13c9eb8":{"parent":"d40aaeaac3856dbe","name":"tracksuit_pants","factory":"00EF834E3C20C807","blueprint":"00426B1E3381ED4F","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0,"y":0,"z":0}}},"Texture2D_01":{"type":"ZRuntimeResourceID","value":{"resource":"00864B7116DAEB53","flag":"5F"}},"Texture2D_01_enab":{"type":"bool","value":true},"Texture2DNormal_01":{"type":"ZRuntimeResourceID","value":{"resource":"00C1C74181D29240","flag":"5F"}},"Texture2DNormal_01_enab":{"type":"bool","value":true},"ConstantVector1D_01_Value_op":{"type":"IRenderMaterialEntity.EModifierOperation","value":"eReplace"},"ConstantVector1D_01_Value":{"type":"float32","value":1},"ConstantVector1D_06_Value_op":{"type":"IRenderMaterialEntity.EModifierOperation","value":"eReplace"},"ConstantVector1D_14_Value_op":{"type":"IRenderMaterialEntity.EModifierOperation","value":"eReplace"},"ConstantVector1D_15_Value_op":{"type":"IRenderMaterialEntity.EModifierOperation","value":"eReplace"},"Clients":{"type":"TArray<SEntityTemplateReference>","value":["d40aaeaac3856dbe"],"postInit":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"7425f30b6f192b7b","postInit":true}}},"eaf4c5f1662eef70":{"parent":"7425f30b6f192b7b","name":"Hands","factory":"009A6D9F7927FB89","blueprint":"00F49463DEA8D412"},"100c770d4841e0c5":{"parent":"7425f30b6f192b7b","name":"Shoes","factory":"[modules:/zbodypartentity.class].pc_entitytype","blueprint":"[modules:/zbodypartentity.class].pc_entityblueprint","properties":{"m_pMeshResource":{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/characters/assets/individuals/bulldog/privateinvestigator/geometry/male_reg_privateinvestigator.wl2?/shoes.weightedprim](bodypart).pc_weightedprim","flag":"5F"}}},"inputCopying":{"ConstantVector1D_06_Value":{"ConstantVector1D_06_Value":["7e95b741ad551764"]},"ConstantVector1D_01_Value":{"ConstantVector1D_01_Value":["7e95b741ad551764"]},"ConstantVector1D_04_Value":{"ConstantVector1D_04_Value":["7e95b741ad551764"]}}},"666e5e5810ffd168":{"parent":"7425f30b6f192b7b","name":"agent47_eyebrows","factory":"[assembly:/_pro/characters/assets/hero/agent47/materials/agent47_eyebrows.mi].pc_entitytype","blueprint":"[assembly:/_pro/characters/assets/hero/agent47/materials/agent47_eyebrows.mi].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0,"y":0,"z":0}}},"Clients":{"type":"TArray<SEntityTemplateReference>","value":["7425f30b6f192b7b"]},"Lerp_06_s_op":{"type":"IRenderMaterialEntity.EModifierOperation","value":"eReplace"},"Lerp_06_s":{"type":"float32","value":0.75},"m_eidParent":{"type":"SEntityTemplateReference","value":"7425f30b6f192b7b"}}},"aaf8aaf5e935605a":{"parent":"7425f30b6f192b7b","name":"Attacher_Head","factory":"[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype","blueprint":"[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint","properties":{"m_BoneName":{"type":"ZString","value":"Head"},"m_linkedEntity":{"type":"SEntityTemplateReference","value":"7425f30b6f192b7b"},"m_eidParent":{"type":"SEntityTemplateReference","value":"7425f30b6f192b7b"}}},"6074005d2c8562c0":{"parent":"7425f30b6f192b7b","name":"Attacher_L_Forearm","factory":"[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype","blueprint":"[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint","properties":{"m_BoneName":{"type":"ZString","value":"L_Forearm"},"m_linkedEntity":{"type":"SEntityTemplateReference","value":"7425f30b6f192b7b"},"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":2.1655123013935158e-8},"position":{"x":-7.216065256443471e-8,"y":3.524673175547832e-8,"z":0}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"7425f30b6f192b7b"}}},"23113e85426c7c3b":{"parent":"7425f30b6f192b7b","name":"Attacher_R_Forearm","factory":"[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype","blueprint":"[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint","properties":{"m_BoneName":{"type":"ZString","value":"R_Forearm"},"m_linkedEntity":{"type":"SEntityTemplateReference","value":"7425f30b6f192b7b"},"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":-6.63755770347052e-8,"y":3.551505045606973e-8,"z":0}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"7425f30b6f192b7b"}}},"278c5f9c746b71e0":{"parent":"7425f30b6f192b7b","name":"Lerp Base Min 2","factory":"[modules:/zmathlerp.class].pc_entitytype","blueprint":"[modules:/zmathlerp.class].pc_entityblueprint","properties":{"m_A":{"type":"float32","value":0.03999999910593033},"m_B":{"type":"float32","value":0.3799999952316284},"m_fT":{"type":"float32","value":0}},"events":{"Lerp":{"ConstantVector1D_14_Value":["15771453af29f882","d40aaeaac3856dbe"]}}},"e023c86e60a01586":{"parent":"7425f30b6f192b7b","name":"Lerp Base Normal Bump Scale","factory":"[modules:/zmathlerp.class].pc_entitytype","blueprint":"[modules:/zmathlerp.class].pc_entityblueprint","properties":{"m_A":{"type":"float32","value":1},"m_fT":{"type":"float32","value":0},"m_B":{"type":"float32","value":1.440000057220459}},"events":{"Lerp":{"ConstantVector1D_06_Value":["100c770d4841e0c5"]}}},"933ba6353c62101d":{"parent":"7425f30b6f192b7b","name":"Lerp Min Head","factory":"[modules:/zmathlerp.class].pc_entitytype","blueprint":"[modules:/zmathlerp.class].pc_entityblueprint","properties":{"m_A":{"type":"float32","value":0},"m_B":{"type":"float32","value":0.30000001192092896},"m_fT":{"type":"float32","value":0}},"events":{"Lerp":{"ConstantVector1D_04_Value":["80b5a5ae2285b5ef"]}}},"973732f463292ae7":{"parent":"7425f30b6f192b7b","name":"Lerp Suit Diffuse","factory":"[modules:/zmathlerp.class].pc_entitytype","blueprint":"[modules:/zmathlerp.class].pc_entityblueprint","properties":{"m_A":{"type":"float32","value":0.5},"m_fT":{"type":"float32","value":0},"m_B":{"type":"float32","value":0.38999998569488525}},"events":{"Lerp":{"ConstantVector1D_01_Value":["15771453af29f882","d40aaeaac3856dbe"]}}},"fe86c5fe05d39c6e":{"parent":"7425f30b6f192b7b","name":"Lerp Suit Normal Bump Scale","factory":"[modules:/zmathlerp.class].pc_entitytype","blueprint":"[modules:/zmathlerp.class].pc_entityblueprint","properties":{"m_A":{"type":"float32","value":1.1299999952316284},"m_fT":{"type":"float32","value":0},"m_B":{"type":"float32","value":1.440000057220459}},"events":{"Lerp":{"ConstantVector1D_06_Value":["15771453af29f882","d40aaeaac3856dbe"]}}},"09d4f1199422f7f6":{"parent":"7425f30b6f192b7b","name":"Lerp Diffuse","factory":"[modules:/zmathlerp.class].pc_entitytype","blueprint":"[modules:/zmathlerp.class].pc_entityblueprint","properties":{"m_A":{"type":"float32","value":0.5},"m_fT":{"type":"float32","value":0},"m_B":{"type":"float32","value":0.33000001311302185}}},"d99eef2055764fa3":{"parent":"7425f30b6f192b7b","name":"FX_Hitman_Wet_Logic_Character_01","factory":"0067CFB703A80787","blueprint":"00AA88C960CD2080","properties":{"HeadMaterialToOverride":{"type":"ZRuntimeResourceID","value":{"resource":"009F7978C601815A","flag":"5F"}},"HeadMaterialOverride":{"type":"TArray<SEntityTemplateReference>","value":["7425f30b6f192b7b"]}},"events":{"HitmanWetness":{"T":["278c5f9c746b71e0","e023c86e60a01586","09d4f1199422f7f6","933ba6353c62101d","973732f463292ae7","fe86c5fe05d39c6e"]}}},"7e95b741ad551764":{"parent":"100c770d4841e0c5","name":"shoes_sneaker_high","factory":"[assembly:/_pro/characters/assets/individuals/bulldog/privateinvestigator/materials/shoes_sneaker_high.mi].pc_entitytype","blueprint":"[assembly:/_pro/characters/assets/individuals/bulldog/privateinvestigator/materials/shoes_sneaker_high.mi].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":2.5602765503008757e-12},"position":{"x":-0.0000024005689738260116,"y":-0.00000272081501861976,"z":0}}},"Clients":{"type":"TArray<SEntityTemplateReference>","value":["7425f30b6f192b7b"]},"Texture2D_01_enab":{"type":"bool","value":true},"Diffuse_Color_01_Value_op":{"type":"IRenderMaterialEntity.EModifierOperation","value":"eLeave"},"Texture2D_01":{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/characters/assets/individuals/bulldog/privateinvestigator/textures/shoes_sneaker_high.texture?/specular_a.tex](ascolormap).pc_tex","flag":"5F"}},"ConstantVector1D_01_Value":{"type":"float32","value":5},"ConstantVector1D_01_Value_op":{"type":"IRenderMaterialEntity.EModifierOperation","value":"eReplace"},"Diffuse_Color_01_Value":{"type":"SColorRGB","value":"#ffffff"},"ConstantVector1D_05_Value":{"type":"float32","value":1},"ConstantVector1D_04_Value_op":{"type":"IRenderMaterialEntity.EModifierOperation","value":"eReplace"},"ConstantVector1D_04_Value":{"type":"float32","value":0.2800000011920929},"ConstantVector1D_06_Value_op":{"type":"IRenderMaterialEntity.EModifierOperation","value":"eReplace"},"ConstantVector1D_05_Value_op":{"type":"IRenderMaterialEntity.EModifierOperation","value":"eReplace"},"m_eidParent":{"type":"SEntityTemplateReference","value":"7425f30b6f192b7b"}}},"3dc6d86cf366663c":{"parent":"7425f30b6f192b7b","name":"Lerp Base Min","factory":"[modules:/zmathlerp.class].pc_entitytype","blueprint":"[modules:/zmathlerp.class].pc_entityblueprint","properties":{"m_A":{"type":"float32","value":0},"m_B":{"type":"float32","value":0.20000000298023224},"m_fT":{"type":"float32","value":0}},"events":{"Lerp":{"ConstantVector1D_04_Value":["100c770d4841e0c5"]}}}},"propertyOverrides":[],"overrideDeletes":[],"pinConnectionOverrides":[],"pinConnectionOverrideDeletes":[],"externalScenes":[],"subType":"template","quickEntityVersion":3.1,"extraFactoryDependencies":[{"resource":"003ABC2468A52DBA","flag":"5F"},{"resource":"[assembly:/_pro/characters/assets/hero/agent47/textures/agent47_miami_sunglasses.texture?/diffuse_a.tex](ascolormap).pc_tex","flag":"5F"},{"resource":"[assembly:/_pro/characters/assets/hero/agent47/textures/shoes_suit.texture?/diffuse_a.tex](ascolormap).pc_tex","flag":"5F"},{"resource":"[assembly:/_pro/characters/assets/hero/agent47/textures/shoes_suit.texture?/specular_a.tex](ascolormap).pc_tex","flag":"5F"},{"resource":"[assembly:/_pro/characters/assets/hero/agent47/textures/shoes_suit.texture?/normal_a.tex](asnormalmap).pc_tex","flag":"5F"},{"resource":"00DE6D18600E826C","flag":"5F"},{"resource":"005E7738AA1591C1","flag":"5F"},{"resource":"00DAEB7A46D940E2","flag":"5F"},{"resource":"00AAA4FB0DA98B3D","flag":"5F"},{"resource":"[assembly:/_pro/characters/assets/hero/agent47/textures/agent47_gloves.texture?/normal_a.tex](asnormalmap).pc_tex","flag":"5F"},{"resource":"[assembly:/_pro/characters/assets/hero/agent47/textures/agent47_gloves.texture?/specular_a.tex](ascolormap).pc_tex","flag":"5F"},{"resource":"[assembly:/_pro/characters/assets/hero/agent47/textures/agent47_gloves.texture?/diffuse_a.tex](ascolormap).pc_tex","flag":"5F"},{"resource":"001C437FF0448691","flag":"5F"},{"resource":"004FB94B910DAD5D","flag":"5F"},{"resource":"0013F0C8B8AAE0C8","flag":"5F"},{"resource":"00F6A6C76C74C59F","flag":"5F"},{"resource":"[assembly:/_pro/environment/textures/constants/directional_a.texture?/normal_b.tex](ascompoundnormal).pc_tex","flag":"5F"},{"resource":"0045F839B337D2B6","flag":"5F"},{"resource":"00188997D678EF0B","flag":"5F"},{"resource":"006F835120511247","flag":"5F"},{"resource":"006A9072F2C78523","flag":"5F"},{"resource":"005A3A86E39FBFB7","flag":"5F"},{"resource":"006258232B3126D5","flag":"5F"},{"resource":"007D850436B0A092","flag":"5F"},{"resource":"00D247582859CA87","flag":"5F"},{"resource":"00D20CA72E352D16","flag":"5F"},{"resource":"00AD74C27DFD0A81","flag":"5F"},{"resource":"00FF965BA730CC0A","flag":"5F"}],"extraBlueprintDependencies":[],"comments":[]}
+{
+	"tempHash": "00C1DF45DC9C0D42",
+	"tbluHash": "00D0BEF90FF8D5E0",
+	"rootEntity": "7425f30b6f192b7b",
+	"entities": {
+		"7425f30b6f192b7b": {
+			"parent": null,
+			"name": "OUTFIT_Agent47_Adidastracksuit_Black_HeroA_V0",
+			"factory": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_LocalColliders": { "type": "TArray<SEntityTemplateReference>", "value": [] },
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "0017416135CF879C", "flag": "5F" }
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 37.97975158691406, "y": 8.947802543640137, "z": 0 }
+					}
+				},
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"80b5a5ae2285b5ef",
+						"eaf4c5f1662eef70",
+						"15771453af29f882",
+						"d40aaeaac3856dbe",
+						"100c770d4841e0c5",
+						"aaf8aaf5e935605a"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"80b5a5ae2285b5ef": {
+			"parent": "7425f30b6f192b7b",
+			"name": "Head_47",
+			"factory": "00537D16B5CE7286",
+			"blueprint": "00F2E4A932ECAA63"
+		},
+		"15771453af29f882": {
+			"parent": "7425f30b6f192b7b",
+			"name": "Mesh_tracksuit_01",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "0015A1ABA94EBE53", "flag": "5F" }
+				}
+			},
+			"inputCopying": {
+				"ConstantVector1D_06_Value": { "ConstantVector1D_06_Value": ["fb90cd9644279500"] },
+				"ConstantVector1D_14_Value": { "ConstantVector1D_14_Value": ["fb90cd9644279500"] },
+				"ConstantVector1D_01_Value": { "ConstantVector1D_01_Value": ["fb90cd9644279500"] }
+			}
+		},
+		"fb90cd9644279500": {
+			"parent": "15771453af29f882",
+			"name": "tracksuit_jacket_closed",
+			"factory": "00E707BA75E50804",
+			"blueprint": "009262565A38346E",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
+				},
+				"Texture2D_01": { "type": "ZRuntimeResourceID", "value": { "resource": "00B17FCC0B2B29F0", "flag": "5F" } },
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Texture2DNormal_01": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "0092DA02F7F7626E", "flag": "5F" }
+				},
+				"Texture2DNormal_01_enab": { "type": "bool", "value": true },
+				"Texture2D_03": { "type": "ZRuntimeResourceID", "value": { "resource": "0001B429603B93EF", "flag": "5F" } },
+				"Texture2D_03_enab": { "type": "bool", "value": true },
+				"ConstantVector1D_03_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"ConstantVector1D_03_Value": { "type": "float32", "value": 0.4000000059604645 },
+				"ConstantVector1D_01_Value": { "type": "float32", "value": 1 },
+				"ConstantVector1D_01_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"ConstantVector1D_06_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"ConstantVector1D_15_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"ConstantVector1D_14_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"Clients": { "type": "TArray<SEntityTemplateReference>", "value": ["15771453af29f882"] },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "7425f30b6f192b7b", "postInit": true }
+			}
+		},
+		"d40aaeaac3856dbe": {
+			"parent": "7425f30b6f192b7b",
+			"name": "Mesh_tracksuit_pants_01",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "0098C2353B8D1F71", "flag": "5F" }
+				}
+			},
+			"inputCopying": {
+				"ConstantVector1D_06_Value": { "ConstantVector1D_06_Value": ["29e3dad7c13c9eb8"] },
+				"ConstantVector1D_14_Value": { "ConstantVector1D_14_Value": ["29e3dad7c13c9eb8"] },
+				"ConstantVector1D_01_Value": { "ConstantVector1D_01_Value": ["29e3dad7c13c9eb8"] }
+			}
+		},
+		"29e3dad7c13c9eb8": {
+			"parent": "d40aaeaac3856dbe",
+			"name": "tracksuit_pants",
+			"factory": "00EF834E3C20C807",
+			"blueprint": "00426B1E3381ED4F",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
+				},
+				"Texture2D_01": { "type": "ZRuntimeResourceID", "value": { "resource": "00864B7116DAEB53", "flag": "5F" } },
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Texture2DNormal_01": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "00C1C74181D29240", "flag": "5F" }
+				},
+				"Texture2DNormal_01_enab": { "type": "bool", "value": true },
+				"ConstantVector1D_01_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"ConstantVector1D_01_Value": { "type": "float32", "value": 1 },
+				"ConstantVector1D_06_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"ConstantVector1D_14_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"ConstantVector1D_15_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"Clients": { "type": "TArray<SEntityTemplateReference>", "value": ["d40aaeaac3856dbe"], "postInit": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "7425f30b6f192b7b", "postInit": true }
+			}
+		},
+		"eaf4c5f1662eef70": {
+			"parent": "7425f30b6f192b7b",
+			"name": "Hands",
+			"factory": "009A6D9F7927FB89",
+			"blueprint": "00F49463DEA8D412"
+		},
+		"100c770d4841e0c5": {
+			"parent": "7425f30b6f192b7b",
+			"name": "Shoes",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/bulldog/privateinvestigator/geometry/male_reg_privateinvestigator.wl2?/shoes.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			},
+			"inputCopying": {
+				"ConstantVector1D_06_Value": { "ConstantVector1D_06_Value": ["7e95b741ad551764"] },
+				"ConstantVector1D_01_Value": { "ConstantVector1D_01_Value": ["7e95b741ad551764"] },
+				"ConstantVector1D_04_Value": { "ConstantVector1D_04_Value": ["7e95b741ad551764"] }
+			}
+		},
+		"666e5e5810ffd168": {
+			"parent": "7425f30b6f192b7b",
+			"name": "agent47_eyebrows",
+			"factory": "[assembly:/_pro/characters/assets/hero/agent47/materials/agent47_eyebrows.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/hero/agent47/materials/agent47_eyebrows.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
+				},
+				"Clients": { "type": "TArray<SEntityTemplateReference>", "value": ["7425f30b6f192b7b"] },
+				"Lerp_06_s_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"Lerp_06_s": { "type": "float32", "value": 0.75 },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "7425f30b6f192b7b" }
+			}
+		},
+		"aaf8aaf5e935605a": {
+			"parent": "7425f30b6f192b7b",
+			"name": "Attacher_Head",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_BoneName": { "type": "ZString", "value": "Head" },
+				"m_linkedEntity": { "type": "SEntityTemplateReference", "value": "7425f30b6f192b7b" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "7425f30b6f192b7b" }
+			}
+		},
+		"6074005d2c8562c0": {
+			"parent": "7425f30b6f192b7b",
+			"name": "Attacher_L_Forearm",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_BoneName": { "type": "ZString", "value": "L_Forearm" },
+				"m_linkedEntity": { "type": "SEntityTemplateReference", "value": "7425f30b6f192b7b" },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 2.1655123013935158e-8 },
+						"position": { "x": -7.216065256443471e-8, "y": 3.524673175547832e-8, "z": 0 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "7425f30b6f192b7b" }
+			}
+		},
+		"23113e85426c7c3b": {
+			"parent": "7425f30b6f192b7b",
+			"name": "Attacher_R_Forearm",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_BoneName": { "type": "ZString", "value": "R_Forearm" },
+				"m_linkedEntity": { "type": "SEntityTemplateReference", "value": "7425f30b6f192b7b" },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": -6.63755770347052e-8, "y": 3.551505045606973e-8, "z": 0 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "7425f30b6f192b7b" }
+			}
+		},
+		"278c5f9c746b71e0": {
+			"parent": "7425f30b6f192b7b",
+			"name": "Lerp Base Min 2",
+			"factory": "[modules:/zmathlerp.class].pc_entitytype",
+			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
+			"properties": {
+				"m_A": { "type": "float32", "value": 0.03999999910593033 },
+				"m_B": { "type": "float32", "value": 0.3799999952316284 },
+				"m_fT": { "type": "float32", "value": 0 }
+			},
+			"events": { "Lerp": { "ConstantVector1D_14_Value": ["15771453af29f882", "d40aaeaac3856dbe"] } }
+		},
+		"e023c86e60a01586": {
+			"parent": "7425f30b6f192b7b",
+			"name": "Lerp Base Normal Bump Scale",
+			"factory": "[modules:/zmathlerp.class].pc_entitytype",
+			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
+			"properties": {
+				"m_A": { "type": "float32", "value": 1 },
+				"m_fT": { "type": "float32", "value": 0 },
+				"m_B": { "type": "float32", "value": 1.440000057220459 }
+			},
+			"events": { "Lerp": { "ConstantVector1D_06_Value": ["100c770d4841e0c5"] } }
+		},
+		"933ba6353c62101d": {
+			"parent": "7425f30b6f192b7b",
+			"name": "Lerp Min Head",
+			"factory": "[modules:/zmathlerp.class].pc_entitytype",
+			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
+			"properties": {
+				"m_A": { "type": "float32", "value": 0 },
+				"m_B": { "type": "float32", "value": 0.30000001192092896 },
+				"m_fT": { "type": "float32", "value": 0 }
+			},
+			"events": { "Lerp": { "ConstantVector1D_04_Value": ["80b5a5ae2285b5ef"] } }
+		},
+		"973732f463292ae7": {
+			"parent": "7425f30b6f192b7b",
+			"name": "Lerp Suit Diffuse",
+			"factory": "[modules:/zmathlerp.class].pc_entitytype",
+			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
+			"properties": {
+				"m_A": { "type": "float32", "value": 0.5 },
+				"m_fT": { "type": "float32", "value": 0 },
+				"m_B": { "type": "float32", "value": 0.38999998569488525 }
+			},
+			"events": { "Lerp": { "ConstantVector1D_01_Value": ["15771453af29f882", "d40aaeaac3856dbe"] } }
+		},
+		"fe86c5fe05d39c6e": {
+			"parent": "7425f30b6f192b7b",
+			"name": "Lerp Suit Normal Bump Scale",
+			"factory": "[modules:/zmathlerp.class].pc_entitytype",
+			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
+			"properties": {
+				"m_A": { "type": "float32", "value": 1.1299999952316284 },
+				"m_fT": { "type": "float32", "value": 0 },
+				"m_B": { "type": "float32", "value": 1.440000057220459 }
+			},
+			"events": { "Lerp": { "ConstantVector1D_06_Value": ["15771453af29f882", "d40aaeaac3856dbe"] } }
+		},
+		"09d4f1199422f7f6": {
+			"parent": "7425f30b6f192b7b",
+			"name": "Lerp Diffuse",
+			"factory": "[modules:/zmathlerp.class].pc_entitytype",
+			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
+			"properties": {
+				"m_A": { "type": "float32", "value": 0.5 },
+				"m_fT": { "type": "float32", "value": 0 },
+				"m_B": { "type": "float32", "value": 0.33000001311302185 }
+			}
+		},
+		"d99eef2055764fa3": {
+			"parent": "7425f30b6f192b7b",
+			"name": "FX_Hitman_Wet_Logic_Character_01",
+			"factory": "0067CFB703A80787",
+			"blueprint": "00AA88C960CD2080",
+			"properties": {
+				"HeadMaterialToOverride": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "009F7978C601815A", "flag": "5F" }
+				},
+				"HeadMaterialOverride": { "type": "TArray<SEntityTemplateReference>", "value": ["7425f30b6f192b7b"] }
+			},
+			"events": {
+				"HitmanWetness": {
+					"T": [
+						"278c5f9c746b71e0",
+						"e023c86e60a01586",
+						"09d4f1199422f7f6",
+						"933ba6353c62101d",
+						"973732f463292ae7",
+						"fe86c5fe05d39c6e"
+					]
+				}
+			}
+		},
+		"7e95b741ad551764": {
+			"parent": "100c770d4841e0c5",
+			"name": "shoes_sneaker_high",
+			"factory": "[assembly:/_pro/characters/assets/individuals/bulldog/privateinvestigator/materials/shoes_sneaker_high.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/individuals/bulldog/privateinvestigator/materials/shoes_sneaker_high.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 2.5602765503008757e-12 },
+						"position": { "x": -0.0000024005689738260116, "y": -0.00000272081501861976, "z": 0 }
+					}
+				},
+				"Clients": { "type": "TArray<SEntityTemplateReference>", "value": ["7425f30b6f192b7b"] },
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Diffuse_Color_01_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eLeave" },
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/bulldog/privateinvestigator/textures/shoes_sneaker_high.texture?/specular_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"ConstantVector1D_01_Value": { "type": "float32", "value": 5 },
+				"ConstantVector1D_01_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"Diffuse_Color_01_Value": { "type": "SColorRGB", "value": "#ffffff" },
+				"ConstantVector1D_05_Value": { "type": "float32", "value": 1 },
+				"ConstantVector1D_04_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"ConstantVector1D_04_Value": { "type": "float32", "value": 0.2800000011920929 },
+				"ConstantVector1D_06_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"ConstantVector1D_05_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "7425f30b6f192b7b" }
+			}
+		},
+		"3dc6d86cf366663c": {
+			"parent": "7425f30b6f192b7b",
+			"name": "Lerp Base Min",
+			"factory": "[modules:/zmathlerp.class].pc_entitytype",
+			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
+			"properties": {
+				"m_A": { "type": "float32", "value": 0 },
+				"m_B": { "type": "float32", "value": 0.20000000298023224 },
+				"m_fT": { "type": "float32", "value": 0 }
+			},
+			"events": { "Lerp": { "ConstantVector1D_04_Value": ["100c770d4841e0c5"] } }
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{ "resource": "003ABC2468A52DBA", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/agent47_miami_sunglasses.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/shoes_suit.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/shoes_suit.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/shoes_suit.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00DE6D18600E826C", "flag": "5F" },
+		{ "resource": "005E7738AA1591C1", "flag": "5F" },
+		{ "resource": "00DAEB7A46D940E2", "flag": "5F" },
+		{ "resource": "00AAA4FB0DA98B3D", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/agent47_gloves.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/agent47_gloves.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/agent47_gloves.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "001C437FF0448691", "flag": "5F" },
+		{ "resource": "004FB94B910DAD5D", "flag": "5F" },
+		{ "resource": "0013F0C8B8AAE0C8", "flag": "5F" },
+		{ "resource": "00F6A6C76C74C59F", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/environment/textures/constants/directional_a.texture?/normal_b.tex](ascompoundnormal).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "0045F839B337D2B6", "flag": "5F" },
+		{ "resource": "00188997D678EF0B", "flag": "5F" },
+		{ "resource": "006F835120511247", "flag": "5F" },
+		{ "resource": "006A9072F2C78523", "flag": "5F" },
+		{ "resource": "005A3A86E39FBFB7", "flag": "5F" },
+		{ "resource": "006258232B3126D5", "flag": "5F" },
+		{ "resource": "007D850436B0A092", "flag": "5F" },
+		{ "resource": "00D247582859CA87", "flag": "5F" },
+		{ "resource": "00D20CA72E352D16", "flag": "5F" },
+		{ "resource": "00AD74C27DFD0A81", "flag": "5F" },
+		{ "resource": "00FF965BA730CC0A", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

@@ -1,163 +1,155 @@
 {
-    "tempHash": "00097AA87B144150",
-    "tbluHash": "00E738E7CF7A35E1",
-    "patch": [
-        {
-            "AddEntity": [
-                "feed37a95c92c6a8",
-                {
-                    "parent": "ba8ea9278df2079",
-                    "name": "CHAR_Global_Hero_Adidastracksuit_Black_M",
-                    "factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
-                    "blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
-                    "properties": {
-                        "m_eActorType": {
-                            "type": "EActorType",
-                            "value": "eAT_Hitman"
-                        },
-                        "m_eSoundFootwearType": {
-                            "type": "EHM5SoundFootwearType",
-                            "value": "EFWT_SNEAKERS"
-                        },
-                        "m_aCharSets": {
-                            "type": "TArray<SEntityTemplateReference>",
-                            "value": [
-                                "feed798f84f2f810"
-                            ]
-                        },
-                        "m_sId": {
-                            "type": "ZGuid",
-                            "value": "3785cd07-36a0-4c35-a258-454d6f974ebb"
-                        },
-                        "m_bCanCallForHelp": {
-                            "type": "bool",
-                            "value": true
-                        },
-                        "m_sCommonName": {
-                            "type": "ZString",
-                            "value": "CHAR_Global_Hero_Adidastracksuit_Black_M"
-                        },
-                        "m_sTitle": {
-                            "type": "ZString",
-                            "value": "Adidas Tracksuit Black"
-                        },
-                        "m_eOutfitAICategory": {
-                            "type": "EOutfitAICategory",
-                            "value": "OAC_47STARTOUTFIT"
-                        },
-                        "m_rNameTextResource": {
-                            "type": "ZRuntimeResourceID",
-                            "value": {
-                                "resource": "0044709B9C2BB9A7",
-                                "flag": "5F"
-                            }
-                        },
-                        "m_rDescriptionTextResource": {
-                            "type": "ZRuntimeResourceID",
-                            "value": {
-                                "resource": "00B8EC2C31BE041F",
-                                "flag": "5F"
-                            }
-                        },
-                        "m_bHeroDisguiseAvailable": {
-                            "type": "bool",
-                            "value": true
-                        },
-                        "m_bIsHitmanSuit": {
-                            "type": "bool",
-                            "value": true
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "AddEntity": [
-                "feed290add053e05",
-                {
-                    "parent": "feed37a95c92c6a8",
-                    "name": "Keyword_Prof_Class_Default",
-                    "factory": "007A51A2AFEC0D1A",
-                    "blueprint": "00B0282A41C1CF2E",
-                    "properties": {
-                        "m_aHolders": {
-                            "type": "TArray<SEntityTemplateReference>",
-                            "value": [
-                                "feed37a95c92c6a8"
-                            ],
-                            "postInit": true
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "AddEntity": [
-                "feedb735cef48eb4",
-                {
-                    "parent": "feed37a95c92c6a8",
-                    "name": "KeywordEntity_FOLEY_SUIT47",
-                    "factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entitytype",
-                    "blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entityblueprint",
-                    "properties": {
-                        "m_rHolder": {
-                            "type": "SEntityTemplateReference",
-                            "value": "feed37a95c92c6a8",
-                            "postInit": true
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "AddEntity": [
-                "feed798f84f2f810",
-                {
-                    "parent": "feed37a95c92c6a8",
-                    "name": "CHARSET_Adidastracksuit_Black",
-                    "factory": "00FCE16F689252A3",
-                    "blueprint": "00D8C655147DDA31"
-                }
-            ]
-        },
-        {
-            "AddEntity": [
-                "feeda1ed2c8b9f97",
-                {
-                    "parent": "feed37a95c92c6a8",
-                    "name": "Prof_Agent47",
-                    "factory": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entitytype",
-                    "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entityblueprint",
-                    "properties": {
-                        "m_aHolders": {
-                            "type": "TArray<SEntityTemplateReference>",
-                            "value": [
-                                "feed37a95c92c6a8"
-                            ]
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "AddEntity": [
-                "feedcab396091c23",
-                {
-                    "parent": "feed37a95c92c6a8",
-                    "name": "Prof_Hero_Adidastracksuit_Black",
-                    "factory": "[assembly:/_pro/design/actor/profession.template?/prof_hero_signaturesuit.entitytemplate].pc_entitytype",
-                    "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hero_signaturesuit.entitytemplate].pc_entityblueprint",
-                    "properties": {
-                        "m_aHolders": {
-                            "type": "TArray<SEntityTemplateReference>",
-                            "value": [
-                                "feed37a95c92c6a8"
-                            ]
-                        }
-                    }
-                }
-            ]
-        }
-    ],
-    "patchVersion": 6
+	"tempHash": "00097AA87B144150",
+	"tbluHash": "00E738E7CF7A35E1",
+	"patch": [
+		{
+			"AddEntity": [
+				"feed37a95c92c6a8",
+				{
+					"parent": "ba8ea9278df2079",
+					"name": "CHAR_Global_Hero_Adidastracksuit_Black_M",
+					"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+					"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+					"properties": {
+						"m_eActorType": {
+							"type": "EActorType",
+							"value": "eAT_Hitman"
+						},
+						"m_eSoundFootwearType": {
+							"type": "EHM5SoundFootwearType",
+							"value": "EFWT_SNEAKERS"
+						},
+						"m_aCharSets": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["feed798f84f2f810"]
+						},
+						"m_sId": {
+							"type": "ZGuid",
+							"value": "3785cd07-36a0-4c35-a258-454d6f974ebb"
+						},
+						"m_bCanCallForHelp": {
+							"type": "bool",
+							"value": true
+						},
+						"m_sCommonName": {
+							"type": "ZString",
+							"value": "CHAR_Global_Hero_Adidastracksuit_Black_M"
+						},
+						"m_sTitle": {
+							"type": "ZString",
+							"value": "Adidas Tracksuit Black"
+						},
+						"m_eOutfitAICategory": {
+							"type": "EOutfitAICategory",
+							"value": "OAC_47STARTOUTFIT"
+						},
+						"m_rNameTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "0044709B9C2BB9A7",
+								"flag": "5F"
+							}
+						},
+						"m_rDescriptionTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00B8EC2C31BE041F",
+								"flag": "5F"
+							}
+						},
+						"m_bHeroDisguiseAvailable": {
+							"type": "bool",
+							"value": true
+						},
+						"m_bIsHitmanSuit": {
+							"type": "bool",
+							"value": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed290add053e05",
+				{
+					"parent": "feed37a95c92c6a8",
+					"name": "Keyword_Prof_Class_Default",
+					"factory": "007A51A2AFEC0D1A",
+					"blueprint": "00B0282A41C1CF2E",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["feed37a95c92c6a8"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedb735cef48eb4",
+				{
+					"parent": "feed37a95c92c6a8",
+					"name": "KeywordEntity_FOLEY_SUIT47",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rHolder": {
+							"type": "SEntityTemplateReference",
+							"value": "feed37a95c92c6a8",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed798f84f2f810",
+				{
+					"parent": "feed37a95c92c6a8",
+					"name": "CHARSET_Adidastracksuit_Black",
+					"factory": "00FCE16F689252A3",
+					"blueprint": "00D8C655147DDA31"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feeda1ed2c8b9f97",
+				{
+					"parent": "feed37a95c92c6a8",
+					"name": "Prof_Agent47",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["feed37a95c92c6a8"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedcab396091c23",
+				{
+					"parent": "feed37a95c92c6a8",
+					"name": "Prof_Hero_Adidastracksuit_Black",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hero_signaturesuit.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hero_signaturesuit.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["feed37a95c92c6a8"]
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
 }

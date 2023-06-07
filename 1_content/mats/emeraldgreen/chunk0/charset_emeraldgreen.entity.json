@@ -1,1 +1,90 @@
-{"tempHash":"009E76C15CFB2BF7","tbluHash":"0093C3ADA68E34B9","rootEntity":"feed2d049e32f344","entities":{"feed61b8fe893477":{"parent":"feed2d049e32f344","name":"Nude","factory":"[modules:/zcharsetcharactertype.class].pc_entitytype","blueprint":"[modules:/zcharsetcharactertype.class].pc_entityblueprint","properties":{"m_aVariations":{"type":"TArray<SEntityTemplateReference>","value":["feed63c078c951b9"],"postInit":true}}},"feed63c078c951b9":{"parent":"feed61b8fe893477","name":"Var0","factory":"[modules:/zoutfitvariation.class].pc_entitytype","blueprint":"[modules:/zoutfitvariation.class].pc_entityblueprint"},"feed2d049e32f344":{"parent":null,"name":"CHARSET_Adidastracksuit_EmeraldGreen","factory":"004470A9E6A7722D","blueprint":"00E21A11EC782D9E","properties":{"m_aCharacters":{"type":"TArray<SEntityTemplateReference>","value":["feed787fe3d832ee","feed61b8fe893477","feeda3531ebf3131"],"postInit":true}}},"feeda3531ebf3131":{"parent":"feed2d049e32f344","name":"HeroA","factory":"[modules:/zcharsetcharactertype.class].pc_entitytype","blueprint":"[modules:/zcharsetcharactertype.class].pc_entityblueprint","properties":{"m_aVariations":{"type":"TArray<SEntityTemplateReference>","value":["feedcbf8de41bda6"],"postInit":true}}},"feed787fe3d832ee":{"parent":"feed2d049e32f344","name":"Actor","factory":"[modules:/zcharsetcharactertype.class].pc_entitytype","blueprint":"[modules:/zcharsetcharactertype.class].pc_entityblueprint","properties":{"m_aVariations":{"type":"TArray<SEntityTemplateReference>","value":["feeddb9d55a814e4"],"postInit":true}}},"feeddb9d55a814e4":{"parent":"feed787fe3d832ee","name":"0","factory":"[modules:/zoutfitvariation.class].pc_entitytype","blueprint":"[modules:/zoutfitvariation.class].pc_entityblueprint"},"feedcbf8de41bda6":{"parent":"feeda3531ebf3131","name":"Var0","factory":"[modules:/zoutfitvariation.class].pc_entitytype","blueprint":"[modules:/zoutfitvariation.class].pc_entityblueprint","properties":{"m_Outfit":{"type":"ZRuntimeResourceID","value":{"resource":"002D5BEA32680DA5","flag":"9F"}}}}},"propertyOverrides":[],"overrideDeletes":[],"pinConnectionOverrides":[],"pinConnectionOverrideDeletes":[],"externalScenes":[],"subType":"template","quickEntityVersion":3.1,"extraFactoryDependencies":[],"extraBlueprintDependencies":[],"comments":[]}
+{
+	"tempHash": "009E76C15CFB2BF7",
+	"tbluHash": "0093C3ADA68E34B9",
+	"rootEntity": "feed2d049e32f344",
+	"entities": {
+		"feed61b8fe893477": {
+			"parent": "feed2d049e32f344",
+			"name": "Nude",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["feed63c078c951b9"],
+					"postInit": true
+				}
+			}
+		},
+		"feed63c078c951b9": {
+			"parent": "feed61b8fe893477",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"feed2d049e32f344": {
+			"parent": null,
+			"name": "CHARSET_Adidastracksuit_EmeraldGreen",
+			"factory": "004470A9E6A7722D",
+			"blueprint": "00E21A11EC782D9E",
+			"properties": {
+				"m_aCharacters": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["feed787fe3d832ee", "feed61b8fe893477", "feeda3531ebf3131"],
+					"postInit": true
+				}
+			}
+		},
+		"feeda3531ebf3131": {
+			"parent": "feed2d049e32f344",
+			"name": "HeroA",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["feedcbf8de41bda6"],
+					"postInit": true
+				}
+			}
+		},
+		"feed787fe3d832ee": {
+			"parent": "feed2d049e32f344",
+			"name": "Actor",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["feeddb9d55a814e4"],
+					"postInit": true
+				}
+			}
+		},
+		"feeddb9d55a814e4": {
+			"parent": "feed787fe3d832ee",
+			"name": "0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"feedcbf8de41bda6": {
+			"parent": "feeda3531ebf3131",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": { "type": "ZRuntimeResourceID", "value": { "resource": "002D5BEA32680DA5", "flag": "9F" } }
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
