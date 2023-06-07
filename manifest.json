@@ -6,7 +6,7 @@
 	"authors": ["Jojje"],
 	"frameworkVersion": "2.25.0",
 	"version": "1.2.1",
-	"updateCheck": "https://github.dioden.nu/updateChecks/adidastracksuit.json",
+	"updateCheck": "https://github.com/JojjeE/h3-adidas-tracksuit/releases/latest/download/updates.json",
 	"contentFolders": ["1_content/base"],
 	"localisedLines": {
 		"00B8EC2C31BE041F": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC"
@@ -3415,6 +3415,168 @@
 					}
 				}
 			}
+		},
+		{
+			"group": "Variant - Baby Blue - Hat",
+			"name": "No hat",
+			"type": "select",
+			"tooltip": "Don't use a hat.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Variant - Black - Hat",
+			"name": "No hat",
+			"type": "select",
+			"tooltip": "Don't use a hat.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Variant - Emerald Green - Hat",
+			"name": "No hat",
+			"type": "select",
+			"tooltip": "Don't use a hat.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Variant - Heather Grey - Hat",
+			"name": "No hat",
+			"type": "select",
+			"tooltip": "Don't use a hat.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Variant - Navy Blue - Hat",
+			"name": "No hat",
+			"type": "select",
+			"tooltip": "Don't use a hat.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Variant - Red - Hat",
+			"name": "No hat",
+			"type": "select",
+			"tooltip": "Don't use a hat.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Variant - Baby Blue - Hat",
+			"name": "Black flatcap",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/babyblue/flatcap_black"
+			],
+			"tooltip": "Use a black flatcap.",
+			"image": "flatcap_black.jpg"
+		},
+		{
+			"group": "Variant - Black - Hat",
+			"name": "Black flatcap",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/black/flatcap_black"
+			],
+			"tooltip": "Use a black flatcap.",
+			"image": "flatcap_black.jpg"
+		},
+		{
+			"group": "Variant - Emerald Green - Hat",
+			"name": "Black flatcap",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/emeraldgreen/flatcap_black"
+			],
+			"tooltip": "Use a black flatcap.",
+			"image": "flatcap_black.jpg"
+		},
+		{
+			"group": "Variant - Heather Grey - Hat",
+			"name": "Black flatcap",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/heathergrey/flatcap_black"
+			],
+			"tooltip": "Use a black flatcap.",
+			"image": "flatcap_black.jpg"
+		},
+		{
+			"group": "Variant - Navy Blue - Hat",
+			"name": "Black flatcap",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/navyblue/flatcap_black"
+			],
+			"tooltip": "Use a black flatcap.",
+			"image": "flatcap_black.jpg"
+		},
+		{
+			"group": "Variant - Red - Hat",
+			"name": "Black flatcap",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/red/flatcap_black"
+			],
+			"tooltip": "Use a black flatcap.",
+			"image": "flatcap_black.jpg"
+		},
+		{
+			"group": "Variant - Baby Blue - Hat",
+			"name": "Grey flatcap",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/babyblue/flatcap_grey"
+			],
+			"tooltip": "Use a grey flatcap.",
+			"image": "flatcap_grey.jpg"
+		},
+		{
+			"group": "Variant - Black - Hat",
+			"name": "Grey flatcap",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/black/flatcap_grey"
+			],
+			"tooltip": "Use a grey flatcap.",
+			"image": "flatcap_grey.jpg"
+		},
+		{
+			"group": "Variant - Emerald Green - Hat",
+			"name": "Grey flatcap",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/emeraldgreen/flatcap_grey"
+			],
+			"tooltip": "Use a grey flatcap.",
+			"image": "flatcap_grey.jpg"
+		},
+		{
+			"group": "Variant - Heather Grey - Hat",
+			"name": "Grey flatcap",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/heathergrey/flatcap_grey"
+			],
+			"tooltip": "Use a grey flatcap.",
+			"image": "flatcap_grey.jpg"
+		},
+		{
+			"group": "Variant - Navy Blue - Hat",
+			"name": "Grey flatcap",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/navyblue/flatcap_grey"
+			],
+			"tooltip": "Use a grey flatcap.",
+			"image": "flatcap_grey.jpg"
+		},
+		{
+			"group": "Variant - Red - Hat",
+			"name": "Grey flatcap",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/red/flatcap_grey"
+			],
+			"tooltip": "Use a grey flatcap.",
+			"image": "flatcap_grey.jpg"
 		}
 	]
 }
