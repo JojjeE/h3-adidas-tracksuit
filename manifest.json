@@ -9,26 +9,68 @@
 	"updateCheck": "https://github.com/JojjeE/h3-adidas-tracksuit/releases/latest/download/updates.json",
 	"contentFolders": ["1_content/base"],
 	"localisedLines": {
-		"00B8EC2C31BE041F": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC"
+		"00B8EC2C31BE041F": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC",
+		"00D0342A6985A72D": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME",
+		"0044709B9C2BB9A7": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME",
+		"00CD170917E993C2": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME",
+		"00AB40BFAB4A8AEC": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME",
+		"00260D7EF7B82790": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME",
+		"008A7E4AC305E392": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME"
 	},
 	"localisation": {
 		"english": {
-			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME": "adidas Tracksuit (Baby Blue)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME": "adidas Tracksuit (Black)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "adidas Tracksuit (Emerald Green)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "adidas Tracksuit (Heather Grey)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "adidas Tracksuit (Navy Blue)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "adidas Tracksuit (Red)"
 		},
 		"french": {
-			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME": "Survêtement adidas (Bleu Clair)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME": "Survêtement adidas (Noir)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "Survêtement adidas (Vert Emeraude)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "Survêtement adidas (Gris Chiné)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "Survêtement adidas (Bleu Marine)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "Survêtement adidas (Rouge)"
 		},
 		"italian": {
-			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME": "Tuta adidas (Blu Chiaro)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME": "Tuta adidas (Nero)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "Tuta adidas (Verde Smeraldo)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "Tuta adidas (Grigio)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "Tuta adidas (Blu Navy)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "Tuta adidas (Rosso)"
 		},
 		"german": {
-			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME": "adidas Trainingsanzug (Babyblau)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME": "adidas Trainingsanzug (Schwarz)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "adidas Trainingsanzug (Smaragdgrün)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "adidas Trainingsanzug (Grau)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "adidas Trainingsanzug (Marineblau)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "adidas Trainingsanzug (Rot)"
 		},
 		"spanish": {
-			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME": "Chándal adidas (Azul Bebé)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME": "Chándal adidas (Negro)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "Chándal adidas (Verde Esmeralda)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "Chándal adidas (Gris Jaspeado)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "Chándal adidas (Azul Marino)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "Chándal adidas (Rojo)"
 		},
 		"russian": {
-			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME": "Спортивный костюм adidas (светло-голубой)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME": "Спортивный костюм adidas (черный)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "Спортивный костюм adidas (светло-зеленый)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "Спортивный костюм adidas (серый вереск)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "Спортивный костюм adidas (темно-синий)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "Спортивный костюм adidas (красный)"
 		}
 	},
 	"options": [
@@ -51,30 +93,7 @@
 			],
 			"blobsFolders": [
 				"blobs/babyblue/addon"
-			],
-			"localisedLines": {
-				"00D0342A6985A72D": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME"
-			},
-			"localisation": {
-				"english": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME": "adidas Tracksuit (Baby Blue)"
-				},
-				"french": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME": "Survêtement adidas (Bleu Clair)"
-				},
-				"italian": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME": "Tuta adidas (Blu Chiaro)"
-				},
-				"german": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME": "adidas Trainingsanzug (Babyblau)"
-				},
-				"spanish": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME": "Chándal adidas (Azul Bebé)"
-				},
-				"russian": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE_NAME": "Спортивный костюм adidas (светло-голубой)"
-				}
-			}
+			]
 		},
 		{
 			"group": "Baby Blue",
@@ -615,30 +634,7 @@
 			],
 			"blobsFolders": [
 				"blobs/black/addon"
-			],
-			"localisedLines": {
-				"0044709B9C2BB9A7": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME"
-			},
-			"localisation": {
-				"english": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME": "adidas Tracksuit (Black)"
-				},
-				"french": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME": "Survêtement adidas (Noir)"
-				},
-				"italian": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME": "Tuta adidas (Nero)"
-				},
-				"german": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME": "adidas Trainingsanzug (Schwarz)"
-				},
-				"spanish": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME": "Chándal adidas (Negro)"
-				},
-				"russian": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BLACK_NAME": "Спортивный костюм adidas (черный)"
-				}
-			}
+			]
 		},
 		{
 			"group": "Black",
@@ -1179,30 +1175,7 @@
 			],
 			"blobsFolders": [
 				"blobs/emeraldgreen/addon"
-			],
-			"localisedLines": {
-				"00CD170917E993C2": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME"
-			},
-			"localisation": {
-				"english": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "adidas Tracksuit (Emerald Green)"
-				},
-				"french": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "Survêtement adidas (Vert Emeraude)"
-				},
-				"italian": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "Tuta adidas (Verde Smeraldo)"
-				},
-				"german": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "adidas Trainingsanzug (Smaragdgrün)"
-				},
-				"spanish": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "Chándal adidas (Verde Esmeralda)"
-				},
-				"russian": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "Спортивный костюм adidas (светло-зеленый)"
-				}
-			}
+			]
 		},
 		{
 			"group": "Emerald Green",
@@ -1743,30 +1716,7 @@
 			],
 			"blobsFolders": [
 				"blobs/heathergrey/addon"
-			],
-			"localisedLines": {
-				"00AB40BFAB4A8AEC": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME"
-			},
-			"localisation": {
-				"english": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "adidas Tracksuit (Heather Grey)"
-				},
-				"french": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "Survêtement adidas (Gris Chiné)"
-				},
-				"italian": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "Tuta adidas (Grigio)"
-				},
-				"german": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "adidas Trainingsanzug (Grau)"
-				},
-				"spanish": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "Chándal adidas (Gris Jaspeado)"
-				},
-				"russian": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "Спортивный костюм adidas (серый вереск)"
-				}
-			}
+			]
 		},
 		{
 			"group": "Heather Grey",
@@ -2307,30 +2257,7 @@
 			],
 			"blobsFolders": [
 				"blobs/navyblue/addon"
-			],
-			"localisedLines": {
-				"00260D7EF7B82790": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME"
-			},
-			"localisation": {
-				"english": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "adidas Tracksuit (Navy Blue)"
-				},
-				"french": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "Survêtement adidas (Bleu Marine)"
-				},
-				"italian": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "Tuta adidas (Blu Navy)"
-				},
-				"german": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "adidas Trainingsanzug (Marineblau)"
-				},
-				"spanish": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "Chándal adidas (Azul Marino)"
-				},
-				"russian": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "Спортивный костюм adidas (темно-синий)"
-				}
-			}
+			]
 		},
 		{
 			"group": "Navy Blue",
@@ -2871,30 +2798,7 @@
 			],
 			"blobsFolders": [
 				"blobs/red/addon"
-			],
-			"localisedLines": {
-				"008A7E4AC305E392": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME"
-			},
-			"localisation": {
-				"english": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "adidas Tracksuit (Red)"
-				},
-				"french": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "Survêtement adidas (Rouge)"
-				},
-				"italian": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "Tuta adidas (Rosso)"
-				},
-				"german": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "adidas Trainingsanzug (Rot)"
-				},
-				"spanish": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "Chándal adidas (Rojo)"
-				},
-				"russian": {
-					"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "Спортивный костюм adidas (красный)"
-				}
-			}
+			]
 		},
 		{
 			"group": "Red",
@@ -3459,6 +3363,48 @@
 			"enabledByDefault": true
 		},
 		{
+			"group": "Variant - Baby Blue - Gloves",
+			"name": "No gloves",
+			"type": "select",
+			"tooltip": "Don't use gloves.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Variant - Black - Gloves",
+			"name": "No gloves",
+			"type": "select",
+			"tooltip": "Don't use gloves.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Variant - Emerald Green - Gloves",
+			"name": "No gloves",
+			"type": "select",
+			"tooltip": "Don't use gloves.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Variant - Heather Grey - Gloves",
+			"name": "No gloves",
+			"type": "select",
+			"tooltip": "Don't use gloves.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Variant - Navy Blue - Gloves",
+			"name": "No gloves",
+			"type": "select",
+			"tooltip": "Don't use gloves.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Variant - Red - Gloves",
+			"name": "No gloves",
+			"type": "select",
+			"tooltip": "Don't use gloves.",
+			"enabledByDefault": true
+		},
+		{
 			"group": "Variant - Baby Blue - Hat",
 			"name": "Black flatcap",
 			"type": "select",
@@ -3577,6 +3523,126 @@
 			],
 			"tooltip": "Use a grey flatcap.",
 			"image": "flatcap_grey.jpg"
+		},
+		{
+			"group": "Variant - Baby Blue - Gloves",
+			"name": "Driving gloves",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/babyblue/drivinggloves"
+			],
+			"tooltip": "Use driving gloves.",
+			"image": "drivinggloves.jpg"
+		},
+		{
+			"group": "Variant - Black - Gloves",
+			"name": "Driving gloves",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/black/drivinggloves"
+			],
+			"tooltip": "Use driving gloves.",
+			"image": "drivinggloves.jpg"
+		},
+		{
+			"group": "Variant - Emerald Green - Gloves",
+			"name": "Driving gloves",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/emeraldgreen/drivinggloves"
+			],
+			"tooltip": "Use driving gloves.",
+			"image": "drivinggloves.jpg"
+		},
+		{
+			"group": "Variant - Heather Grey - Gloves",
+			"name": "Driving gloves",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/heathergrey/drivinggloves"
+			],
+			"tooltip": "Use driving gloves.",
+			"image": "drivinggloves.jpg"
+		},
+		{
+			"group": "Variant - Navy Blue - Gloves",
+			"name": "Driving gloves",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/navyblue/drivinggloves"
+			],
+			"tooltip": "Use driving gloves.",
+			"image": "drivinggloves.jpg"
+		},
+		{
+			"group": "Variant - Red - Gloves",
+			"name": "Driving gloves",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/red/drivinggloves"
+			],
+			"tooltip": "Use driving gloves.",
+			"image": "drivinggloves.jpg"
+		},
+		{
+			"group": "Variant - Baby Blue - Gloves",
+			"name": "Leather gloves",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/babyblue/leathergloves"
+			],
+			"tooltip": "Use leather gloves.",
+			"image": "leathergloves.jpg"
+		},
+		{
+			"group": "Variant - Black - Gloves",
+			"name": "Leather gloves",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/black/leathergloves"
+			],
+			"tooltip": "Use leather gloves.",
+			"image": "leathergloves.jpg"
+		},
+		{
+			"group": "Variant - Emerald Green - Gloves",
+			"name": "Leather gloves",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/emeraldgreen/leathergloves"
+			],
+			"tooltip": "Use leather gloves.",
+			"image": "leathergloves.jpg"
+		},
+		{
+			"group": "Variant - Heather Grey - Gloves",
+			"name": "Leather gloves",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/heathergrey/leathergloves"
+			],
+			"tooltip": "Use leather gloves.",
+			"image": "leathergloves.jpg"
+		},
+		{
+			"group": "Variant - Navy Blue - Gloves",
+			"name": "Leather gloves",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/navyblue/leathergloves"
+			],
+			"tooltip": "Use leather gloves.",
+			"image": "leathergloves.jpg"
+		},
+		{
+			"group": "Variant - Red - Gloves",
+			"name": "Leather gloves",
+			"type": "select",
+			"contentFolders": [
+				"2_patches/variant/red/leathergloves"
+			],
+			"tooltip": "Use leather gloves.",
+			"image": "leathergloves.jpg"
 		}
 	]
 }
