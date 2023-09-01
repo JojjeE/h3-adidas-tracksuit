@@ -2,7 +2,7 @@
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"id": "Jojje.AdidasTracksuit",
 	"name": "adidas Tracksuit",
-	"description": "Configurable adidas tracksuit. Comes in 6 colors. Install them for Peacock or replace a casual suit of your choice.",
+	"description": "Configurable adidas tracksuit. Comes in 7 colors. Install them for Peacock or replace a casual suit of your choice.",
 	"authors": ["Jojje"],
 	"frameworkVersion": "2.27.0",
 	"version": "1.3.0",
@@ -15,7 +15,8 @@
 		"00CD170917E993C2": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME",
 		"00AB40BFAB4A8AEC": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME",
 		"00260D7EF7B82790": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME",
-		"008A7E4AC305E392": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME"
+		"008A7E4AC305E392": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME",
+		"00A6552BA4F3A47E": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RASTA_NAME"
 	},
 	"localisation": {
 		"english": {
@@ -25,7 +26,8 @@
 			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "adidas Tracksuit (Emerald Green)",
 			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "adidas Tracksuit (Heather Grey)",
 			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "adidas Tracksuit (Navy Blue)",
-			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "adidas Tracksuit (Red)"
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "adidas Tracksuit (Red)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RASTA_NAME": "adidas Tracksuit (Rasta)"
 		},
 		"french": {
 			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
@@ -34,7 +36,8 @@
 			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "Survêtement adidas (Vert Emeraude)",
 			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "Survêtement adidas (Gris Chiné)",
 			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "Survêtement adidas (Bleu Marine)",
-			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "Survêtement adidas (Rouge)"
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "Survêtement adidas (Rouge)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RASTA_NAME": "Survêtement adidas (Rasta)"
 		},
 		"italian": {
 			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
@@ -43,7 +46,8 @@
 			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "Tuta adidas (Verde Smeraldo)",
 			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "Tuta adidas (Grigio)",
 			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "Tuta adidas (Blu Navy)",
-			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "Tuta adidas (Rosso)"
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "Tuta adidas (Rosso)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RASTA_NAME": "Tuta adidas (Rasta)"
 		},
 		"german": {
 			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
@@ -52,7 +56,8 @@
 			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "adidas Trainingsanzug (Smaragdgrün)",
 			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "adidas Trainingsanzug (Grau)",
 			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "adidas Trainingsanzug (Marineblau)",
-			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "adidas Trainingsanzug (Rot)"
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "adidas Trainingsanzug (Rot)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RASTA_NAME": "adidas Trainingsanzug (Rasta)"
 		},
 		"spanish": {
 			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
@@ -61,7 +66,8 @@
 			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "Chándal adidas (Verde Esmeralda)",
 			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "Chándal adidas (Gris Jaspeado)",
 			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "Chándal adidas (Azul Marino)",
-			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "Chándal adidas (Rojo)"
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "Chándal adidas (Rojo)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RASTA_NAME": "Chándal adidas (Rasta)"
 		},
 		"russian": {
 			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
@@ -70,7 +76,8 @@
 			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_EMERALDGREEN_NAME": "Спортивный костюм adidas (светло-зеленый)",
 			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME": "Спортивный костюм adidas (серый вереск)",
 			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME": "Спортивный костюм adidas (темно-синий)",
-			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "Спортивный костюм adidas (красный)"
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME": "Спортивный костюм adidas (красный)",
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RASTA_NAME": "Спортивный костюм adidas (раста)"
 		}
 	},
 	"options": [
@@ -2901,6 +2908,477 @@
 			}
 		},
 		{
+			"group": "Rasta",
+			"name": "Do not install",
+			"type": "select",
+			"enabledByDefault": true,
+			"tooltip": "Do not install the black tracksuit with rasta stripes.",
+			"image": "rasta.jpg"
+		},
+		{
+			"group": "Rasta",
+			"name": "Peacock Addon",
+			"type": "select",
+			"tooltip": "Install the black tracksuit with rasta stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+			"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/addon"],
+			"blobsFolders": ["blobs/rasta/addon"]
+		},
+		{
+			"group": "Rasta",
+			"name": "Casual Suit with Gloves",
+			"type": "select",
+			"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/bangkok"],
+			"blobsFolders": ["blobs/rasta/bangkok"],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"2741280242": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"4086875141": "adidas Tracksuit (Rasta)"
+					},
+					"french": {
+						"2741280242": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"4086875141": "Survêtement adidas (Rasta)"
+					},
+					"italian": {
+						"2741280242": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"4086875141": "Tuta adidas (Rasta)"
+					},
+					"german": {
+						"2741280242": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"4086875141": "adidas Trainingsanzug (Rasta)"
+					},
+					"spanish": {
+						"2741280242": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"4086875141": "Chándal adidas (Rasta)"
+					},
+					"russian": {
+						"2741280242": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"4086875141": "Спортивный костюм adidas (раста)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Rasta",
+			"name": "Italian Suit with Gloves",
+			"type": "select",
+			"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/sapienza"],
+			"blobsFolders": ["blobs/rasta/sapienza"],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"3346035357": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"3648979387": "adidas Tracksuit (Rasta)"
+					},
+					"french": {
+						"3346035357": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"3648979387": "Survêtement adidas (Rasta)"
+					},
+					"italian": {
+						"3346035357": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"3648979387": "Tuta adidas (Rasta)"
+					},
+					"german": {
+						"3346035357": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"3648979387": "adidas Trainingsanzug (Rasta)"
+					},
+					"spanish": {
+						"3346035357": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"3648979387": "Chándal adidas (Rasta)"
+					},
+					"russian": {
+						"3346035357": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"3648979387": "Спортивный костюм adidas (раста)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Rasta",
+			"name": "Florida Fit with Gloves",
+			"type": "select",
+			"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/miami"],
+			"blobsFolders": ["blobs/rasta/miami"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"1774659088": "adidas Tracksuit (Rasta)",
+						"3175901226": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"1774659088": "Survêtement adidas (Rasta)",
+						"3175901226": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"1774659088": "Tuta adidas (Rasta)",
+						"3175901226": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"1774659088": "adidas Trainingsanzug (Rasta)",
+						"3175901226": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"1774659088": "Chándal adidas (Rasta)",
+						"3175901226": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"1774659088": "Спортивный костюм adidas (раста)",
+						"3175901226": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Rasta",
+			"name": "Casual Tourist with Gloves",
+			"type": "select",
+			"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/sanfortuna"],
+			"blobsFolders": ["blobs/rasta/sanfortuna"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2978719530": "adidas Tracksuit (Rasta)",
+						"3533044117": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"2978719530": "Survêtement adidas (Rasta)",
+						"3533044117": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"2978719530": "Tuta adidas (Rasta)",
+						"3533044117": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"2978719530": "adidas Trainingsanzug (Rasta)",
+						"3533044117": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"2978719530": "Chándal adidas (Rasta)",
+						"3533044117": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"2978719530": "Спортивный костюм adidas (раста)",
+						"3533044117": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Rasta",
+			"name": "Summer Suave Suit",
+			"type": "select",
+			"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/summersuave"],
+			"blobsFolders": ["blobs/rasta/summersuave"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"134957393": "adidas Tracksuit (Rasta)",
+						"2101382595": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"134957393": "Survêtement adidas (Rasta)",
+						"2101382595": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"134957393": "Tuta adidas (Rasta)",
+						"2101382595": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"134957393": "adidas Trainingsanzug (Rasta)",
+						"2101382595": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"134957393": "Chándal adidas (Rasta)",
+						"2101382595": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"134957393": "Спортивный костюм adidas (раста)",
+						"2101382595": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Rasta",
+			"name": "Summer Sightseeing Suit",
+			"type": "select",
+			"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/summersightseeing"],
+			"blobsFolders": ["blobs/rasta/summersightseeing"],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2627471231": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"2814457931": "adidas Tracksuit (Rasta)"
+					},
+					"french": {
+						"2627471231": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"2814457931": "Survêtement adidas (Rasta)"
+					},
+					"italian": {
+						"2627471231": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"2814457931": "Tuta adidas (Rasta)"
+					},
+					"german": {
+						"2627471231": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"2814457931": "adidas Trainingsanzug (Rasta)"
+					},
+					"spanish": {
+						"2627471231": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"2814457931": "Chándal adidas (Rasta)"
+					},
+					"russian": {
+						"2627471231": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"2814457931": "Спортивный костюм adidas (раста)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Rasta",
+			"name": "Casual Undercover",
+			"type": "select",
+			"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/casualundercover"],
+			"blobsFolders": ["blobs/rasta/casualundercover"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2052724919": "adidas Tracksuit (Rasta)",
+						"3635577953": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"2052724919": "Survêtement adidas (Rasta)",
+						"3635577953": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"2052724919": "Tuta adidas (Rasta)",
+						"3635577953": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"2052724919": "adidas Trainingsanzug (Rasta)",
+						"3635577953": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"2052724919": "Chándal adidas (Rasta)",
+						"3635577953": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"2052724919": "Спортивный костюм adidas (раста)",
+						"3635577953": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Rasta",
+			"name": "Midnight Black Suit",
+			"type": "select",
+			"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/midnightblack"],
+			"blobsFolders": ["blobs/rasta/midnightblack"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"972885031": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"2762453674": "adidas Tracksuit (Rasta)"
+					},
+					"french": {
+						"972885031": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"2762453674": "Survêtement adidas (Rasta)"
+					},
+					"italian": {
+						"972885031": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"2762453674": "Tuta adidas (Rasta)"
+					},
+					"german": {
+						"972885031": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"2762453674": "adidas Trainingsanzug (Rasta)"
+					},
+					"spanish": {
+						"972885031": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"2762453674": "Chándal adidas (Rasta)"
+					},
+					"russian": {
+						"972885031": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"2762453674": "Спортивный костюм adidas (раста)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Rasta",
+			"name": "Summer Suit with Gloves",
+			"type": "select",
+			"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/marrakesh"],
+			"blobsFolders": ["blobs/rasta/marrakesh"],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"1490534793": "adidas Tracksuit (Rasta)",
+						"4241939803": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"1490534793": "Survêtement adidas (Rasta)",
+						"4241939803": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"1490534793": "Tuta adidas (Rasta)",
+						"4241939803": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"1490534793": "adidas Trainingsanzug (Rasta)",
+						"4241939803": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"1490534793": "Chándal adidas (Rasta)",
+						"4241939803": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"1490534793": "Спортивный костюм adidas (раста)",
+						"4241939803": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Rasta",
+			"name": "Tropical Suit",
+			"type": "select",
+			"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/tropicalsuit"],
+			"blobsFolders": ["blobs/rasta/tropicalsuit"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2053833950": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"2347383834": "adidas Tracksuit (Rasta)"
+					},
+					"french": {
+						"2053833950": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"2347383834": "Survêtement adidas (Rasta)"
+					},
+					"italian": {
+						"2053833950": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"2347383834": "Tuta adidas (Rasta)"
+					},
+					"german": {
+						"2053833950": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"2347383834": "adidas Trainingsanzug (Rasta)"
+					},
+					"spanish": {
+						"2053833950": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"2347383834": "Chándal adidas (Rasta)"
+					},
+					"russian": {
+						"2053833950": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"2347383834": "Спортивный костюм adidas (раста)"
+					}
+				}
+			}
+		},
+		{
+			"group": "Rasta",
+			"name": "Smart Casual Suit",
+			"type": "select",
+			"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/smartcasual"],
+			"blobsFolders": ["blobs/rasta/smartcasual"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"252086724": "adidas Tracksuit (Rasta)",
+						"678625422": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"252086724": "Survêtement adidas (Rasta)",
+						"678625422": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"252086724": "Tuta adidas (Rasta)",
+						"678625422": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"252086724": "adidas Trainingsanzug (Rasta)",
+						"678625422": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"252086724": "Chándal adidas (Rasta)",
+						"678625422": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"252086724": "Спортивный костюм adidas (раста)",
+						"678625422": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Rasta",
+			"name": "The Raver",
+			"type": "select",
+			"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/raver"],
+			"blobsFolders": ["blobs/rasta/raver"],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"3362995256": "adidas Tracksuit (Rasta)",
+						"4079878924": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business."
+					},
+					"french": {
+						"3362995256": "Survêtement adidas (Rasta)",
+						"4079878924": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires."
+					},
+					"italian": {
+						"3362995256": "Tuta adidas (Rasta)",
+						"4079878924": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari."
+					},
+					"german": {
+						"3362995256": "adidas Trainingsanzug (Rasta)",
+						"4079878924": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind."
+					},
+					"spanish": {
+						"3362995256": "Chándal adidas (Rasta)",
+						"4079878924": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+					},
+					"russian": {
+						"3362995256": "Спортивный костюм adidas (раста)",
+						"4079878924": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване."
+					}
+				}
+			}
+		},
+		{
+			"group": "Rasta",
+			"name": "Lucky Ducky",
+			"type": "select",
+			"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/luckyducky"],
+			"blobsFolders": ["blobs/rasta/luckyducky"],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2681050670": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+						"2760943898": "adidas Tracksuit (Rasta)"
+					},
+					"french": {
+						"2681050670": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+						"2760943898": "Survêtement adidas (Rasta)"
+					},
+					"italian": {
+						"2681050670": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+						"2760943898": "Tuta adidas (Rasta)"
+					},
+					"german": {
+						"2681050670": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+						"2760943898": "adidas Trainingsanzug (Rasta)"
+					},
+					"spanish": {
+						"2681050670": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios.",
+						"2760943898": "Chándal adidas (Rasta)"
+					},
+					"russian": {
+						"2681050670": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+						"2760943898": "Спортивный костюм adidas (раста)"
+					}
+				}
+			}
+		},
+		{
 			"group": "Variant - Baby Blue - Hat",
 			"name": "No hat",
 			"type": "select",
@@ -2943,6 +3421,13 @@
 			"enabledByDefault": true
 		},
 		{
+			"group": "Variant - Rasta - Hat",
+			"name": "No hat",
+			"type": "select",
+			"tooltip": "Don't use a hat.",
+			"enabledByDefault": true
+		},
+		{
 			"group": "Variant - Baby Blue - Gloves",
 			"name": "No gloves",
 			"type": "select",
@@ -2979,6 +3464,13 @@
 		},
 		{
 			"group": "Variant - Red - Gloves",
+			"name": "No gloves",
+			"type": "select",
+			"tooltip": "Don't use gloves.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Variant - Rasta - Gloves",
 			"name": "No gloves",
 			"type": "select",
 			"tooltip": "Don't use gloves.",
@@ -3033,6 +3525,14 @@
 			"image": "flatcap_black.jpg"
 		},
 		{
+			"group": "Variant - Rasta - Hat",
+			"name": "Black flatcap",
+			"type": "select",
+			"contentFolders": ["2_patches/variant/rasta/flatcap_black"],
+			"tooltip": "Use a black flatcap.",
+			"image": "flatcap_black.jpg"
+		},
+		{
 			"group": "Variant - Baby Blue - Hat",
 			"name": "Grey flatcap",
 			"type": "select",
@@ -3077,6 +3577,14 @@
 			"name": "Grey flatcap",
 			"type": "select",
 			"contentFolders": ["2_patches/variant/red/flatcap_grey"],
+			"tooltip": "Use a grey flatcap.",
+			"image": "flatcap_grey.jpg"
+		},
+		{
+			"group": "Variant - Rasta - Hat",
+			"name": "Grey flatcap",
+			"type": "select",
+			"contentFolders": ["2_patches/variant/rasta/flatcap_grey"],
 			"tooltip": "Use a grey flatcap.",
 			"image": "flatcap_grey.jpg"
 		},
@@ -3129,6 +3637,14 @@
 			"image": "drivinggloves.jpg"
 		},
 		{
+			"group": "Variant - Rasta - Gloves",
+			"name": "Driving gloves",
+			"type": "select",
+			"contentFolders": ["2_patches/variant/rasta/drivinggloves"],
+			"tooltip": "Use driving gloves.",
+			"image": "drivinggloves.jpg"
+		},
+		{
 			"group": "Variant - Baby Blue - Gloves",
 			"name": "Leather gloves",
 			"type": "select",
@@ -3173,6 +3689,14 @@
 			"name": "Leather gloves",
 			"type": "select",
 			"contentFolders": ["2_patches/variant/red/leathergloves"],
+			"tooltip": "Use leather gloves.",
+			"image": "leathergloves.jpg"
+		},
+		{
+			"group": "Variant - Rasta - Gloves",
+			"name": "Leather gloves",
+			"type": "select",
+			"contentFolders": ["2_patches/variant/rasta/leathergloves"],
 			"tooltip": "Use leather gloves.",
 			"image": "leathergloves.jpg"
 		}
