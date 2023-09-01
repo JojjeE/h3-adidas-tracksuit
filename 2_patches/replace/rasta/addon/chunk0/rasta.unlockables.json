@@ -1,0 +1,25 @@
+{
+	"TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RASTA": {
+		"Id": "TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RASTA",
+		"Guid": "2cf7d75b-64b8-49ac-a27a-4ff105c9ac6c",
+		"Type": "disguise",
+		"Subtype": "casual",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 4,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "618ff21b-3679-4e94-bf68-3d947bb18ac0",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}

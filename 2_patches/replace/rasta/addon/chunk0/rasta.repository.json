@@ -1,0 +1,14 @@
+{
+	"618ff21b-3679-4e94-bf68-3d947bb18ac0": {
+		"ID_": "618ff21b-3679-4e94-bf68-3d947bb18ac0",
+		"CommonName": "CHAR_Global_Hero_Adidastracksuit_Rasta_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_Outfits_adidas_tracksuit_rasta.jpg",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RASTA_NAME",
+		"Category": "",
+		"ImageTransparent": "",
+		"TokenID": "TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RASTA"
+	}
+}
