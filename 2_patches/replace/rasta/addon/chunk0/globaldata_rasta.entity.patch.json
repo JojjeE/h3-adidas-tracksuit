@@ -1,1 +1,107 @@
-{"tempHash":"00097AA87B144150","tbluHash":"00E738E7CF7A35E1","patch":[{"AddEntity":["feedc2dd951eef3c",{"parent":"0ba8ea9278df2079","name":"CHAR_Global_Hero_Adidastracksuit_Rasta_M","factory":"[modules:/zglobaloutfitkit.class].pc_entitytype","blueprint":"[modules:/zglobaloutfitkit.class].pc_entityblueprint","properties":{"m_eActorType":{"type":"EActorType","value":"eAT_Hitman"},"m_eSoundFootwearType":{"type":"EHM5SoundFootwearType","value":"EFWT_SNEAKERS"},"m_aCharSets":{"type":"TArray<SEntityTemplateReference>","value":["feed71fa33cadee9"]},"m_sId":{"type":"ZGuid","value":"618ff21b-3679-4e94-bf68-3d947bb18ac0"},"m_bCanCallForHelp":{"type":"bool","value":true},"m_sCommonName":{"type":"ZString","value":"CHAR_Global_Hero_Adidastracksuit_Rasta_M"},"m_sTitle":{"type":"ZString","value":"Adidas Tracksuit Rasta"},"m_eOutfitAICategory":{"type":"EOutfitAICategory","value":"OAC_47STARTOUTFIT"},"m_rNameTextResource":{"type":"ZRuntimeResourceID","value":{"resource":"00A6552BA4F3A47E","flag":"5F"}},"m_rDescriptionTextResource":{"type":"ZRuntimeResourceID","value":{"resource":"00846A5FAB3C9C98","flag":"5F"}},"m_bHeroDisguiseAvailable":{"type":"bool","value":true},"m_bIsHitmanSuit":{"type":"bool","value":true}}}]},{"AddEntity":["feed71fa33cadee9",{"parent":"feedc2dd951eef3c","name":"CHARSET_Adidastracksuit_Rasta","factory":"00FA0D2F8A3C1A18","blueprint":"00DC522A2135E530"}]},{"AddEntity":["feed0d5e6c570b37",{"parent":"feedc2dd951eef3c","name":"Prof_Agent47","factory":"[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entityblueprint","properties":{"m_aHolders":{"type":"TArray<SEntityTemplateReference>","value":["feedc2dd951eef3c"],"postInit":true}}}]},{"AddEntity":["feedcd250aaafd0a",{"parent":"feedc2dd951eef3c","name":"Prof_Hero_Adidastracksuit_Rasta","factory":"[assembly:/_pro/design/actor/profession.template?/prof_hero_signaturesuit.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/actor/profession.template?/prof_hero_signaturesuit.entitytemplate].pc_entityblueprint","properties":{"m_aHolders":{"type":"TArray<SEntityTemplateReference>","value":["feedc2dd951eef3c"]}}}]},{"AddEntity":["feed76f0e6aeb151",{"parent":"feedc2dd951eef3c","name":"KeywordEntity_FOLEY_SUIT47","factory":"[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entityblueprint","properties":{"m_rHolder":{"type":"SEntityTemplateReference","value":"feedc2dd951eef3c"}}}]},{"AddEntity":["feedad07430d522d",{"parent":"feedc2dd951eef3c","name":"Keyword_Prof_Class_Default","factory":"007A51A2AFEC0D1A","blueprint":"00B0282A41C1CF2E","properties":{"m_aHolders":{"type":"TArray<SEntityTemplateReference>","value":["feedc2dd951eef3c"]}}}]}],"patchVersion":6}
+{
+	"tempHash": "00097AA87B144150",
+	"tbluHash": "00E738E7CF7A35E1",
+	"patch": [
+		{
+			"AddEntity": [
+				"feedc2dd951eef3c",
+				{
+					"parent": "0ba8ea9278df2079",
+					"name": "CHAR_Global_Hero_Adidastracksuit_Rasta_M",
+					"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+					"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+					"properties": {
+						"m_eActorType": { "type": "EActorType", "value": "eAT_Hitman" },
+						"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_SNEAKERS" },
+						"m_aCharSets": { "type": "TArray<SEntityTemplateReference>", "value": ["feed71fa33cadee9"] },
+						"m_sId": { "type": "ZGuid", "value": "618ff21b-3679-4e94-bf68-3d947bb18ac0" },
+						"m_bCanCallForHelp": { "type": "bool", "value": true },
+						"m_sCommonName": { "type": "ZString", "value": "CHAR_Global_Hero_Adidastracksuit_Rasta_M" },
+						"m_sTitle": { "type": "ZString", "value": "Adidas Tracksuit Rasta" },
+						"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_47STARTOUTFIT" },
+						"m_rNameTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": { "resource": "00A6552BA4F3A47E", "flag": "5F" }
+						},
+						"m_rDescriptionTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": { "resource": "00846A5FAB3C9C98", "flag": "5F" }
+						},
+						"m_bHeroDisguiseAvailable": { "type": "bool", "value": true },
+						"m_bIsHitmanSuit": { "type": "bool", "value": true }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed71fa33cadee9",
+				{
+					"parent": "feedc2dd951eef3c",
+					"name": "CHARSET_Adidastracksuit_Rasta",
+					"factory": "00FA0D2F8A3C1A18",
+					"blueprint": "00DC522A2135E530"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed0d5e6c570b37",
+				{
+					"parent": "feedc2dd951eef3c",
+					"name": "Prof_Agent47",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["feedc2dd951eef3c"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedcd250aaafd0a",
+				{
+					"parent": "feedc2dd951eef3c",
+					"name": "Prof_Hero_Adidastracksuit_Rasta",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hero_signaturesuit.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hero_signaturesuit.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feedc2dd951eef3c"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed76f0e6aeb151",
+				{
+					"parent": "feedc2dd951eef3c",
+					"name": "KeywordEntity_FOLEY_SUIT47",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entityblueprint",
+					"properties": { "m_rHolder": { "type": "SEntityTemplateReference", "value": "feedc2dd951eef3c" } }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedad07430d522d",
+				{
+					"parent": "feedc2dd951eef3c",
+					"name": "Keyword_Prof_Class_Default",
+					"factory": "007A51A2AFEC0D1A",
+					"blueprint": "00B0282A41C1CF2E",
+					"properties": {
+						"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feedc2dd951eef3c"] }
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
