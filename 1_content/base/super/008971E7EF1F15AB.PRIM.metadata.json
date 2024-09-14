@@ -1,0 +1,5 @@
+{
+	"id": "008971E7EF1F15AB",
+	"type": "PRIM",
+	"references": ["00C715FB60ED2B38", { "resource": "009DC2DE02510FD9", "type": "normal" }]
+}

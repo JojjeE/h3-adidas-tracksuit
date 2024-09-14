@@ -1,11 +1,10 @@
 {
 	"file": "0057C2C3941115CA",
-	"type": "ORES",
 	"patch": [
 		{
 			"op": "add",
 			"path": "/PACKAGE_STARTING_PACKAGE/Properties/Unlocks/-",
-			"value": "TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY"
+			"value": "TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_BABYBLUE"
 		}
 	]
 }
