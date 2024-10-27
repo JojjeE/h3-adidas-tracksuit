@@ -6,4 +6,4 @@ Configurable adidas tracksuit. Comes in 7 colors. Install them for Peacock or re
 
 ---
 
-`Jojje.AdidasTracksuit` v2.0.1, by Jojje. This README was automatically generated from the mod's manifest.
+`Jojje.AdidasTracksuit` v2.1.0, by Jojje. This README was automatically generated from the mod's manifest.
