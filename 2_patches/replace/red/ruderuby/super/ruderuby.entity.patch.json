@@ -1,0 +1,1 @@
+{"factory":"[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype","blueprint":"[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entityblueprint","patch":[{"PatchEntity":["d5da6e0eea089479",{"SetFactory":"00CE9969EC738E4E"}]},{"PatchEntity":["d5da6e0eea089479",{"SetBlueprint":"00F6B387A4FA83CF"}]}],"patchVersion":7}

@@ -1,0 +1,21 @@
+{
+	"id": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero_s2.sweetmenutext].pc_localized-textlist",
+	"lines": {
+		"CHAR_GLOBAL_HERO_SMARTCASUALOUTFIT_M_PRO170760_NAME_0A199095-A2B6-4F47-B86F-AA1B7976051E": {
+			"english": "adidas Tracksuit (Heather Grey)",
+			"french": "Survêtement adidas (Gris Chiné)",
+			"german": "adidas Trainingsanzug (Grau)",
+			"italian": "Tuta adidas (Grigio)",
+			"russian": "Спортивный костюм adidas (серый вереск)",
+			"spanish": "Chándal adidas (Gris Jaspeado)"
+		},
+		"CHAR_GLOBAL_HERO_SMARTCASUALOUTFIT_M_PRO170760_DESCRIPTION_0A199095-A2B6-4F47-B86F-AA1B7976051E": {
+			"english": "A prized possession of hoodlums in Eastern Europe, gym teachers, joggers and assassins worldwide. Keeps you comfortable and limber, whether you're out exercising, chilling on the couch, or out doing business.",
+			"french": "C'est un trésor apprécié des gangsters d'Europe de l'Est, des professeurs de gymnastique, des joggeurs et des assassins du monde entier. Il vous permet de rester à l'aise et agile, que vous fassiez de l'exercice, que vous vous détendiez sur votre canapé ou que vous fassiez des affaires.",
+			"german": "Sie ist ein geschätzter Schatz von Gangstern in Osteuropa, Sportlehrern, Joggern und Attentätern auf der ganzen Welt. Er hält Sie bequem und beweglich, egal ob Sie trainieren, sich auf dem Sofa entspannen oder geschäftlich unterwegs sind.",
+			"italian": "È un tesoro prezioso per i gangster dell'Europa dell'Est, per gli insegnanti di ginnastica, per chi fa jogging e per gli assassini di tutto il mondo. Vi mantiene comodi e agili, sia che vi stiate allenando, sia che vi stiate rilassando sul divano, sia che siate in giro per affari.",
+			"russian": "Ценное сокровище хулиганов Восточной Европы, учителей физкультуры, бегунов и убийц по всему миру. В нем вам будет удобно и легко, независимо от того, занимаетесь ли Вы спортом, бизнесом, или отдыхаете на диване.",
+			"spanish": "Es un preciado tesoro de gángsters de Europa del Este, profesores de gimnasia, corredores y asesinos de todo el mundo. Te mantiene cómodo y ágil, ya estés haciendo ejercicio, relajándote en el sofá o haciendo negocios."
+		}
+	}
+}
