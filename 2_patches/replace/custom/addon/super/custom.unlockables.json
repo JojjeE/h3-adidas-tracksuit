@@ -1,0 +1,25 @@
+{
+	"TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_CUSTOM": {
+		"Id": "TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_CUSTOM",
+		"Guid": "4285a35a-17b5-4120-8847-ee09337888e2",
+		"Type": "disguise",
+		"Subtype": "casual",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 4,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "d0fa94bf-5a17-4b5d-a93e-d8b9df57b031",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}

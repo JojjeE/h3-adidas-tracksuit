@@ -74,6 +74,14 @@
 				"german": "adidas Trainingsanzug (Rasta)",
 				"spanish": "Chándal adidas (Rasta)",
 				"russian": "Спортивный костюм adidas (раста)"
+			},
+			"UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_CUSTOM_NAME": {
+				"english": "adidas Tracksuit (Custom)",
+				"french": "Survêtement adidas (Personnalisé)",
+				"italian": "Tuta adidas (Personalizzato)",
+				"german": "adidas Trainingsanzug (Maßgeschneidert)",
+				"spanish": "Chándal adidas (Personalizado)",
+				"russian": "Спортивный костюм adidas (Индивидуальный)"
 			}
 		},
 		"localisedLines": {
@@ -84,7 +92,8 @@
 			"00AB40BFAB4A8AEC": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_HEATHERGREY_NAME",
 			"00260D7EF7B82790": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_NAVYBLUE_NAME",
 			"008A7E4AC305E392": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RED_NAME",
-			"00A6552BA4F3A47E": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RASTA_NAME"
+			"00A6552BA4F3A47E": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_RASTA_NAME",
+			"00C50A2A3C2A95D5": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_CUSTOM_NAME"
 		}
 	},
 	"options": [
@@ -111,7 +120,7 @@
 						{
 							"id": "install-babyblue-peacock",
 							"name": "Peacock Addon",
-							"description": "Install the baby blue tracksuit with white stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+							"description": "Install the baby blue tracksuit with white stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock, or offline.",
 							"data": {
 								"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/addon"],
 								"blobFolders": ["blobs/babyblue/addon"]
@@ -249,7 +258,7 @@
 						{
 							"id": "install-black-peacock",
 							"name": "Peacock Addon",
-							"description": "Install the black tracksuit with white stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+							"description": "Install the black tracksuit with white stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock, or offline.",
 							"data": {
 								"contentFolders": ["1_content/mats/black", "2_patches/replace/black/addon"],
 								"blobFolders": ["blobs/black/addon"]
@@ -384,7 +393,7 @@
 						{
 							"id": "install-emeraldgreen-peacock",
 							"name": "Peacock Addon",
-							"description": "Install the emerald green tracksuit with white stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+							"description": "Install the emerald green tracksuit with white stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock, or offline.",
 							"data": {
 								"contentFolders": ["1_content/mats/emeraldgreen", "2_patches/replace/emeraldgreen/addon"],
 								"blobFolders": ["blobs/emeraldgreen/addon"]
@@ -546,7 +555,7 @@
 						{
 							"id": "install-heathergrey-peacock",
 							"name": "Peacock Addon",
-							"description": "Install the heather grey tracksuit with black stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+							"description": "Install the heather grey tracksuit with black stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock, or offline.",
 							"data": {
 								"contentFolders": ["1_content/mats/heathergrey", "2_patches/replace/heathergrey/addon"],
 								"blobFolders": ["blobs/heathergrey/addon"]
@@ -699,7 +708,7 @@
 						{
 							"id": "install-navyblue-peacock",
 							"name": "Peacock Addon",
-							"description": "Install the navy blue tracksuit with white stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+							"description": "Install the navy blue tracksuit with white stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock, or offline.",
 							"data": {
 								"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/addon"],
 								"blobFolders": ["blobs/navyblue/addon"]
@@ -837,7 +846,7 @@
 						{
 							"id": "install-red-peacock",
 							"name": "Peacock Addon",
-							"description": "Install the red tracksuit with white stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+							"description": "Install the red tracksuit with white stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock, or offline.",
 							"data": {
 								"contentFolders": ["1_content/mats/red", "2_patches/replace/red/addon"],
 								"blobFolders": ["blobs/red/addon"]
@@ -972,7 +981,7 @@
 						{
 							"id": "install-rasta-peacock",
 							"name": "Peacock Addon",
-							"description": "Install the black tracksuit with rasta stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+							"description": "Install the black tracksuit with rasta stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock, or offline.",
 							"data": {
 								"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/addon"],
 								"blobFolders": ["blobs/rasta/addon"]
@@ -1088,6 +1097,141 @@
 							"data": {
 								"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/luckyducky"],
 								"blobFolders": ["blobs/rasta/luckyducky"]
+							}
+						}
+					]
+				},
+				{
+					"id": "install-custom",
+					"type": "selection",
+					"name": "Custom",
+					"defaultValue": "install-custom-dni",
+					"options": [
+						{
+							"id": "install-custom-dni",
+							"name": "Do not install",
+							"description": "Do not install the tracksuit with custom colors.",
+							"image": "custom.jpg"
+						},
+						{
+							"id": "install-custom-peacock",
+							"name": "Peacock Addon",
+							"description": "Install the tracksuit with custom colors to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock, or offline.",
+							"data": {
+								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/addon"],
+								"blobFolders": ["blobs/custom/addon"]
+							}
+						},
+						{
+							"id": "install-custom-rubyrude",
+							"name": "Ruby Rude Tracksuit",
+							"data": {
+								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/ruderuby"],
+								"blobFolders": ["blobs/custom/ruderuby"]
+							}
+						},
+						{
+							"id": "install-custom-casual",
+							"name": "Casual Suit with Gloves",
+							"data": {
+								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/bangkok"],
+								"blobFolders": ["blobs/custom/bangkok"]
+							}
+						},
+						{
+							"id": "install-custom-italian",
+							"name": "Italian Suit with Gloves",
+							"data": {
+								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/sapienza"],
+								"blobFolders": ["blobs/custom/sapienza"]
+							}
+						},
+						{
+							"id": "install-custom-florida",
+							"name": "Florida Fit with Gloves",
+							"data": {
+								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/miami"],
+								"blobFolders": ["blobs/custom/miami"]
+							}
+						},
+						{
+							"id": "install-custom-tourist",
+							"name": "Casual Tourist with Gloves",
+							"data": {
+								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/sanfortuna"],
+								"blobFolders": ["blobs/custom/sanfortuna"]
+							}
+						},
+						{
+							"id": "install-custom-suave",
+							"name": "Summer Suave Suit",
+							"data": {
+								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/summersuave"],
+								"blobFolders": ["blobs/custom/summersuave"]
+							}
+						},
+						{
+							"id": "install-custom-sightseeing",
+							"name": "Summer Sightseeing Suit",
+							"data": {
+								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/summersightseeing"],
+								"blobFolders": ["blobs/custom/summersightseeing"]
+							}
+						},
+						{
+							"id": "install-custom-undercover",
+							"name": "Casual Undercover",
+							"data": {
+								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/casualundercover"],
+								"blobFolders": ["blobs/custom/casualundercover"]
+							}
+						},
+						{
+							"id": "install-custom-midnightblack",
+							"name": "Midnight Black Suit",
+							"data": {
+								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/midnightblack"],
+								"blobFolders": ["blobs/custom/midnightblack"]
+							}
+						},
+						{
+							"id": "install-custom-summersuit",
+							"name": "Summer Suit with Gloves",
+							"data": {
+								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/marrakesh"],
+								"blobFolders": ["blobs/custom/marrakesh"]
+							}
+						},
+						{
+							"id": "install-custom-tropical",
+							"name": "Tropical Suit",
+							"data": {
+								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/tropicalsuit"],
+								"blobFolders": ["blobs/custom/tropicalsuit"]
+							}
+						},
+						{
+							"id": "install-custom-smartcasual",
+							"name": "Smart Casual Suit",
+							"data": {
+								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/smartcasual"],
+								"blobFolders": ["blobs/custom/smartcasual"]
+							}
+						},
+						{
+							"id": "install-custom-raver",
+							"name": "The Raver",
+							"data": {
+								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/raver"],
+								"blobFolders": ["blobs/custom/raver"]
+							}
+						},
+						{
+							"id": "install-custom-ducky",
+							"name": "Lucky Ducky",
+							"data": {
+								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/luckyducky"],
+								"blobFolders": ["blobs/custom/luckyducky"]
 							}
 						}
 					]
@@ -1583,6 +1727,148 @@
 				}
 			],
 			"displayCondition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-dni\")"
+		},
+		{
+			"id": "custom-variant",
+			"type": "optionGroup",
+			"name": "Custom",
+			"options": [
+				{
+					"id": "custom-variant-colors",
+					"type": "optionGroup",
+					"name": "Colors",
+					"description": "Change the colors of the custom tracksuit. The green color is only to illustrate what segment you are coloring.",
+					"options": [
+						{
+							"name": "Top",
+							"id": "custom-color-top",
+							"type": "color",
+							"defaultValue": "#000000",
+							"description": "Change the color of the tracksuit top.",
+							"image": "custom_color_top.jpg"
+						},
+						{
+							"name": "Pants",
+							"id": "custom-color-pants",
+							"type": "color",
+							"defaultValue": "#000000",
+							"description": "Change the color of the tracksuit pants.",
+							"image": "custom_color_pants.jpg"
+						},
+						{
+							"name": "Logo, Top",
+							"id": "custom-color-logo-top",
+							"type": "color",
+							"defaultValue": "#ffffff",
+							"description": "Change the color of the top segment of the Adidas logo.",
+							"image": "custom_color_logo_top.jpg"
+						},
+						{
+							"name": "Logo, Mid",
+							"id": "custom-color-logo-mid",
+							"type": "color",
+							"defaultValue": "#ffffff",
+							"description": "Change the color of the middle segment of the Adidas logo.",
+							"image": "custom_color_logo_mid.jpg"
+						},
+						{
+							"name": "Logo, Bottom",
+							"id": "custom-color-logo-bottom",
+							"type": "color",
+							"defaultValue": "#ffffff",
+							"description": "Change the color of the bottom segment of the Adidas logo.",
+							"image": "custom_color_logo_bottom.jpg"
+						},
+						{
+							"name": "Stripe, Front",
+							"id": "custom-color-stripe-front",
+							"type": "color",
+							"defaultValue": "#ffffff",
+							"description": "Change the color of the front stripe.",
+							"image": "custom_color_stripe_front.jpg"
+						},
+						{
+							"name": "Stripe, Mid",
+							"id": "custom-color-stripe-mid",
+							"type": "color",
+							"defaultValue": "#ffffff",
+							"description": "Change the color of the middle stripe.",
+							"image": "custom_color_stripe_mid.jpg"
+						},
+						{
+							"name": "Stripe, Back",
+							"id": "custom-color-stripe-back",
+							"type": "color",
+							"defaultValue": "#ffffff",
+							"description": "Change the color of the back stripe.",
+							"image": "custom_color_stripe_back.jpg"
+						}
+					]
+				},
+				{
+					"id": "custom-variant-hat",
+					"type": "selection",
+					"name": "Hat",
+					"defaultValue": "custom-variant-hat-none",
+					"options": [
+						{
+							"id": "custom-variant-hat-none",
+							"name": "No hat",
+							"description": "Don't use a hat."
+						},
+						{
+							"id": "custom-variant-hat-blackcap",
+							"name": "Black flatcap",
+							"description": "Use a black flatcap.",
+							"image": "flatcap_black.jpg",
+							"data": {
+								"contentFolders": ["2_patches/variant/custom/flatcap_black"]
+							}
+						},
+						{
+							"id": "custom-variant-hat-greycap",
+							"name": "Grey flatcap",
+							"description": "Use a grey flatcap.",
+							"image": "flatcap_grey.jpg",
+							"data": {
+								"contentFolders": ["2_patches/variant/custom/flatcap_grey"]
+							}
+						}
+					]
+				},
+				{
+					"id": "custom-variant-gloves",
+					"type": "selection",
+					"name": "Gloves",
+					"defaultValue": "custom-variant-gloves-none",
+					"options": [
+						{
+							"id": "custom-variant-gloves-none",
+							"name": "No gloves",
+							"description": "Don't use gloves."
+						},
+						{
+							"id": "custom-variant-gloves-driving",
+							"name": "Driving gloves",
+							"description": "Use driving gloves.",
+							"image": "drivinggloves.jpg",
+							"data": {
+								"contentFolders": ["2_patches/variant/custom/drivinggloves"]
+							}
+						},
+						{
+							"id": "custom-variant-gloves-leather",
+							"name": "Leather gloves",
+							"description": "Use leather gloves.",
+							"image": "leathergloves.jpg",
+							"data": {
+								"contentFolders": ["2_patches/variant/custom/leathergloves"]
+							}
+						}
+					]
+				}
+			],
+			"displayCondition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-dni\")"
 		}
 	]
 }

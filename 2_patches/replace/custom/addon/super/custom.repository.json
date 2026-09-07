@@ -1,0 +1,14 @@
+{
+	"d0fa94bf-5a17-4b5d-a93e-d8b9df57b031": {
+		"ID_": "d0fa94bf-5a17-4b5d-a93e-d8b9df57b031",
+		"CommonName": "CHAR_Global_Hero_Adidastracksuit_Custom_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_Outfits_adidas_tracksuit_custom.jpg",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_CUSTOM_NAME",
+		"Category": "",
+		"ImageTransparent": "",
+		"TokenID": "TOKEN_OUTFIT_HERO_ADIDAS_TRACKSUIT_CUSTOM"
+	}
+}
