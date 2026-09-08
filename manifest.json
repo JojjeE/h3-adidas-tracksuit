@@ -132,6 +132,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/ruderuby"],
 								"blobFolders": ["blobs/babyblue/ruderuby"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-rubyrude\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -140,6 +150,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/bangkok"],
 								"blobFolders": ["blobs/babyblue/bangkok"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-casual\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -148,6 +168,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/sapienza"],
 								"blobFolders": ["blobs/babyblue/sapienza"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-italian\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -156,6 +186,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/miami"],
 								"blobFolders": ["blobs/babyblue/miami"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-florida\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -164,6 +204,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/sanfortuna"],
 								"blobFolders": ["blobs/babyblue/sanfortuna"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-tourist\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -172,6 +222,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/summersuave"],
 								"blobFolders": ["blobs/babyblue/summersuave"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-suave\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -183,6 +243,16 @@
 									"2_patches/replace/babyblue/summersightseeing"
 								],
 								"blobFolders": ["blobs/babyblue/summersightseeing"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-sightseeing\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -191,6 +261,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/casualundercover"],
 								"blobFolders": ["blobs/babyblue/casualundercover"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-undercover\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -199,6 +279,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/midnightblack"],
 								"blobFolders": ["blobs/babyblue/midnightblack"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-midnightblack\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -207,6 +297,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/marrakesh"],
 								"blobFolders": ["blobs/babyblue/marrakesh"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-summersuit\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -215,6 +315,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/tropicalsuit"],
 								"blobFolders": ["blobs/babyblue/tropicalsuit"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-tropical\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -223,6 +333,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/smartcasual"],
 								"blobFolders": ["blobs/babyblue/smartcasual"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-smartcasual\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -231,6 +351,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/raver"],
 								"blobFolders": ["blobs/babyblue/raver"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-raver\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -239,6 +369,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/luckyducky"],
 								"blobFolders": ["blobs/babyblue/luckyducky"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-ducky\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						}
 					]
@@ -270,6 +410,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/black", "2_patches/replace/black/ruderuby"],
 								"blobFolders": ["blobs/black/ruderuby"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-rubyrude\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -278,6 +428,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/black", "2_patches/replace/black/bangkok"],
 								"blobFolders": ["blobs/black/bangkok"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-casual\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -286,6 +446,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/black", "2_patches/replace/black/sapienza"],
 								"blobFolders": ["blobs/black/sapienza"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-italian\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -294,6 +464,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/black", "2_patches/replace/black/miami"],
 								"blobFolders": ["blobs/black/miami"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-florida\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -302,6 +482,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/black", "2_patches/replace/black/sanfortuna"],
 								"blobFolders": ["blobs/black/sanfortuna"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-tourist\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -310,6 +500,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/black", "2_patches/replace/black/summersuave"],
 								"blobFolders": ["blobs/black/summersuave"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-suave\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -318,6 +518,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/black", "2_patches/replace/black/summersightseeing"],
 								"blobFolders": ["blobs/black/summersightseeing"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-sightseeing\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -326,6 +536,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/black", "2_patches/replace/black/casualundercover"],
 								"blobFolders": ["blobs/black/casualundercover"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-undercover\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -334,6 +554,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/black", "2_patches/replace/black/midnightblack"],
 								"blobFolders": ["blobs/black/midnightblack"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-midnightblack\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -342,6 +572,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/black", "2_patches/replace/black/marrakesh"],
 								"blobFolders": ["blobs/black/marrakesh"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-summersuit\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -350,6 +590,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/black", "2_patches/replace/black/tropicalsuit"],
 								"blobFolders": ["blobs/black/tropicalsuit"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-tropical\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -358,6 +608,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/black", "2_patches/replace/black/smartcasual"],
 								"blobFolders": ["blobs/black/smartcasual"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-smartcasual\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -366,6 +626,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/black", "2_patches/replace/black/raver"],
 								"blobFolders": ["blobs/black/raver"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-raver\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -374,6 +644,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/black", "2_patches/replace/black/luckyducky"],
 								"blobFolders": ["blobs/black/luckyducky"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-ducky\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						}
 					]
@@ -405,6 +685,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/emeraldgreen", "2_patches/replace/emeraldgreen/ruderuby"],
 								"blobFolders": ["blobs/emeraldgreen/ruderuby"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-rubyrude\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -413,6 +703,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/emeraldgreen", "2_patches/replace/emeraldgreen/bangkok"],
 								"blobFolders": ["blobs/emeraldgreen/bangkok"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-casual\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -421,6 +721,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/emeraldgreen", "2_patches/replace/emeraldgreen/sapienza"],
 								"blobFolders": ["blobs/emeraldgreen/sapienza"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-italian\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -429,6 +739,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/emeraldgreen", "2_patches/replace/emeraldgreen/miami"],
 								"blobFolders": ["blobs/emeraldgreen/miami"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-florida\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -440,6 +760,16 @@
 									"2_patches/replace/emeraldgreen/sanfortuna"
 								],
 								"blobFolders": ["blobs/emeraldgreen/sanfortuna"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-tourist\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -451,6 +781,16 @@
 									"2_patches/replace/emeraldgreen/summersuave"
 								],
 								"blobFolders": ["blobs/emeraldgreen/summersuave"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-suave\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -462,6 +802,16 @@
 									"2_patches/replace/emeraldgreen/summersightseeing"
 								],
 								"blobFolders": ["blobs/emeraldgreen/summersightseeing"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-sightseeing\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -473,6 +823,16 @@
 									"2_patches/replace/emeraldgreen/casualundercover"
 								],
 								"blobFolders": ["blobs/emeraldgreen/casualundercover"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-undercover\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -484,6 +844,16 @@
 									"2_patches/replace/emeraldgreen/midnightblack"
 								],
 								"blobFolders": ["blobs/emeraldgreen/midnightblack"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-midnightblack\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -495,6 +865,16 @@
 									"2_patches/replace/emeraldgreen/marrakesh"
 								],
 								"blobFolders": ["blobs/emeraldgreen/marrakesh"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-summersuit\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -506,6 +886,16 @@
 									"2_patches/replace/emeraldgreen/tropicalsuit"
 								],
 								"blobFolders": ["blobs/emeraldgreen/tropicalsuit"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-tropical\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -517,6 +907,16 @@
 									"2_patches/replace/emeraldgreen/smartcasual"
 								],
 								"blobFolders": ["blobs/emeraldgreen/smartcasual"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-smartcasual\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -525,6 +925,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/emeraldgreen", "2_patches/replace/emeraldgreen/raver"],
 								"blobFolders": ["blobs/emeraldgreen/raver"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-raver\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -536,6 +946,16 @@
 									"2_patches/replace/emeraldgreen/luckyducky"
 								],
 								"blobFolders": ["blobs/emeraldgreen/luckyducky"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-ducky\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						}
 					]
@@ -567,6 +987,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/heathergrey", "2_patches/replace/heathergrey/ruderuby"],
 								"blobFolders": ["blobs/heathergrey/ruderuby"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-rubyrude\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -575,6 +1005,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/heathergrey", "2_patches/replace/heathergrey/bangkok"],
 								"blobFolders": ["blobs/heathergrey/bangkok"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-casual\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -583,6 +1023,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/heathergrey", "2_patches/replace/heathergrey/sapienza"],
 								"blobFolders": ["blobs/heathergrey/sapienza"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-italian\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -591,6 +1041,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/heathergrey", "2_patches/replace/heathergrey/miami"],
 								"blobFolders": ["blobs/heathergrey/miami"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-florida\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -599,6 +1059,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/heathergrey", "2_patches/replace/heathergrey/sanfortuna"],
 								"blobFolders": ["blobs/heathergrey/sanfortuna"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-tourist\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -610,6 +1080,16 @@
 									"2_patches/replace/heathergrey/summersuave"
 								],
 								"blobFolders": ["blobs/heathergrey/summersuave"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-suave\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -621,6 +1101,16 @@
 									"2_patches/replace/heathergrey/summersightseeing"
 								],
 								"blobFolders": ["blobs/heathergrey/summersightseeing"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-sightseeing\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -632,6 +1122,16 @@
 									"2_patches/replace/heathergrey/casualundercover"
 								],
 								"blobFolders": ["blobs/heathergrey/casualundercover"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-undercover\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -643,6 +1143,16 @@
 									"2_patches/replace/heathergrey/midnightblack"
 								],
 								"blobFolders": ["blobs/heathergrey/midnightblack"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-midnightblack\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -651,6 +1161,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/heathergrey", "2_patches/replace/heathergrey/marrakesh"],
 								"blobFolders": ["blobs/heathergrey/marrakesh"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-summersuit\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -662,6 +1182,16 @@
 									"2_patches/replace/heathergrey/tropicalsuit"
 								],
 								"blobFolders": ["blobs/heathergrey/tropicalsuit"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-tropical\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -673,6 +1203,16 @@
 									"2_patches/replace/heathergrey/smartcasual"
 								],
 								"blobFolders": ["blobs/heathergrey/smartcasual"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-smartcasual\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -681,6 +1221,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/heathergrey", "2_patches/replace/heathergrey/raver"],
 								"blobFolders": ["blobs/heathergrey/raver"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-raver\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -689,6 +1239,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/heathergrey", "2_patches/replace/heathergrey/luckyducky"],
 								"blobFolders": ["blobs/heathergrey/luckyducky"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-ducky\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						}
 					]
@@ -720,6 +1280,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/ruderuby"],
 								"blobFolders": ["blobs/navyblue/ruderuby"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-rubyrude\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -728,6 +1298,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/bangkok"],
 								"blobFolders": ["blobs/navyblue/bangkok"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-casual\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -736,6 +1316,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/sapienza"],
 								"blobFolders": ["blobs/navyblue/sapienza"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-italian\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -744,6 +1334,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/miami"],
 								"blobFolders": ["blobs/navyblue/miami"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-florida\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -752,6 +1352,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/sanfortuna"],
 								"blobFolders": ["blobs/navyblue/sanfortuna"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-tourist\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -760,6 +1370,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/summersuave"],
 								"blobFolders": ["blobs/navyblue/summersuave"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-suave\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -771,6 +1391,16 @@
 									"2_patches/replace/navyblue/summersightseeing"
 								],
 								"blobFolders": ["blobs/navyblue/summersightseeing"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-sightseeing\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -779,6 +1409,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/casualundercover"],
 								"blobFolders": ["blobs/navyblue/casualundercover"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-undercover\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -787,6 +1427,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/midnightblack"],
 								"blobFolders": ["blobs/navyblue/midnightblack"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-midnightblack\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -795,6 +1445,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/marrakesh"],
 								"blobFolders": ["blobs/navyblue/marrakesh"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-summersuit\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -803,6 +1463,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/tropicalsuit"],
 								"blobFolders": ["blobs/navyblue/tropicalsuit"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-tropical\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -811,6 +1481,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/smartcasual"],
 								"blobFolders": ["blobs/navyblue/smartcasual"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-smartcasual\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -819,6 +1499,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/raver"],
 								"blobFolders": ["blobs/navyblue/raver"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-raver\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -827,6 +1517,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/luckyducky"],
 								"blobFolders": ["blobs/navyblue/luckyducky"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-ducky\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						}
 					]
@@ -858,6 +1558,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/red", "2_patches/replace/red/ruderuby"],
 								"blobFolders": ["blobs/red/ruderuby"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-rubyrude\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -866,6 +1576,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/red", "2_patches/replace/red/bangkok"],
 								"blobFolders": ["blobs/red/bangkok"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-casual\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -874,6 +1594,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/red", "2_patches/replace/red/sapienza"],
 								"blobFolders": ["blobs/red/sapienza"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-italian\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -882,6 +1612,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/red", "2_patches/replace/red/miami"],
 								"blobFolders": ["blobs/red/miami"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-florida\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -890,6 +1630,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/red", "2_patches/replace/red/sanfortuna"],
 								"blobFolders": ["blobs/red/sanfortuna"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-tourist\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -898,6 +1648,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/red", "2_patches/replace/red/summersuave"],
 								"blobFolders": ["blobs/red/summersuave"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-suave\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -906,6 +1666,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/red", "2_patches/replace/red/summersightseeing"],
 								"blobFolders": ["blobs/red/summersightseeing"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-sightseeing\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -914,6 +1684,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/red", "2_patches/replace/red/casualundercover"],
 								"blobFolders": ["blobs/red/casualundercover"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-undercover\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -922,6 +1702,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/red", "2_patches/replace/red/midnightblack"],
 								"blobFolders": ["blobs/red/midnightblack"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-midnightblack\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -930,6 +1720,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/red", "2_patches/replace/red/marrakesh"],
 								"blobFolders": ["blobs/red/marrakesh"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-summersuit\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -938,6 +1738,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/red", "2_patches/replace/red/tropicalsuit"],
 								"blobFolders": ["blobs/red/tropicalsuit"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-tropical\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -946,6 +1756,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/red", "2_patches/replace/red/smartcasual"],
 								"blobFolders": ["blobs/red/smartcasual"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-smartcasual\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -954,6 +1774,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/red", "2_patches/replace/red/raver"],
 								"blobFolders": ["blobs/red/raver"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-raver\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -962,6 +1792,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/red", "2_patches/replace/red/luckyducky"],
 								"blobFolders": ["blobs/red/luckyducky"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-ducky\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						}
 					]
@@ -993,6 +1833,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/ruderuby"],
 								"blobFolders": ["blobs/rasta/ruderuby"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-rubyrude\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -1001,6 +1851,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/bangkok"],
 								"blobFolders": ["blobs/rasta/bangkok"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-casual\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -1009,6 +1869,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/sapienza"],
 								"blobFolders": ["blobs/rasta/sapienza"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-italian\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -1017,6 +1887,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/miami"],
 								"blobFolders": ["blobs/rasta/miami"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-florida\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -1025,6 +1905,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/sanfortuna"],
 								"blobFolders": ["blobs/rasta/sanfortuna"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-tourist\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -1033,6 +1923,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/summersuave"],
 								"blobFolders": ["blobs/rasta/summersuave"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-suave\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -1041,6 +1941,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/summersightseeing"],
 								"blobFolders": ["blobs/rasta/summersightseeing"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-sightseeing\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -1049,6 +1959,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/casualundercover"],
 								"blobFolders": ["blobs/rasta/casualundercover"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-undercover\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -1057,6 +1977,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/midnightblack"],
 								"blobFolders": ["blobs/rasta/midnightblack"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-midnightblack\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -1065,6 +1995,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/marrakesh"],
 								"blobFolders": ["blobs/rasta/marrakesh"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-summersuit\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -1073,6 +2013,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/tropicalsuit"],
 								"blobFolders": ["blobs/rasta/tropicalsuit"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-tropical\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -1081,6 +2031,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/smartcasual"],
 								"blobFolders": ["blobs/rasta/smartcasual"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-smartcasual\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -1089,6 +2049,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/raver"],
 								"blobFolders": ["blobs/rasta/raver"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-raver\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -1097,6 +2067,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/luckyducky"],
 								"blobFolders": ["blobs/rasta/luckyducky"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-custom\") != Some(\"install-custom-ducky\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						}
 					]
@@ -1128,6 +2108,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/ruderuby"],
 								"blobFolders": ["blobs/custom/ruderuby"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-rubyrude\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-rubyrude\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -1136,6 +2126,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/bangkok"],
 								"blobFolders": ["blobs/custom/bangkok"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-casual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-casual\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -1144,6 +2144,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/sapienza"],
 								"blobFolders": ["blobs/custom/sapienza"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-italian\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-italian\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -1152,6 +2162,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/miami"],
 								"blobFolders": ["blobs/custom/miami"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-florida\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-florida\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -1160,6 +2180,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/sanfortuna"],
 								"blobFolders": ["blobs/custom/sanfortuna"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-tourist\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-tourist\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -1168,6 +2198,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/summersuave"],
 								"blobFolders": ["blobs/custom/summersuave"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-suave\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-suave\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -1176,6 +2216,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/summersightseeing"],
 								"blobFolders": ["blobs/custom/summersightseeing"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-sightseeing\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-sightseeing\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -1184,6 +2234,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/casualundercover"],
 								"blobFolders": ["blobs/custom/casualundercover"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-undercover\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-undercover\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -1192,6 +2252,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/midnightblack"],
 								"blobFolders": ["blobs/custom/midnightblack"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-midnightblack\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-midnightblack\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -1200,6 +2270,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/marrakesh"],
 								"blobFolders": ["blobs/custom/marrakesh"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-summersuit\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-summersuit\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -1208,6 +2288,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/tropicalsuit"],
 								"blobFolders": ["blobs/custom/tropicalsuit"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-tropical\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-tropical\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -1216,6 +2306,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/smartcasual"],
 								"blobFolders": ["blobs/custom/smartcasual"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-smartcasual\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-smartcasual\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -1224,6 +2324,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/raver"],
 								"blobFolders": ["blobs/custom/raver"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-raver\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-raver\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						},
 						{
@@ -1232,6 +2342,16 @@
 							"data": {
 								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/luckyducky"],
 								"blobFolders": ["blobs/custom/luckyducky"]
+							},
+							"conditions": {
+								"incompatibleConditions": [
+									{
+										"condition": "mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-babyblue\") != Some(\"install-babyblue-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-black\") != Some(\"install-black-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-emeraldgreen\") != Some(\"install-emeraldgreen-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-heathergrey\") != Some(\"install-heathergrey-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-navyblue\") != Some(\"install-navyblue-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-red\") != Some(\"install-red-ducky\") && mod_option(\"Jojje.AdidasTracksuit@2.1.0\", \"install-rasta\") != Some(\"install-rasta-ducky\")",
+										"explanation": {
+											"english": "This suit replacement is already selected in another option."
+										}
+									}
+								]
 							}
 						}
 					]
