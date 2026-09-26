@@ -1,1 +1,19 @@
-{"factory":"[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype","blueprint":"[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entityblueprint","patch":[{"PatchEntity":["d5da6e0eea089479",{"SetFactory":"00FCE16F689252A3"}]},{"PatchEntity":["d5da6e0eea089479",{"SetBlueprint":"00D8C655147DDA31"}]}],"patchVersion":7}
+{
+	"factory": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype",
+	"blueprint": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entityblueprint",
+	"patch": [
+		{
+			"PatchEntity": [
+				"d5da6e0eea089479",
+				{ "SetFactory": "00FCE16F689252A3" }
+			]
+		},
+		{
+			"PatchEntity": [
+				"d5da6e0eea089479",
+				{ "SetBlueprint": "00D8C655147DDA31" }
+			]
+		}
+	],
+	"patchVersion": 7
+}

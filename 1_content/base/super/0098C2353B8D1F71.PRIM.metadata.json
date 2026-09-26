@@ -1,1 +1,11 @@
-{"id":"0098C2353B8D1F71","type":"PRIM","references":["[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_ruby_rude/geometry/agent47_rubyrude.wl2?/tracksuit_pants.weightedprim](bodypart).pc_bonerig",{"resource":"[assembly:/_pro/characters/assets/_apparel/male_child/tracksuit/materials/tracksuit_pants.mi].pc_mi","type":"normal"}]}
+{
+	"id": "0098C2353B8D1F71",
+	"type": "PRIM",
+	"references": [
+		"[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_ruby_rude/geometry/agent47_rubyrude.wl2?/tracksuit_pants.weightedprim](bodypart).pc_bonerig",
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/male_child/tracksuit/materials/tracksuit_pants.mi].pc_mi",
+			"type": "normal"
+		}
+	]
+}

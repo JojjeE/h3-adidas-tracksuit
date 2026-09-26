@@ -1,1 +1,113 @@
-{"factory":"00D31B8AD78D49B0","blueprint":"0055142425F7B562","patch":[{"RemoveEntity":"d106c87418be2895"},{"PatchEntity":["edcfc381a1fcc7c6",{"PatchPropertyValue":["m_aBodyParts",{"ArrayPatch":[{"type":"replace","item":[{"type":"SEntityTemplateReference","value":"d106c87418be2895"},0],"new":{"type":"SEntityTemplateReference","value":"feed133f32cdbe97"}}]},true]}]},{"PatchEntity":["a2c953401aae462b",{"AddEventConnection":["Lerp","ConstantVector1D_04_Value","feed133f32cdbe97"]}]},{"AddEntity":["feed133f32cdbe97",{"parent":"edcfc381a1fcc7c6","name":"Mesh_Gloves","factory":"[modules:/zbodypartentity.class].pc_entitytype","blueprint":"[modules:/zbodypartentity.class].pc_entityblueprint","properties":{"m_pMeshResource":{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/characters/assets/hero/agent47/geometry/agent47_s2_suit.wl2?/gloves.weightedprim](bodypart).pc_weightedprim","type":"normal"}}},"inputForwardings":{"ConstantVector1D_04_Value":{"ConstantVector1D_04_Value":["feedeabaaa457740"]}}}]},{"AddEntity":["feedeabaaa457740",{"parent":"feed133f32cdbe97","name":"agent47_gloves_white","factory":"[assembly:/_pro/characters/assets/hero/agent47/materials/agent47_gloves_white.mi].pc_entitytype","blueprint":"[assembly:/_pro/characters/assets/hero/agent47/materials/agent47_gloves_white.mi].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"position":{"x":0,"y":0,"z":0},"rotation":{"x":-0,"y":0,"z":-0}}},"Diffuse_Color_01_Value_op":{"type":"IRenderMaterialEntity.EModifierOperation","value":"eReplace"},"Diffuse_Color_01_Value":{"type":"SColorRGB","value":"#171717"},"ConstantVector1D_04_Value_op":{"type":"IRenderMaterialEntity.EModifierOperation","value":"eReplace"},"Clients":{"type":"TArray<SEntityTemplateReference>","value":["feed133f32cdbe97"],"postInit":true}}}]}],"patchVersion":7}
+{
+	"factory": "00D31B8AD78D49B0",
+	"blueprint": "0055142425F7B562",
+	"patch": [
+		{ "RemoveEntity": "d106c87418be2895" },
+		{
+			"PatchEntity": [
+				"edcfc381a1fcc7c6",
+				{
+					"PatchPropertyValue": [
+						"m_aBodyParts",
+						{
+							"ArrayPatch": [
+								{
+									"type": "replace",
+									"item": [
+										{
+											"type": "SEntityTemplateReference",
+											"value": "d106c87418be2895"
+										},
+										0
+									],
+									"new": {
+										"type": "SEntityTemplateReference",
+										"value": "feed133f32cdbe97"
+									}
+								}
+							]
+						},
+						true
+					]
+				}
+			]
+		},
+		{
+			"PatchEntity": [
+				"a2c953401aae462b",
+				{
+					"AddEventConnection": [
+						"Lerp",
+						"ConstantVector1D_04_Value",
+						"feed133f32cdbe97"
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed133f32cdbe97",
+				{
+					"parent": "edcfc381a1fcc7c6",
+					"name": "Mesh_Gloves",
+					"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+					"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+					"properties": {
+						"m_pMeshResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/_pro/characters/assets/hero/agent47/geometry/agent47_s2_suit.wl2?/gloves.weightedprim](bodypart).pc_weightedprim",
+								"type": "normal"
+							}
+						}
+					},
+					"inputForwardings": {
+						"ConstantVector1D_04_Value": {
+							"ConstantVector1D_04_Value": [
+								"feedeabaaa457740"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedeabaaa457740",
+				{
+					"parent": "feed133f32cdbe97",
+					"name": "agent47_gloves_white",
+					"factory": "[assembly:/_pro/characters/assets/hero/agent47/materials/agent47_gloves_white.mi].pc_entitytype",
+					"blueprint": "[assembly:/_pro/characters/assets/hero/agent47/materials/agent47_gloves_white.mi].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"position": { "x": 0, "y": 0, "z": 0 },
+								"rotation": { "x": -0, "y": 0, "z": -0 }
+							}
+						},
+						"Diffuse_Color_01_Value_op": {
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eReplace"
+						},
+						"Diffuse_Color_01_Value": {
+							"type": "SColorRGB",
+							"value": "#171717"
+						},
+						"ConstantVector1D_04_Value_op": {
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eReplace"
+						},
+						"Clients": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["feed133f32cdbe97"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 7
+}

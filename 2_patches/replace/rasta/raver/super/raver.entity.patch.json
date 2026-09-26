@@ -1,1 +1,36 @@
-{"factory":"[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype","blueprint":"[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entityblueprint","patch":[{"PatchEntity":["ca96a25366ecc5d2",{"SetFactory":"00FA0D2F8A3C1A18"}]},{"PatchEntity":["ca96a25366ecc5d2",{"SetBlueprint":"00DC522A2135E530"}]},{"PatchEntity":["4f575dbf25cb0f0c",{"PatchPropertyValue":["m_eSoundFootwearType",{"Set":{"type":"EHM5SoundFootwearType","value":"EFWT_SNEAKERS"}},false]}]}],"patchVersion":7}
+{
+	"factory": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype",
+	"blueprint": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entityblueprint",
+	"patch": [
+		{
+			"PatchEntity": [
+				"ca96a25366ecc5d2",
+				{ "SetFactory": "00FA0D2F8A3C1A18" }
+			]
+		},
+		{
+			"PatchEntity": [
+				"ca96a25366ecc5d2",
+				{ "SetBlueprint": "00DC522A2135E530" }
+			]
+		},
+		{
+			"PatchEntity": [
+				"4f575dbf25cb0f0c",
+				{
+					"PatchPropertyValue": [
+						"m_eSoundFootwearType",
+						{
+							"Set": {
+								"type": "EHM5SoundFootwearType",
+								"value": "EFWT_SNEAKERS"
+							}
+						},
+						false
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 7
+}

@@ -1,1 +1,67 @@
-{"factory":"002D5BEA32680DA5","blueprint":"0098D7CEED4E2A2E","patch":[{"PatchEntity":["5145807905d9ba6f",{"AddEventConnection":["Lerp","ConstantVector1D_14_Value","feed2ae0ec69699a"]}]},{"AddEntity":["feed2ae0ec69699a",{"parent":"eccd9b10729f1435","name":"hat_cap_flat_plain","factory":"[assembly:/_pro/characters/templates/_part_library/male_apparel/male_apparel_headwear_prim.template?/hat_cap_flat_plain.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/characters/templates/_part_library/male_apparel/male_apparel_headwear_prim.template?/hat_cap_flat_plain.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"position":{"x":0.07903,"y":0.024634,"z":-0.000023},"rotation":{"x":6.1790347,"y":89.36026,"z":160.56029}}},"Diffuse_Color_01_Value":{"type":"SColorRGB","value":"#6a6a6a"},"m_rLinkedProxyEntity":{"type":"SEntityTemplateReference","value":"56d2f89b41170725"},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.9316189885139465,"y":0.9732249975204468,"z":1}},"m_eidParent":{"type":"SEntityTemplateReference","value":"eccd9b10729f1435"}}}]}],"patchVersion":7}
+{
+	"factory": "002D5BEA32680DA5",
+	"blueprint": "0098D7CEED4E2A2E",
+	"patch": [
+		{
+			"PatchEntity": [
+				"5145807905d9ba6f",
+				{
+					"AddEventConnection": [
+						"Lerp",
+						"ConstantVector1D_14_Value",
+						"feed2ae0ec69699a"
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed2ae0ec69699a",
+				{
+					"parent": "eccd9b10729f1435",
+					"name": "hat_cap_flat_plain",
+					"factory": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_apparel_headwear_prim.template?/hat_cap_flat_plain.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/characters/templates/_part_library/male_apparel/male_apparel_headwear_prim.template?/hat_cap_flat_plain.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"position": {
+									"x": 0.07903,
+									"y": 0.024634,
+									"z": -0.000023
+								},
+								"rotation": {
+									"x": 6.1790347,
+									"y": 89.36026,
+									"z": 160.56029
+								}
+							}
+						},
+						"Diffuse_Color_01_Value": {
+							"type": "SColorRGB",
+							"value": "#6a6a6a"
+						},
+						"m_rLinkedProxyEntity": {
+							"type": "SEntityTemplateReference",
+							"value": "56d2f89b41170725"
+						},
+						"m_PrimitiveScale": {
+							"type": "SVector3",
+							"value": {
+								"x": 0.9316189885139465,
+								"y": 0.9732249975204468,
+								"z": 1
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "eccd9b10729f1435"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 7
+}

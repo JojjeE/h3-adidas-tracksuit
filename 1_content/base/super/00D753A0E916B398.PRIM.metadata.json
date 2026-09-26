@@ -1,1 +1,8 @@
-{"id":"00D753A0E916B398","type":"PRIM","references":["[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_ruby_rude/geometry/agent47_rubyrude.wl2?/tracksuit_jacket_closed.weightedprim](bodypart).pc_bonerig",{"resource":"0090782CF3198985","type":"normal"}]}
+{
+	"id": "00D753A0E916B398",
+	"type": "PRIM",
+	"references": [
+		"[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_ruby_rude/geometry/agent47_rubyrude.wl2?/tracksuit_jacket_closed.weightedprim](bodypart).pc_bonerig",
+		{ "resource": "0090782CF3198985", "type": "normal" }
+	]
+}

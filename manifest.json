@@ -122,7 +122,10 @@
 							"name": "Peacock Addon",
 							"description": "Install the baby blue tracksuit with white stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock, or offline.",
 							"data": {
-								"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/addon"],
+								"contentFolders": [
+									"1_content/mats/babyblue",
+									"2_patches/replace/babyblue/addon"
+								],
 								"blobFolders": ["blobs/babyblue/addon"]
 							}
 						},
@@ -130,7 +133,10 @@
 							"id": "install-babyblue-rubyrude",
 							"name": "Ruby Rude Tracksuit",
 							"data": {
-								"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/ruderuby"],
+								"contentFolders": [
+									"1_content/mats/babyblue",
+									"2_patches/replace/babyblue/ruderuby"
+								],
 								"blobFolders": ["blobs/babyblue/ruderuby"]
 							},
 							"conditions": {
@@ -148,7 +154,10 @@
 							"id": "install-babyblue-casual",
 							"name": "Casual Suit with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/bangkok"],
+								"contentFolders": [
+									"1_content/mats/babyblue",
+									"2_patches/replace/babyblue/bangkok"
+								],
 								"blobFolders": ["blobs/babyblue/bangkok"]
 							},
 							"conditions": {
@@ -166,7 +175,10 @@
 							"id": "install-babyblue-italian",
 							"name": "Italian Suit with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/sapienza"],
+								"contentFolders": [
+									"1_content/mats/babyblue",
+									"2_patches/replace/babyblue/sapienza"
+								],
 								"blobFolders": ["blobs/babyblue/sapienza"]
 							},
 							"conditions": {
@@ -184,7 +196,10 @@
 							"id": "install-babyblue-florida",
 							"name": "Florida Fit with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/miami"],
+								"contentFolders": [
+									"1_content/mats/babyblue",
+									"2_patches/replace/babyblue/miami"
+								],
 								"blobFolders": ["blobs/babyblue/miami"]
 							},
 							"conditions": {
@@ -202,8 +217,13 @@
 							"id": "install-babyblue-tourist",
 							"name": "Casual Tourist with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/sanfortuna"],
-								"blobFolders": ["blobs/babyblue/sanfortuna"]
+								"contentFolders": [
+									"1_content/mats/babyblue",
+									"2_patches/replace/babyblue/sanfortuna"
+								],
+								"blobFolders": [
+									"blobs/babyblue/sanfortuna"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -220,8 +240,13 @@
 							"id": "install-babyblue-suave",
 							"name": "Summer Suave Suit",
 							"data": {
-								"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/summersuave"],
-								"blobFolders": ["blobs/babyblue/summersuave"]
+								"contentFolders": [
+									"1_content/mats/babyblue",
+									"2_patches/replace/babyblue/summersuave"
+								],
+								"blobFolders": [
+									"blobs/babyblue/summersuave"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -242,7 +267,9 @@
 									"1_content/mats/babyblue",
 									"2_patches/replace/babyblue/summersightseeing"
 								],
-								"blobFolders": ["blobs/babyblue/summersightseeing"]
+								"blobFolders": [
+									"blobs/babyblue/summersightseeing"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -259,8 +286,13 @@
 							"id": "install-babyblue-undercover",
 							"name": "Casual Undercover",
 							"data": {
-								"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/casualundercover"],
-								"blobFolders": ["blobs/babyblue/casualundercover"]
+								"contentFolders": [
+									"1_content/mats/babyblue",
+									"2_patches/replace/babyblue/casualundercover"
+								],
+								"blobFolders": [
+									"blobs/babyblue/casualundercover"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -277,8 +309,13 @@
 							"id": "install-babyblue-midnightblack",
 							"name": "Midnight Black Suit",
 							"data": {
-								"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/midnightblack"],
-								"blobFolders": ["blobs/babyblue/midnightblack"]
+								"contentFolders": [
+									"1_content/mats/babyblue",
+									"2_patches/replace/babyblue/midnightblack"
+								],
+								"blobFolders": [
+									"blobs/babyblue/midnightblack"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -295,7 +332,10 @@
 							"id": "install-babyblue-summersuit",
 							"name": "Summer Suit with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/marrakesh"],
+								"contentFolders": [
+									"1_content/mats/babyblue",
+									"2_patches/replace/babyblue/marrakesh"
+								],
 								"blobFolders": ["blobs/babyblue/marrakesh"]
 							},
 							"conditions": {
@@ -313,8 +353,13 @@
 							"id": "install-babyblue-tropical",
 							"name": "Tropical Suit",
 							"data": {
-								"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/tropicalsuit"],
-								"blobFolders": ["blobs/babyblue/tropicalsuit"]
+								"contentFolders": [
+									"1_content/mats/babyblue",
+									"2_patches/replace/babyblue/tropicalsuit"
+								],
+								"blobFolders": [
+									"blobs/babyblue/tropicalsuit"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -331,8 +376,13 @@
 							"id": "install-babyblue-smartcasual",
 							"name": "Smart Casual Suit",
 							"data": {
-								"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/smartcasual"],
-								"blobFolders": ["blobs/babyblue/smartcasual"]
+								"contentFolders": [
+									"1_content/mats/babyblue",
+									"2_patches/replace/babyblue/smartcasual"
+								],
+								"blobFolders": [
+									"blobs/babyblue/smartcasual"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -349,7 +399,10 @@
 							"id": "install-babyblue-raver",
 							"name": "The Raver",
 							"data": {
-								"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/raver"],
+								"contentFolders": [
+									"1_content/mats/babyblue",
+									"2_patches/replace/babyblue/raver"
+								],
 								"blobFolders": ["blobs/babyblue/raver"]
 							},
 							"conditions": {
@@ -367,8 +420,13 @@
 							"id": "install-babyblue-ducky",
 							"name": "Lucky Ducky",
 							"data": {
-								"contentFolders": ["1_content/mats/babyblue", "2_patches/replace/babyblue/luckyducky"],
-								"blobFolders": ["blobs/babyblue/luckyducky"]
+								"contentFolders": [
+									"1_content/mats/babyblue",
+									"2_patches/replace/babyblue/luckyducky"
+								],
+								"blobFolders": [
+									"blobs/babyblue/luckyducky"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -400,7 +458,10 @@
 							"name": "Peacock Addon",
 							"description": "Install the black tracksuit with white stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock, or offline.",
 							"data": {
-								"contentFolders": ["1_content/mats/black", "2_patches/replace/black/addon"],
+								"contentFolders": [
+									"1_content/mats/black",
+									"2_patches/replace/black/addon"
+								],
 								"blobFolders": ["blobs/black/addon"]
 							}
 						},
@@ -408,7 +469,10 @@
 							"id": "install-black-rubyrude",
 							"name": "Ruby Rude Tracksuit",
 							"data": {
-								"contentFolders": ["1_content/mats/black", "2_patches/replace/black/ruderuby"],
+								"contentFolders": [
+									"1_content/mats/black",
+									"2_patches/replace/black/ruderuby"
+								],
 								"blobFolders": ["blobs/black/ruderuby"]
 							},
 							"conditions": {
@@ -426,7 +490,10 @@
 							"id": "install-black-casual",
 							"name": "Casual Suit with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/black", "2_patches/replace/black/bangkok"],
+								"contentFolders": [
+									"1_content/mats/black",
+									"2_patches/replace/black/bangkok"
+								],
 								"blobFolders": ["blobs/black/bangkok"]
 							},
 							"conditions": {
@@ -444,7 +511,10 @@
 							"id": "install-black-italian",
 							"name": "Italian Suit with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/black", "2_patches/replace/black/sapienza"],
+								"contentFolders": [
+									"1_content/mats/black",
+									"2_patches/replace/black/sapienza"
+								],
 								"blobFolders": ["blobs/black/sapienza"]
 							},
 							"conditions": {
@@ -462,7 +532,10 @@
 							"id": "install-black-florida",
 							"name": "Florida Fit with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/black", "2_patches/replace/black/miami"],
+								"contentFolders": [
+									"1_content/mats/black",
+									"2_patches/replace/black/miami"
+								],
 								"blobFolders": ["blobs/black/miami"]
 							},
 							"conditions": {
@@ -480,7 +553,10 @@
 							"id": "install-black-tourist",
 							"name": "Casual Tourist with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/black", "2_patches/replace/black/sanfortuna"],
+								"contentFolders": [
+									"1_content/mats/black",
+									"2_patches/replace/black/sanfortuna"
+								],
 								"blobFolders": ["blobs/black/sanfortuna"]
 							},
 							"conditions": {
@@ -498,7 +574,10 @@
 							"id": "install-black-suave",
 							"name": "Summer Suave Suit",
 							"data": {
-								"contentFolders": ["1_content/mats/black", "2_patches/replace/black/summersuave"],
+								"contentFolders": [
+									"1_content/mats/black",
+									"2_patches/replace/black/summersuave"
+								],
 								"blobFolders": ["blobs/black/summersuave"]
 							},
 							"conditions": {
@@ -516,8 +595,13 @@
 							"id": "install-black-sightseeing",
 							"name": "Summer Sightseeing Suit",
 							"data": {
-								"contentFolders": ["1_content/mats/black", "2_patches/replace/black/summersightseeing"],
-								"blobFolders": ["blobs/black/summersightseeing"]
+								"contentFolders": [
+									"1_content/mats/black",
+									"2_patches/replace/black/summersightseeing"
+								],
+								"blobFolders": [
+									"blobs/black/summersightseeing"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -534,8 +618,13 @@
 							"id": "install-black-undercover",
 							"name": "Casual Undercover",
 							"data": {
-								"contentFolders": ["1_content/mats/black", "2_patches/replace/black/casualundercover"],
-								"blobFolders": ["blobs/black/casualundercover"]
+								"contentFolders": [
+									"1_content/mats/black",
+									"2_patches/replace/black/casualundercover"
+								],
+								"blobFolders": [
+									"blobs/black/casualundercover"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -552,8 +641,13 @@
 							"id": "install-black-midnightblack",
 							"name": "Midnight Black Suit",
 							"data": {
-								"contentFolders": ["1_content/mats/black", "2_patches/replace/black/midnightblack"],
-								"blobFolders": ["blobs/black/midnightblack"]
+								"contentFolders": [
+									"1_content/mats/black",
+									"2_patches/replace/black/midnightblack"
+								],
+								"blobFolders": [
+									"blobs/black/midnightblack"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -570,7 +664,10 @@
 							"id": "install-black-summersuit",
 							"name": "Summer Suit with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/black", "2_patches/replace/black/marrakesh"],
+								"contentFolders": [
+									"1_content/mats/black",
+									"2_patches/replace/black/marrakesh"
+								],
 								"blobFolders": ["blobs/black/marrakesh"]
 							},
 							"conditions": {
@@ -588,7 +685,10 @@
 							"id": "install-black-tropical",
 							"name": "Tropical Suit",
 							"data": {
-								"contentFolders": ["1_content/mats/black", "2_patches/replace/black/tropicalsuit"],
+								"contentFolders": [
+									"1_content/mats/black",
+									"2_patches/replace/black/tropicalsuit"
+								],
 								"blobFolders": ["blobs/black/tropicalsuit"]
 							},
 							"conditions": {
@@ -606,7 +706,10 @@
 							"id": "install-black-smartcasual",
 							"name": "Smart Casual Suit",
 							"data": {
-								"contentFolders": ["1_content/mats/black", "2_patches/replace/black/smartcasual"],
+								"contentFolders": [
+									"1_content/mats/black",
+									"2_patches/replace/black/smartcasual"
+								],
 								"blobFolders": ["blobs/black/smartcasual"]
 							},
 							"conditions": {
@@ -624,7 +727,10 @@
 							"id": "install-black-raver",
 							"name": "The Raver",
 							"data": {
-								"contentFolders": ["1_content/mats/black", "2_patches/replace/black/raver"],
+								"contentFolders": [
+									"1_content/mats/black",
+									"2_patches/replace/black/raver"
+								],
 								"blobFolders": ["blobs/black/raver"]
 							},
 							"conditions": {
@@ -642,7 +748,10 @@
 							"id": "install-black-ducky",
 							"name": "Lucky Ducky",
 							"data": {
-								"contentFolders": ["1_content/mats/black", "2_patches/replace/black/luckyducky"],
+								"contentFolders": [
+									"1_content/mats/black",
+									"2_patches/replace/black/luckyducky"
+								],
 								"blobFolders": ["blobs/black/luckyducky"]
 							},
 							"conditions": {
@@ -675,7 +784,10 @@
 							"name": "Peacock Addon",
 							"description": "Install the emerald green tracksuit with white stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock, or offline.",
 							"data": {
-								"contentFolders": ["1_content/mats/emeraldgreen", "2_patches/replace/emeraldgreen/addon"],
+								"contentFolders": [
+									"1_content/mats/emeraldgreen",
+									"2_patches/replace/emeraldgreen/addon"
+								],
 								"blobFolders": ["blobs/emeraldgreen/addon"]
 							}
 						},
@@ -683,8 +795,13 @@
 							"id": "install-emeraldgreen-rubyrude",
 							"name": "Ruby Rude Tracksuit",
 							"data": {
-								"contentFolders": ["1_content/mats/emeraldgreen", "2_patches/replace/emeraldgreen/ruderuby"],
-								"blobFolders": ["blobs/emeraldgreen/ruderuby"]
+								"contentFolders": [
+									"1_content/mats/emeraldgreen",
+									"2_patches/replace/emeraldgreen/ruderuby"
+								],
+								"blobFolders": [
+									"blobs/emeraldgreen/ruderuby"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -701,8 +818,13 @@
 							"id": "install-emeraldgreen-casual",
 							"name": "Casual Suit with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/emeraldgreen", "2_patches/replace/emeraldgreen/bangkok"],
-								"blobFolders": ["blobs/emeraldgreen/bangkok"]
+								"contentFolders": [
+									"1_content/mats/emeraldgreen",
+									"2_patches/replace/emeraldgreen/bangkok"
+								],
+								"blobFolders": [
+									"blobs/emeraldgreen/bangkok"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -719,8 +841,13 @@
 							"id": "install-emeraldgreen-italian",
 							"name": "Italian Suit with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/emeraldgreen", "2_patches/replace/emeraldgreen/sapienza"],
-								"blobFolders": ["blobs/emeraldgreen/sapienza"]
+								"contentFolders": [
+									"1_content/mats/emeraldgreen",
+									"2_patches/replace/emeraldgreen/sapienza"
+								],
+								"blobFolders": [
+									"blobs/emeraldgreen/sapienza"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -737,7 +864,10 @@
 							"id": "install-emeraldgreen-florida",
 							"name": "Florida Fit with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/emeraldgreen", "2_patches/replace/emeraldgreen/miami"],
+								"contentFolders": [
+									"1_content/mats/emeraldgreen",
+									"2_patches/replace/emeraldgreen/miami"
+								],
 								"blobFolders": ["blobs/emeraldgreen/miami"]
 							},
 							"conditions": {
@@ -759,7 +889,9 @@
 									"1_content/mats/emeraldgreen",
 									"2_patches/replace/emeraldgreen/sanfortuna"
 								],
-								"blobFolders": ["blobs/emeraldgreen/sanfortuna"]
+								"blobFolders": [
+									"blobs/emeraldgreen/sanfortuna"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -780,7 +912,9 @@
 									"1_content/mats/emeraldgreen",
 									"2_patches/replace/emeraldgreen/summersuave"
 								],
-								"blobFolders": ["blobs/emeraldgreen/summersuave"]
+								"blobFolders": [
+									"blobs/emeraldgreen/summersuave"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -801,7 +935,9 @@
 									"1_content/mats/emeraldgreen",
 									"2_patches/replace/emeraldgreen/summersightseeing"
 								],
-								"blobFolders": ["blobs/emeraldgreen/summersightseeing"]
+								"blobFolders": [
+									"blobs/emeraldgreen/summersightseeing"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -822,7 +958,9 @@
 									"1_content/mats/emeraldgreen",
 									"2_patches/replace/emeraldgreen/casualundercover"
 								],
-								"blobFolders": ["blobs/emeraldgreen/casualundercover"]
+								"blobFolders": [
+									"blobs/emeraldgreen/casualundercover"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -843,7 +981,9 @@
 									"1_content/mats/emeraldgreen",
 									"2_patches/replace/emeraldgreen/midnightblack"
 								],
-								"blobFolders": ["blobs/emeraldgreen/midnightblack"]
+								"blobFolders": [
+									"blobs/emeraldgreen/midnightblack"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -864,7 +1004,9 @@
 									"1_content/mats/emeraldgreen",
 									"2_patches/replace/emeraldgreen/marrakesh"
 								],
-								"blobFolders": ["blobs/emeraldgreen/marrakesh"]
+								"blobFolders": [
+									"blobs/emeraldgreen/marrakesh"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -885,7 +1027,9 @@
 									"1_content/mats/emeraldgreen",
 									"2_patches/replace/emeraldgreen/tropicalsuit"
 								],
-								"blobFolders": ["blobs/emeraldgreen/tropicalsuit"]
+								"blobFolders": [
+									"blobs/emeraldgreen/tropicalsuit"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -906,7 +1050,9 @@
 									"1_content/mats/emeraldgreen",
 									"2_patches/replace/emeraldgreen/smartcasual"
 								],
-								"blobFolders": ["blobs/emeraldgreen/smartcasual"]
+								"blobFolders": [
+									"blobs/emeraldgreen/smartcasual"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -923,7 +1069,10 @@
 							"id": "install-emeraldgreen-raver",
 							"name": "The Raver",
 							"data": {
-								"contentFolders": ["1_content/mats/emeraldgreen", "2_patches/replace/emeraldgreen/raver"],
+								"contentFolders": [
+									"1_content/mats/emeraldgreen",
+									"2_patches/replace/emeraldgreen/raver"
+								],
 								"blobFolders": ["blobs/emeraldgreen/raver"]
 							},
 							"conditions": {
@@ -945,7 +1094,9 @@
 									"1_content/mats/emeraldgreen",
 									"2_patches/replace/emeraldgreen/luckyducky"
 								],
-								"blobFolders": ["blobs/emeraldgreen/luckyducky"]
+								"blobFolders": [
+									"blobs/emeraldgreen/luckyducky"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -977,7 +1128,10 @@
 							"name": "Peacock Addon",
 							"description": "Install the heather grey tracksuit with black stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock, or offline.",
 							"data": {
-								"contentFolders": ["1_content/mats/heathergrey", "2_patches/replace/heathergrey/addon"],
+								"contentFolders": [
+									"1_content/mats/heathergrey",
+									"2_patches/replace/heathergrey/addon"
+								],
 								"blobFolders": ["blobs/heathergrey/addon"]
 							}
 						},
@@ -985,8 +1139,13 @@
 							"id": "install-heathergrey-rubyrude",
 							"name": "Ruby Rude Tracksuit",
 							"data": {
-								"contentFolders": ["1_content/mats/heathergrey", "2_patches/replace/heathergrey/ruderuby"],
-								"blobFolders": ["blobs/heathergrey/ruderuby"]
+								"contentFolders": [
+									"1_content/mats/heathergrey",
+									"2_patches/replace/heathergrey/ruderuby"
+								],
+								"blobFolders": [
+									"blobs/heathergrey/ruderuby"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -1003,8 +1162,13 @@
 							"id": "install-heathergrey-casual",
 							"name": "Casual Suit with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/heathergrey", "2_patches/replace/heathergrey/bangkok"],
-								"blobFolders": ["blobs/heathergrey/bangkok"]
+								"contentFolders": [
+									"1_content/mats/heathergrey",
+									"2_patches/replace/heathergrey/bangkok"
+								],
+								"blobFolders": [
+									"blobs/heathergrey/bangkok"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -1021,8 +1185,13 @@
 							"id": "install-heathergrey-italian",
 							"name": "Italian Suit with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/heathergrey", "2_patches/replace/heathergrey/sapienza"],
-								"blobFolders": ["blobs/heathergrey/sapienza"]
+								"contentFolders": [
+									"1_content/mats/heathergrey",
+									"2_patches/replace/heathergrey/sapienza"
+								],
+								"blobFolders": [
+									"blobs/heathergrey/sapienza"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -1039,7 +1208,10 @@
 							"id": "install-heathergrey-florida",
 							"name": "Florida Fit with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/heathergrey", "2_patches/replace/heathergrey/miami"],
+								"contentFolders": [
+									"1_content/mats/heathergrey",
+									"2_patches/replace/heathergrey/miami"
+								],
 								"blobFolders": ["blobs/heathergrey/miami"]
 							},
 							"conditions": {
@@ -1057,8 +1229,13 @@
 							"id": "install-heathergrey-tourist",
 							"name": "Casual Tourist with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/heathergrey", "2_patches/replace/heathergrey/sanfortuna"],
-								"blobFolders": ["blobs/heathergrey/sanfortuna"]
+								"contentFolders": [
+									"1_content/mats/heathergrey",
+									"2_patches/replace/heathergrey/sanfortuna"
+								],
+								"blobFolders": [
+									"blobs/heathergrey/sanfortuna"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -1079,7 +1256,9 @@
 									"1_content/mats/heathergrey",
 									"2_patches/replace/heathergrey/summersuave"
 								],
-								"blobFolders": ["blobs/heathergrey/summersuave"]
+								"blobFolders": [
+									"blobs/heathergrey/summersuave"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -1100,7 +1279,9 @@
 									"1_content/mats/heathergrey",
 									"2_patches/replace/heathergrey/summersightseeing"
 								],
-								"blobFolders": ["blobs/heathergrey/summersightseeing"]
+								"blobFolders": [
+									"blobs/heathergrey/summersightseeing"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -1121,7 +1302,9 @@
 									"1_content/mats/heathergrey",
 									"2_patches/replace/heathergrey/casualundercover"
 								],
-								"blobFolders": ["blobs/heathergrey/casualundercover"]
+								"blobFolders": [
+									"blobs/heathergrey/casualundercover"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -1142,7 +1325,9 @@
 									"1_content/mats/heathergrey",
 									"2_patches/replace/heathergrey/midnightblack"
 								],
-								"blobFolders": ["blobs/heathergrey/midnightblack"]
+								"blobFolders": [
+									"blobs/heathergrey/midnightblack"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -1159,8 +1344,13 @@
 							"id": "install-heathergrey-summersuit",
 							"name": "Summer Suit with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/heathergrey", "2_patches/replace/heathergrey/marrakesh"],
-								"blobFolders": ["blobs/heathergrey/marrakesh"]
+								"contentFolders": [
+									"1_content/mats/heathergrey",
+									"2_patches/replace/heathergrey/marrakesh"
+								],
+								"blobFolders": [
+									"blobs/heathergrey/marrakesh"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -1181,7 +1371,9 @@
 									"1_content/mats/heathergrey",
 									"2_patches/replace/heathergrey/tropicalsuit"
 								],
-								"blobFolders": ["blobs/heathergrey/tropicalsuit"]
+								"blobFolders": [
+									"blobs/heathergrey/tropicalsuit"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -1202,7 +1394,9 @@
 									"1_content/mats/heathergrey",
 									"2_patches/replace/heathergrey/smartcasual"
 								],
-								"blobFolders": ["blobs/heathergrey/smartcasual"]
+								"blobFolders": [
+									"blobs/heathergrey/smartcasual"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -1219,7 +1413,10 @@
 							"id": "install-heathergrey-raver",
 							"name": "The Raver",
 							"data": {
-								"contentFolders": ["1_content/mats/heathergrey", "2_patches/replace/heathergrey/raver"],
+								"contentFolders": [
+									"1_content/mats/heathergrey",
+									"2_patches/replace/heathergrey/raver"
+								],
 								"blobFolders": ["blobs/heathergrey/raver"]
 							},
 							"conditions": {
@@ -1237,8 +1434,13 @@
 							"id": "install-heathergrey-ducky",
 							"name": "Lucky Ducky",
 							"data": {
-								"contentFolders": ["1_content/mats/heathergrey", "2_patches/replace/heathergrey/luckyducky"],
-								"blobFolders": ["blobs/heathergrey/luckyducky"]
+								"contentFolders": [
+									"1_content/mats/heathergrey",
+									"2_patches/replace/heathergrey/luckyducky"
+								],
+								"blobFolders": [
+									"blobs/heathergrey/luckyducky"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -1270,7 +1472,10 @@
 							"name": "Peacock Addon",
 							"description": "Install the navy blue tracksuit with white stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock, or offline.",
 							"data": {
-								"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/addon"],
+								"contentFolders": [
+									"1_content/mats/navyblue",
+									"2_patches/replace/navyblue/addon"
+								],
 								"blobFolders": ["blobs/navyblue/addon"]
 							}
 						},
@@ -1278,7 +1483,10 @@
 							"id": "install-navyblue-rubyrude",
 							"name": "Ruby Rude Tracksuit",
 							"data": {
-								"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/ruderuby"],
+								"contentFolders": [
+									"1_content/mats/navyblue",
+									"2_patches/replace/navyblue/ruderuby"
+								],
 								"blobFolders": ["blobs/navyblue/ruderuby"]
 							},
 							"conditions": {
@@ -1296,7 +1504,10 @@
 							"id": "install-navyblue-casual",
 							"name": "Casual Suit with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/bangkok"],
+								"contentFolders": [
+									"1_content/mats/navyblue",
+									"2_patches/replace/navyblue/bangkok"
+								],
 								"blobFolders": ["blobs/navyblue/bangkok"]
 							},
 							"conditions": {
@@ -1314,7 +1525,10 @@
 							"id": "install-navyblue-italian",
 							"name": "Italian Suit with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/sapienza"],
+								"contentFolders": [
+									"1_content/mats/navyblue",
+									"2_patches/replace/navyblue/sapienza"
+								],
 								"blobFolders": ["blobs/navyblue/sapienza"]
 							},
 							"conditions": {
@@ -1332,7 +1546,10 @@
 							"id": "install-navyblue-florida",
 							"name": "Florida Fit with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/miami"],
+								"contentFolders": [
+									"1_content/mats/navyblue",
+									"2_patches/replace/navyblue/miami"
+								],
 								"blobFolders": ["blobs/navyblue/miami"]
 							},
 							"conditions": {
@@ -1350,8 +1567,13 @@
 							"id": "install-navyblue-tourist",
 							"name": "Casual Tourist with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/sanfortuna"],
-								"blobFolders": ["blobs/navyblue/sanfortuna"]
+								"contentFolders": [
+									"1_content/mats/navyblue",
+									"2_patches/replace/navyblue/sanfortuna"
+								],
+								"blobFolders": [
+									"blobs/navyblue/sanfortuna"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -1368,8 +1590,13 @@
 							"id": "install-navyblue-suave",
 							"name": "Summer Suave Suit",
 							"data": {
-								"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/summersuave"],
-								"blobFolders": ["blobs/navyblue/summersuave"]
+								"contentFolders": [
+									"1_content/mats/navyblue",
+									"2_patches/replace/navyblue/summersuave"
+								],
+								"blobFolders": [
+									"blobs/navyblue/summersuave"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -1390,7 +1617,9 @@
 									"1_content/mats/navyblue",
 									"2_patches/replace/navyblue/summersightseeing"
 								],
-								"blobFolders": ["blobs/navyblue/summersightseeing"]
+								"blobFolders": [
+									"blobs/navyblue/summersightseeing"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -1407,8 +1636,13 @@
 							"id": "install-navyblue-undercover",
 							"name": "Casual Undercover",
 							"data": {
-								"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/casualundercover"],
-								"blobFolders": ["blobs/navyblue/casualundercover"]
+								"contentFolders": [
+									"1_content/mats/navyblue",
+									"2_patches/replace/navyblue/casualundercover"
+								],
+								"blobFolders": [
+									"blobs/navyblue/casualundercover"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -1425,8 +1659,13 @@
 							"id": "install-navyblue-midnightblack",
 							"name": "Midnight Black Suit",
 							"data": {
-								"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/midnightblack"],
-								"blobFolders": ["blobs/navyblue/midnightblack"]
+								"contentFolders": [
+									"1_content/mats/navyblue",
+									"2_patches/replace/navyblue/midnightblack"
+								],
+								"blobFolders": [
+									"blobs/navyblue/midnightblack"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -1443,7 +1682,10 @@
 							"id": "install-navyblue-summersuit",
 							"name": "Summer Suit with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/marrakesh"],
+								"contentFolders": [
+									"1_content/mats/navyblue",
+									"2_patches/replace/navyblue/marrakesh"
+								],
 								"blobFolders": ["blobs/navyblue/marrakesh"]
 							},
 							"conditions": {
@@ -1461,8 +1703,13 @@
 							"id": "install-navyblue-tropical",
 							"name": "Tropical Suit",
 							"data": {
-								"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/tropicalsuit"],
-								"blobFolders": ["blobs/navyblue/tropicalsuit"]
+								"contentFolders": [
+									"1_content/mats/navyblue",
+									"2_patches/replace/navyblue/tropicalsuit"
+								],
+								"blobFolders": [
+									"blobs/navyblue/tropicalsuit"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -1479,8 +1726,13 @@
 							"id": "install-navyblue-smartcasual",
 							"name": "Smart Casual Suit",
 							"data": {
-								"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/smartcasual"],
-								"blobFolders": ["blobs/navyblue/smartcasual"]
+								"contentFolders": [
+									"1_content/mats/navyblue",
+									"2_patches/replace/navyblue/smartcasual"
+								],
+								"blobFolders": [
+									"blobs/navyblue/smartcasual"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -1497,7 +1749,10 @@
 							"id": "install-navyblue-raver",
 							"name": "The Raver",
 							"data": {
-								"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/raver"],
+								"contentFolders": [
+									"1_content/mats/navyblue",
+									"2_patches/replace/navyblue/raver"
+								],
 								"blobFolders": ["blobs/navyblue/raver"]
 							},
 							"conditions": {
@@ -1515,8 +1770,13 @@
 							"id": "install-navyblue-ducky",
 							"name": "Lucky Ducky",
 							"data": {
-								"contentFolders": ["1_content/mats/navyblue", "2_patches/replace/navyblue/luckyducky"],
-								"blobFolders": ["blobs/navyblue/luckyducky"]
+								"contentFolders": [
+									"1_content/mats/navyblue",
+									"2_patches/replace/navyblue/luckyducky"
+								],
+								"blobFolders": [
+									"blobs/navyblue/luckyducky"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -1548,7 +1808,10 @@
 							"name": "Peacock Addon",
 							"description": "Install the red tracksuit with white stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock, or offline.",
 							"data": {
-								"contentFolders": ["1_content/mats/red", "2_patches/replace/red/addon"],
+								"contentFolders": [
+									"1_content/mats/red",
+									"2_patches/replace/red/addon"
+								],
 								"blobFolders": ["blobs/red/addon"]
 							}
 						},
@@ -1556,7 +1819,10 @@
 							"id": "install-red-rubyrude",
 							"name": "Ruby Rude Tracksuit",
 							"data": {
-								"contentFolders": ["1_content/mats/red", "2_patches/replace/red/ruderuby"],
+								"contentFolders": [
+									"1_content/mats/red",
+									"2_patches/replace/red/ruderuby"
+								],
 								"blobFolders": ["blobs/red/ruderuby"]
 							},
 							"conditions": {
@@ -1574,7 +1840,10 @@
 							"id": "install-red-casual",
 							"name": "Casual Suit with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/red", "2_patches/replace/red/bangkok"],
+								"contentFolders": [
+									"1_content/mats/red",
+									"2_patches/replace/red/bangkok"
+								],
 								"blobFolders": ["blobs/red/bangkok"]
 							},
 							"conditions": {
@@ -1592,7 +1861,10 @@
 							"id": "install-red-italian",
 							"name": "Italian Suit with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/red", "2_patches/replace/red/sapienza"],
+								"contentFolders": [
+									"1_content/mats/red",
+									"2_patches/replace/red/sapienza"
+								],
 								"blobFolders": ["blobs/red/sapienza"]
 							},
 							"conditions": {
@@ -1610,7 +1882,10 @@
 							"id": "install-red-florida",
 							"name": "Florida Fit with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/red", "2_patches/replace/red/miami"],
+								"contentFolders": [
+									"1_content/mats/red",
+									"2_patches/replace/red/miami"
+								],
 								"blobFolders": ["blobs/red/miami"]
 							},
 							"conditions": {
@@ -1628,7 +1903,10 @@
 							"id": "install-red-tourist",
 							"name": "Casual Tourist with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/red", "2_patches/replace/red/sanfortuna"],
+								"contentFolders": [
+									"1_content/mats/red",
+									"2_patches/replace/red/sanfortuna"
+								],
 								"blobFolders": ["blobs/red/sanfortuna"]
 							},
 							"conditions": {
@@ -1646,7 +1924,10 @@
 							"id": "install-red-suave",
 							"name": "Summer Suave Suit",
 							"data": {
-								"contentFolders": ["1_content/mats/red", "2_patches/replace/red/summersuave"],
+								"contentFolders": [
+									"1_content/mats/red",
+									"2_patches/replace/red/summersuave"
+								],
 								"blobFolders": ["blobs/red/summersuave"]
 							},
 							"conditions": {
@@ -1664,8 +1945,13 @@
 							"id": "install-red-sightseeing",
 							"name": "Summer Sightseeing Suit",
 							"data": {
-								"contentFolders": ["1_content/mats/red", "2_patches/replace/red/summersightseeing"],
-								"blobFolders": ["blobs/red/summersightseeing"]
+								"contentFolders": [
+									"1_content/mats/red",
+									"2_patches/replace/red/summersightseeing"
+								],
+								"blobFolders": [
+									"blobs/red/summersightseeing"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -1682,8 +1968,13 @@
 							"id": "install-red-undercover",
 							"name": "Casual Undercover",
 							"data": {
-								"contentFolders": ["1_content/mats/red", "2_patches/replace/red/casualundercover"],
-								"blobFolders": ["blobs/red/casualundercover"]
+								"contentFolders": [
+									"1_content/mats/red",
+									"2_patches/replace/red/casualundercover"
+								],
+								"blobFolders": [
+									"blobs/red/casualundercover"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -1700,7 +1991,10 @@
 							"id": "install-red-midnightblack",
 							"name": "Midnight Black Suit",
 							"data": {
-								"contentFolders": ["1_content/mats/red", "2_patches/replace/red/midnightblack"],
+								"contentFolders": [
+									"1_content/mats/red",
+									"2_patches/replace/red/midnightblack"
+								],
 								"blobFolders": ["blobs/red/midnightblack"]
 							},
 							"conditions": {
@@ -1718,7 +2012,10 @@
 							"id": "install-red-summersuit",
 							"name": "Summer Suit with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/red", "2_patches/replace/red/marrakesh"],
+								"contentFolders": [
+									"1_content/mats/red",
+									"2_patches/replace/red/marrakesh"
+								],
 								"blobFolders": ["blobs/red/marrakesh"]
 							},
 							"conditions": {
@@ -1736,7 +2033,10 @@
 							"id": "install-red-tropical",
 							"name": "Tropical Suit",
 							"data": {
-								"contentFolders": ["1_content/mats/red", "2_patches/replace/red/tropicalsuit"],
+								"contentFolders": [
+									"1_content/mats/red",
+									"2_patches/replace/red/tropicalsuit"
+								],
 								"blobFolders": ["blobs/red/tropicalsuit"]
 							},
 							"conditions": {
@@ -1754,7 +2054,10 @@
 							"id": "install-red-smartcasual",
 							"name": "Smart Casual Suit",
 							"data": {
-								"contentFolders": ["1_content/mats/red", "2_patches/replace/red/smartcasual"],
+								"contentFolders": [
+									"1_content/mats/red",
+									"2_patches/replace/red/smartcasual"
+								],
 								"blobFolders": ["blobs/red/smartcasual"]
 							},
 							"conditions": {
@@ -1772,7 +2075,10 @@
 							"id": "install-red-raver",
 							"name": "The Raver",
 							"data": {
-								"contentFolders": ["1_content/mats/red", "2_patches/replace/red/raver"],
+								"contentFolders": [
+									"1_content/mats/red",
+									"2_patches/replace/red/raver"
+								],
 								"blobFolders": ["blobs/red/raver"]
 							},
 							"conditions": {
@@ -1790,7 +2096,10 @@
 							"id": "install-red-ducky",
 							"name": "Lucky Ducky",
 							"data": {
-								"contentFolders": ["1_content/mats/red", "2_patches/replace/red/luckyducky"],
+								"contentFolders": [
+									"1_content/mats/red",
+									"2_patches/replace/red/luckyducky"
+								],
 								"blobFolders": ["blobs/red/luckyducky"]
 							},
 							"conditions": {
@@ -1823,7 +2132,10 @@
 							"name": "Peacock Addon",
 							"description": "Install the black tracksuit with rasta stripes to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock, or offline.",
 							"data": {
-								"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/addon"],
+								"contentFolders": [
+									"1_content/mats/rasta",
+									"2_patches/replace/rasta/addon"
+								],
 								"blobFolders": ["blobs/rasta/addon"]
 							}
 						},
@@ -1831,7 +2143,10 @@
 							"id": "install-rasta-rubyrude",
 							"name": "Ruby Rude Tracksuit",
 							"data": {
-								"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/ruderuby"],
+								"contentFolders": [
+									"1_content/mats/rasta",
+									"2_patches/replace/rasta/ruderuby"
+								],
 								"blobFolders": ["blobs/rasta/ruderuby"]
 							},
 							"conditions": {
@@ -1849,7 +2164,10 @@
 							"id": "install-rasta-casual",
 							"name": "Casual Suit with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/bangkok"],
+								"contentFolders": [
+									"1_content/mats/rasta",
+									"2_patches/replace/rasta/bangkok"
+								],
 								"blobFolders": ["blobs/rasta/bangkok"]
 							},
 							"conditions": {
@@ -1867,7 +2185,10 @@
 							"id": "install-rasta-italian",
 							"name": "Italian Suit with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/sapienza"],
+								"contentFolders": [
+									"1_content/mats/rasta",
+									"2_patches/replace/rasta/sapienza"
+								],
 								"blobFolders": ["blobs/rasta/sapienza"]
 							},
 							"conditions": {
@@ -1885,7 +2206,10 @@
 							"id": "install-rasta-florida",
 							"name": "Florida Fit with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/miami"],
+								"contentFolders": [
+									"1_content/mats/rasta",
+									"2_patches/replace/rasta/miami"
+								],
 								"blobFolders": ["blobs/rasta/miami"]
 							},
 							"conditions": {
@@ -1903,7 +2227,10 @@
 							"id": "install-rasta-tourist",
 							"name": "Casual Tourist with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/sanfortuna"],
+								"contentFolders": [
+									"1_content/mats/rasta",
+									"2_patches/replace/rasta/sanfortuna"
+								],
 								"blobFolders": ["blobs/rasta/sanfortuna"]
 							},
 							"conditions": {
@@ -1921,7 +2248,10 @@
 							"id": "install-rasta-suave",
 							"name": "Summer Suave Suit",
 							"data": {
-								"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/summersuave"],
+								"contentFolders": [
+									"1_content/mats/rasta",
+									"2_patches/replace/rasta/summersuave"
+								],
 								"blobFolders": ["blobs/rasta/summersuave"]
 							},
 							"conditions": {
@@ -1939,8 +2269,13 @@
 							"id": "install-rasta-sightseeing",
 							"name": "Summer Sightseeing Suit",
 							"data": {
-								"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/summersightseeing"],
-								"blobFolders": ["blobs/rasta/summersightseeing"]
+								"contentFolders": [
+									"1_content/mats/rasta",
+									"2_patches/replace/rasta/summersightseeing"
+								],
+								"blobFolders": [
+									"blobs/rasta/summersightseeing"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -1957,8 +2292,13 @@
 							"id": "install-rasta-undercover",
 							"name": "Casual Undercover",
 							"data": {
-								"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/casualundercover"],
-								"blobFolders": ["blobs/rasta/casualundercover"]
+								"contentFolders": [
+									"1_content/mats/rasta",
+									"2_patches/replace/rasta/casualundercover"
+								],
+								"blobFolders": [
+									"blobs/rasta/casualundercover"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -1975,8 +2315,13 @@
 							"id": "install-rasta-midnightblack",
 							"name": "Midnight Black Suit",
 							"data": {
-								"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/midnightblack"],
-								"blobFolders": ["blobs/rasta/midnightblack"]
+								"contentFolders": [
+									"1_content/mats/rasta",
+									"2_patches/replace/rasta/midnightblack"
+								],
+								"blobFolders": [
+									"blobs/rasta/midnightblack"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -1993,7 +2338,10 @@
 							"id": "install-rasta-summersuit",
 							"name": "Summer Suit with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/marrakesh"],
+								"contentFolders": [
+									"1_content/mats/rasta",
+									"2_patches/replace/rasta/marrakesh"
+								],
 								"blobFolders": ["blobs/rasta/marrakesh"]
 							},
 							"conditions": {
@@ -2011,7 +2359,10 @@
 							"id": "install-rasta-tropical",
 							"name": "Tropical Suit",
 							"data": {
-								"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/tropicalsuit"],
+								"contentFolders": [
+									"1_content/mats/rasta",
+									"2_patches/replace/rasta/tropicalsuit"
+								],
 								"blobFolders": ["blobs/rasta/tropicalsuit"]
 							},
 							"conditions": {
@@ -2029,7 +2380,10 @@
 							"id": "install-rasta-smartcasual",
 							"name": "Smart Casual Suit",
 							"data": {
-								"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/smartcasual"],
+								"contentFolders": [
+									"1_content/mats/rasta",
+									"2_patches/replace/rasta/smartcasual"
+								],
 								"blobFolders": ["blobs/rasta/smartcasual"]
 							},
 							"conditions": {
@@ -2047,7 +2401,10 @@
 							"id": "install-rasta-raver",
 							"name": "The Raver",
 							"data": {
-								"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/raver"],
+								"contentFolders": [
+									"1_content/mats/rasta",
+									"2_patches/replace/rasta/raver"
+								],
 								"blobFolders": ["blobs/rasta/raver"]
 							},
 							"conditions": {
@@ -2065,7 +2422,10 @@
 							"id": "install-rasta-ducky",
 							"name": "Lucky Ducky",
 							"data": {
-								"contentFolders": ["1_content/mats/rasta", "2_patches/replace/rasta/luckyducky"],
+								"contentFolders": [
+									"1_content/mats/rasta",
+									"2_patches/replace/rasta/luckyducky"
+								],
 								"blobFolders": ["blobs/rasta/luckyducky"]
 							},
 							"conditions": {
@@ -2098,7 +2458,10 @@
 							"name": "Peacock Addon",
 							"description": "Install the tracksuit with custom colors to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock, or offline.",
 							"data": {
-								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/addon"],
+								"contentFolders": [
+									"1_content/mats/custom",
+									"2_patches/replace/custom/addon"
+								],
 								"blobFolders": ["blobs/custom/addon"]
 							}
 						},
@@ -2106,7 +2469,10 @@
 							"id": "install-custom-rubyrude",
 							"name": "Ruby Rude Tracksuit",
 							"data": {
-								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/ruderuby"],
+								"contentFolders": [
+									"1_content/mats/custom",
+									"2_patches/replace/custom/ruderuby"
+								],
 								"blobFolders": ["blobs/custom/ruderuby"]
 							},
 							"conditions": {
@@ -2124,7 +2490,10 @@
 							"id": "install-custom-casual",
 							"name": "Casual Suit with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/bangkok"],
+								"contentFolders": [
+									"1_content/mats/custom",
+									"2_patches/replace/custom/bangkok"
+								],
 								"blobFolders": ["blobs/custom/bangkok"]
 							},
 							"conditions": {
@@ -2142,7 +2511,10 @@
 							"id": "install-custom-italian",
 							"name": "Italian Suit with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/sapienza"],
+								"contentFolders": [
+									"1_content/mats/custom",
+									"2_patches/replace/custom/sapienza"
+								],
 								"blobFolders": ["blobs/custom/sapienza"]
 							},
 							"conditions": {
@@ -2160,7 +2532,10 @@
 							"id": "install-custom-florida",
 							"name": "Florida Fit with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/miami"],
+								"contentFolders": [
+									"1_content/mats/custom",
+									"2_patches/replace/custom/miami"
+								],
 								"blobFolders": ["blobs/custom/miami"]
 							},
 							"conditions": {
@@ -2178,7 +2553,10 @@
 							"id": "install-custom-tourist",
 							"name": "Casual Tourist with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/sanfortuna"],
+								"contentFolders": [
+									"1_content/mats/custom",
+									"2_patches/replace/custom/sanfortuna"
+								],
 								"blobFolders": ["blobs/custom/sanfortuna"]
 							},
 							"conditions": {
@@ -2196,7 +2574,10 @@
 							"id": "install-custom-suave",
 							"name": "Summer Suave Suit",
 							"data": {
-								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/summersuave"],
+								"contentFolders": [
+									"1_content/mats/custom",
+									"2_patches/replace/custom/summersuave"
+								],
 								"blobFolders": ["blobs/custom/summersuave"]
 							},
 							"conditions": {
@@ -2214,8 +2595,13 @@
 							"id": "install-custom-sightseeing",
 							"name": "Summer Sightseeing Suit",
 							"data": {
-								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/summersightseeing"],
-								"blobFolders": ["blobs/custom/summersightseeing"]
+								"contentFolders": [
+									"1_content/mats/custom",
+									"2_patches/replace/custom/summersightseeing"
+								],
+								"blobFolders": [
+									"blobs/custom/summersightseeing"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -2232,8 +2618,13 @@
 							"id": "install-custom-undercover",
 							"name": "Casual Undercover",
 							"data": {
-								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/casualundercover"],
-								"blobFolders": ["blobs/custom/casualundercover"]
+								"contentFolders": [
+									"1_content/mats/custom",
+									"2_patches/replace/custom/casualundercover"
+								],
+								"blobFolders": [
+									"blobs/custom/casualundercover"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -2250,8 +2641,13 @@
 							"id": "install-custom-midnightblack",
 							"name": "Midnight Black Suit",
 							"data": {
-								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/midnightblack"],
-								"blobFolders": ["blobs/custom/midnightblack"]
+								"contentFolders": [
+									"1_content/mats/custom",
+									"2_patches/replace/custom/midnightblack"
+								],
+								"blobFolders": [
+									"blobs/custom/midnightblack"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -2268,7 +2664,10 @@
 							"id": "install-custom-summersuit",
 							"name": "Summer Suit with Gloves",
 							"data": {
-								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/marrakesh"],
+								"contentFolders": [
+									"1_content/mats/custom",
+									"2_patches/replace/custom/marrakesh"
+								],
 								"blobFolders": ["blobs/custom/marrakesh"]
 							},
 							"conditions": {
@@ -2286,8 +2685,13 @@
 							"id": "install-custom-tropical",
 							"name": "Tropical Suit",
 							"data": {
-								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/tropicalsuit"],
-								"blobFolders": ["blobs/custom/tropicalsuit"]
+								"contentFolders": [
+									"1_content/mats/custom",
+									"2_patches/replace/custom/tropicalsuit"
+								],
+								"blobFolders": [
+									"blobs/custom/tropicalsuit"
+								]
 							},
 							"conditions": {
 								"incompatibleConditions": [
@@ -2304,7 +2708,10 @@
 							"id": "install-custom-smartcasual",
 							"name": "Smart Casual Suit",
 							"data": {
-								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/smartcasual"],
+								"contentFolders": [
+									"1_content/mats/custom",
+									"2_patches/replace/custom/smartcasual"
+								],
 								"blobFolders": ["blobs/custom/smartcasual"]
 							},
 							"conditions": {
@@ -2322,7 +2729,10 @@
 							"id": "install-custom-raver",
 							"name": "The Raver",
 							"data": {
-								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/raver"],
+								"contentFolders": [
+									"1_content/mats/custom",
+									"2_patches/replace/custom/raver"
+								],
 								"blobFolders": ["blobs/custom/raver"]
 							},
 							"conditions": {
@@ -2340,7 +2750,10 @@
 							"id": "install-custom-ducky",
 							"name": "Lucky Ducky",
 							"data": {
-								"contentFolders": ["1_content/mats/custom", "2_patches/replace/custom/luckyducky"],
+								"contentFolders": [
+									"1_content/mats/custom",
+									"2_patches/replace/custom/luckyducky"
+								],
 								"blobFolders": ["blobs/custom/luckyducky"]
 							},
 							"conditions": {
@@ -2380,7 +2793,9 @@
 							"description": "Use a black flatcap.",
 							"image": "flatcap_black.jpg",
 							"data": {
-								"contentFolders": ["2_patches/variant/babyblue/flatcap_black"]
+								"contentFolders": [
+									"2_patches/variant/babyblue/flatcap_black"
+								]
 							}
 						},
 						{
@@ -2389,7 +2804,9 @@
 							"description": "Use a grey flatcap.",
 							"image": "flatcap_grey.jpg",
 							"data": {
-								"contentFolders": ["2_patches/variant/babyblue/flatcap_grey"]
+								"contentFolders": [
+									"2_patches/variant/babyblue/flatcap_grey"
+								]
 							}
 						}
 					]
@@ -2411,7 +2828,9 @@
 							"description": "Use driving gloves.",
 							"image": "drivinggloves.jpg",
 							"data": {
-								"contentFolders": ["2_patches/variant/babyblue/drivinggloves"]
+								"contentFolders": [
+									"2_patches/variant/babyblue/drivinggloves"
+								]
 							}
 						},
 						{
@@ -2420,7 +2839,9 @@
 							"description": "Use leather gloves.",
 							"image": "leathergloves.jpg",
 							"data": {
-								"contentFolders": ["2_patches/variant/babyblue/leathergloves"]
+								"contentFolders": [
+									"2_patches/variant/babyblue/leathergloves"
+								]
 							}
 						}
 					]
@@ -2450,7 +2871,9 @@
 							"description": "Use a black flatcap.",
 							"image": "flatcap_black.jpg",
 							"data": {
-								"contentFolders": ["2_patches/variant/black/flatcap_black"]
+								"contentFolders": [
+									"2_patches/variant/black/flatcap_black"
+								]
 							}
 						},
 						{
@@ -2459,7 +2882,9 @@
 							"description": "Use a grey flatcap.",
 							"image": "flatcap_grey.jpg",
 							"data": {
-								"contentFolders": ["2_patches/variant/black/flatcap_grey"]
+								"contentFolders": [
+									"2_patches/variant/black/flatcap_grey"
+								]
 							}
 						}
 					]
@@ -2481,7 +2906,9 @@
 							"description": "Use driving gloves.",
 							"image": "drivinggloves.jpg",
 							"data": {
-								"contentFolders": ["2_patches/variant/black/drivinggloves"]
+								"contentFolders": [
+									"2_patches/variant/black/drivinggloves"
+								]
 							}
 						},
 						{
@@ -2490,7 +2917,9 @@
 							"description": "Use leather gloves.",
 							"image": "leathergloves.jpg",
 							"data": {
-								"contentFolders": ["2_patches/variant/black/leathergloves"]
+								"contentFolders": [
+									"2_patches/variant/black/leathergloves"
+								]
 							}
 						}
 					]
@@ -2520,7 +2949,9 @@
 							"description": "Use a black flatcap.",
 							"image": "flatcap_black.jpg",
 							"data": {
-								"contentFolders": ["2_patches/variant/emeraldgreen/flatcap_black"]
+								"contentFolders": [
+									"2_patches/variant/emeraldgreen/flatcap_black"
+								]
 							}
 						},
 						{
@@ -2529,7 +2960,9 @@
 							"description": "Use a grey flatcap.",
 							"image": "flatcap_grey.jpg",
 							"data": {
-								"contentFolders": ["2_patches/variant/emeraldgreen/flatcap_grey"]
+								"contentFolders": [
+									"2_patches/variant/emeraldgreen/flatcap_grey"
+								]
 							}
 						}
 					]
@@ -2551,7 +2984,9 @@
 							"description": "Use driving gloves.",
 							"image": "drivinggloves.jpg",
 							"data": {
-								"contentFolders": ["2_patches/variant/emeraldgreen/drivinggloves"]
+								"contentFolders": [
+									"2_patches/variant/emeraldgreen/drivinggloves"
+								]
 							}
 						},
 						{
@@ -2560,7 +2995,9 @@
 							"description": "Use leather gloves.",
 							"image": "leathergloves.jpg",
 							"data": {
-								"contentFolders": ["2_patches/variant/emeraldgreen/leathergloves"]
+								"contentFolders": [
+									"2_patches/variant/emeraldgreen/leathergloves"
+								]
 							}
 						}
 					]
@@ -2590,7 +3027,9 @@
 							"description": "Use a black flatcap.",
 							"image": "flatcap_black.jpg",
 							"data": {
-								"contentFolders": ["2_patches/variant/heathergrey/flatcap_black"]
+								"contentFolders": [
+									"2_patches/variant/heathergrey/flatcap_black"
+								]
 							}
 						},
 						{
@@ -2599,7 +3038,9 @@
 							"description": "Use a grey flatcap.",
 							"image": "flatcap_grey.jpg",
 							"data": {
-								"contentFolders": ["2_patches/variant/heathergrey/flatcap_grey"]
+								"contentFolders": [
+									"2_patches/variant/heathergrey/flatcap_grey"
+								]
 							}
 						}
 					]
@@ -2621,7 +3062,9 @@
 							"description": "Use driving gloves.",
 							"image": "drivinggloves.jpg",
 							"data": {
-								"contentFolders": ["2_patches/variant/heathergrey/drivinggloves"]
+								"contentFolders": [
+									"2_patches/variant/heathergrey/drivinggloves"
+								]
 							}
 						},
 						{
@@ -2630,7 +3073,9 @@
 							"description": "Use leather gloves.",
 							"image": "leathergloves.jpg",
 							"data": {
-								"contentFolders": ["2_patches/variant/heathergrey/leathergloves"]
+								"contentFolders": [
+									"2_patches/variant/heathergrey/leathergloves"
+								]
 							}
 						}
 					]
@@ -2660,7 +3105,9 @@
 							"description": "Use a black flatcap.",
 							"image": "flatcap_black.jpg",
 							"data": {
-								"contentFolders": ["2_patches/variant/navyblue/flatcap_black"]
+								"contentFolders": [
+									"2_patches/variant/navyblue/flatcap_black"
+								]
 							}
 						},
 						{
@@ -2669,7 +3116,9 @@
 							"description": "Use a grey flatcap.",
 							"image": "flatcap_grey.jpg",
 							"data": {
-								"contentFolders": ["2_patches/variant/navyblue/flatcap_grey"]
+								"contentFolders": [
+									"2_patches/variant/navyblue/flatcap_grey"
+								]
 							}
 						}
 					]
@@ -2691,7 +3140,9 @@
 							"description": "Use driving gloves.",
 							"image": "drivinggloves.jpg",
 							"data": {
-								"contentFolders": ["2_patches/variant/navyblue/drivinggloves"]
+								"contentFolders": [
+									"2_patches/variant/navyblue/drivinggloves"
+								]
 							}
 						},
 						{
@@ -2700,7 +3151,9 @@
 							"description": "Use leather gloves.",
 							"image": "leathergloves.jpg",
 							"data": {
-								"contentFolders": ["2_patches/variant/navyblue/leathergloves"]
+								"contentFolders": [
+									"2_patches/variant/navyblue/leathergloves"
+								]
 							}
 						}
 					]
@@ -2730,7 +3183,9 @@
 							"description": "Use a black flatcap.",
 							"image": "flatcap_black.jpg",
 							"data": {
-								"contentFolders": ["2_patches/variant/red/flatcap_black"]
+								"contentFolders": [
+									"2_patches/variant/red/flatcap_black"
+								]
 							}
 						},
 						{
@@ -2739,7 +3194,9 @@
 							"description": "Use a grey flatcap.",
 							"image": "flatcap_grey.jpg",
 							"data": {
-								"contentFolders": ["2_patches/variant/red/flatcap_grey"]
+								"contentFolders": [
+									"2_patches/variant/red/flatcap_grey"
+								]
 							}
 						}
 					]
@@ -2761,7 +3218,9 @@
 							"description": "Use driving gloves.",
 							"image": "drivinggloves.jpg",
 							"data": {
-								"contentFolders": ["2_patches/variant/red/drivinggloves"]
+								"contentFolders": [
+									"2_patches/variant/red/drivinggloves"
+								]
 							}
 						},
 						{
@@ -2770,7 +3229,9 @@
 							"description": "Use leather gloves.",
 							"image": "leathergloves.jpg",
 							"data": {
-								"contentFolders": ["2_patches/variant/red/leathergloves"]
+								"contentFolders": [
+									"2_patches/variant/red/leathergloves"
+								]
 							}
 						}
 					]
@@ -2800,7 +3261,9 @@
 							"description": "Use a black flatcap.",
 							"image": "flatcap_black.jpg",
 							"data": {
-								"contentFolders": ["2_patches/variant/rasta/flatcap_black"]
+								"contentFolders": [
+									"2_patches/variant/rasta/flatcap_black"
+								]
 							}
 						},
 						{
@@ -2809,7 +3272,9 @@
 							"description": "Use a grey flatcap.",
 							"image": "flatcap_grey.jpg",
 							"data": {
-								"contentFolders": ["2_patches/variant/rasta/flatcap_grey"]
+								"contentFolders": [
+									"2_patches/variant/rasta/flatcap_grey"
+								]
 							}
 						}
 					]
@@ -2831,7 +3296,9 @@
 							"description": "Use driving gloves.",
 							"image": "drivinggloves.jpg",
 							"data": {
-								"contentFolders": ["2_patches/variant/rasta/drivinggloves"]
+								"contentFolders": [
+									"2_patches/variant/rasta/drivinggloves"
+								]
 							}
 						},
 						{
@@ -2840,7 +3307,9 @@
 							"description": "Use leather gloves.",
 							"image": "leathergloves.jpg",
 							"data": {
-								"contentFolders": ["2_patches/variant/rasta/leathergloves"]
+								"contentFolders": [
+									"2_patches/variant/rasta/leathergloves"
+								]
 							}
 						}
 					]
@@ -2942,7 +3411,9 @@
 							"description": "Use a black flatcap.",
 							"image": "flatcap_black.jpg",
 							"data": {
-								"contentFolders": ["2_patches/variant/custom/flatcap_black"]
+								"contentFolders": [
+									"2_patches/variant/custom/flatcap_black"
+								]
 							}
 						},
 						{
@@ -2951,7 +3422,9 @@
 							"description": "Use a grey flatcap.",
 							"image": "flatcap_grey.jpg",
 							"data": {
-								"contentFolders": ["2_patches/variant/custom/flatcap_grey"]
+								"contentFolders": [
+									"2_patches/variant/custom/flatcap_grey"
+								]
 							}
 						}
 					]
@@ -2973,7 +3446,9 @@
 							"description": "Use driving gloves.",
 							"image": "drivinggloves.jpg",
 							"data": {
-								"contentFolders": ["2_patches/variant/custom/drivinggloves"]
+								"contentFolders": [
+									"2_patches/variant/custom/drivinggloves"
+								]
 							}
 						},
 						{
@@ -2982,7 +3457,9 @@
 							"description": "Use leather gloves.",
 							"image": "leathergloves.jpg",
 							"data": {
-								"contentFolders": ["2_patches/variant/custom/leathergloves"]
+								"contentFolders": [
+									"2_patches/variant/custom/leathergloves"
+								]
 							}
 						}
 					]
